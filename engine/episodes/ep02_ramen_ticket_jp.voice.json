@@ -1,11 +1,10 @@
 {
- "_note": "PLACEHOLDER TIMING (silent audio, estimated durations). Regenerate with voice.py before any real render.",
  "voice": "ja-JP-KeitaNeural",
  "rate": "+0%",
  "lines": {
   "shout": {
    "file": "ep02_ramen_ticket_jp_voice/shout.mp3",
-   "dur": 0.9,
+   "dur": 1.823,
    "chunks": [
     {
      "t": 0.0,

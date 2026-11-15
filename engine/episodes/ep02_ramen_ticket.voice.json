@@ -1,72 +1,71 @@
 {
- "_note": "PLACEHOLDER TIMING (silent audio, estimated durations). Regenerate with voice.py before any real render.",
  "voice": "en-US-GuyNeural",
  "rate": "+8%",
  "lines": {
   "n1": {
    "file": "ep02_ramen_ticket_voice/n1.mp3",
-   "dur": 4.472,
+   "dur": 3.675,
    "chunks": [
     {
      "t": 0.0,
      "text": "At many ramen shops,"
     },
     {
-     "t": 1.255,
+     "t": 1.335,
      "text": "the machine by the door"
     },
     {
-     "t": 2.746,
+     "t": 2.319,
      "text": "is the menu"
     },
     {
-     "t": 3.452,
+     "t": 2.79,
      "text": "and the cashier."
     }
    ]
   },
   "n2": {
    "file": "ep02_ramen_ticket_voice/n2.mp3",
-   "dur": 2.843,
+   "dur": 2.306,
    "chunks": [
     {
      "t": 0.0,
      "text": "Buy your ticket first,"
     },
     {
-     "t": 1.462,
+     "t": 1.15,
      "text": "hand it over,"
     },
     {
-     "t": 2.274,
+     "t": 1.728,
      "text": "then sit."
     }
    ]
   },
   "n3": {
    "file": "ep02_ramen_ticket_voice/n3.mp3",
-   "dur": 2.176,
+   "dur": 1.917,
    "chunks": [
     {
      "t": 0.0,
      "text": "No machine?"
     },
     {
-     "t": 0.753,
+     "t": 0.941,
      "text": "Order at the counter."
     }
    ]
   },
   "n4": {
    "file": "ep02_ramen_ticket_voice/n4.mp3",
-   "dur": 2.769,
+   "dur": 2.417,
    "chunks": [
     {
      "t": 0.0,
      "text": "That's Japan first times."
     },
     {
-     "t": 1.71,
+     "t": 1.555,
      "text": "Follow for more."
     }
    ]
