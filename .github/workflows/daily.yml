@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'full = AIで制作→（ゲート通過時のみ）投稿 / no-post = AIで制作のみ / render-only = 既存エピソードの書き出しテスト / render-2d = 2D静止画エピソード(build_2d.py)の書き出し / ai-check = Claudeのログイン確認'
+        description: 'full = AIで制作→（ゲート通過時のみ）投稿 / no-post = AIで制作のみ / render-only = 既存エピソードの書き出しテスト / render-2d = 2Dエピソードの書き出し（spec形式は build_2d_std、ep02 は build_2d_v4） / render-std = 標準形式2Dエピソードの書き出し＋モーション監査ゲート / ai-check = Claudeのログイン確認'
         default: 'no-post'
       ep:
         description: 'render-only / render-2d: エピソード名'
@@ -106,14 +106,32 @@ jobs:
           python voice.py "${{ inputs.ep }}"
           time python render.py "${{ inputs.ep }}" full
 
-      - name: Render 2D stills episode (copy-format)
+      - name: Render 2D episode (copy-format)
         if: env.MODE == 'render-2d'
         working-directory: engine
         run: |
-          python episodes/ep02_ramen_ticket_assets.py
-          python voice.py "${{ inputs.ep }}"
-          python voice.py "${{ inputs.ep }}_jp"
-          time python build_2d.py "${{ inputs.ep }}"
+          EP="${{ inputs.ep }}"
+          if [ -f "episodes/${EP}_assets.py" ]; then python "episodes/${EP}_assets.py"; fi
+          python voice.py "$EP"
+          python voice.py "${EP}_jp"
+          if [ -f "episodes/${EP}.spec.json" ]; then
+            time python build_2d_std.py "$EP"
+          elif [ "$EP" = "ep02_ramen_ticket" ]; then
+            time python build_2d_v4.py "$EP"
+          else
+            time python build_2d.py "$EP"
+          fi
+
+      - name: Render standard 2D episode + motion audit gate
+        if: env.MODE == 'render-std'
+        working-directory: engine
+        run: |
+          EP="${{ inputs.ep }}"
+          python voice.py "$EP"
+          python voice.py "${EP}_jp"
+          time python build_2d_std.py "$EP"
+          python motion_audit.py "out/$EP/final.mp4" "out/$EP/motion_audit.txt" "out/$EP/motion_strip.jpg" "out/$EP/meta.json"
+          grep -q "VERDICT: PASS" "out/$EP/motion_audit.txt" || { echo "MOTION AUDIT FAILED — this episode is NOT post-ready"; exit 1; }
 
       - name: Publish to Instagram (gated — see tools/publish.py)
         if: env.MODE == 'full' && vars.JAPAN_POV_PUBLISH == 'true'
@@ -134,6 +152,9 @@ jobs:
             engine/out/*/final.mp4
             engine/out/*/cover.jpg
             engine/out/*/sheet.jpg
+            engine/out/*/meta.json
+            engine/out/*/motion_audit.txt
+            engine/out/*/motion_strip.jpg
             engine/out/next.json
           if-no-files-found: ignore
 

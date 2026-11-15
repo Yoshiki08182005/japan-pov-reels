@@ -7,7 +7,7 @@
    "scene": "ramen shop entrance",
    "slug": "ramen_ticket",
    "title": "POV: your first ramen in Japan",
-   "used": null,
+   "used": "ep02_ramen_ticket",
    "category": "food"
   },
   {
@@ -16,7 +16,7 @@
    "scene": "izakaya table",
    "slug": "izakaya_otoshi",
    "title": "POV: your first izakaya in Japan",
-   "used": null,
+   "used": "ep03_izakaya_otoshi",
    "category": "food"
   },
   {

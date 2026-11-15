@@ -1,0 +1,67 @@
+# パイプライン — 標準形式（ep02 v4 承認フォーマット）の自動制作
+
+2026-11-15 にユーザーが承認した標準形式（ep02 ラーメン食券機 v4）を、毎日の自動制作でも再現するための工程定義。旧3Dエンジン（`engine/engine/*.js` + `render.py`）は ep01 世代のもので、**新規エピソードには使わない**。
+
+## 目標とゲート（全エピソード共通）
+
+- **目標：1本あたり再生数 500,000 回。** 判定は marketing/strategy.md の「見切りのルール」と判断ログで行う（48h時点の数値を基本）。
+- **投稿可ゲート（両方必須）**：
+  1. **モーション監査 PASS** — `engine/motion_audit.py` が「静止したままの1秒区間 = 0」と判定すること（FORMAT.md の1秒ルール）。FAIL のエピソードは投稿に回さない。
+  2. **視聴者チェック** — 制作者自身が完成動画とコンタクトシート（sheet.jpg / motion_strip.jpg）を視聴者として確認すること：テロップが顔・キー小道具に被っていない、手が不自然でない、スタンプ・吹き出しが出ている、フリーズが「全員固まって手を見ている」と読める、カード類が動いている。
+- この2つを通らない回は「投稿不可」として report に理由を残す。数字合わせの妥協（静止画スライド化、3Dへの退行）は禁止。
+
+## 標準形式の要点（詳細は FORMAT.md / COPY_SPEC_ramen.md）
+
+- フラット2Dイラストのフレーム（AI生成、固定スタイルブロック＋キャラクター定義の完全一致）— 3Dではない。
+- 生きているビートは全て image-to-video で動画化。フリーズは「動きのある導入 → 静止0.75秒 → パンチズーム2段」に再構成。
+- 笑いの仕掛け：間違いの冷開き（期待の裏切り）／全員フリーズ／赤・緑の判定スタンプ／同じ小道具の韻／沈黙→叫び／待たされる間／ジャンプカットの落ち／引用したくなるパンチライン。
+- 英語の淡々としたナレーションが**全編**（物語部も）＋全行カラオケ字幕。日本語の店員の叫びは吹き出し＋JP音声で、英語を被せない。
+- 解説カード3枚と判子エンドカードはプログラム生成で常時アニメーション。
+- 尺 38〜44秒。キャプション1行目は二択の質問。
+
+## 毎日の流れ
+
+```
+SLOT でカテゴリ決定（朝=food / 昼=retail・money・arrival / 夜=transit・safety）
+  → topics.json から未使用を1つ選択（同日同カテゴリ禁止）
+  → ビートシート設計（標準13ビート＋カード3＋エンドカード）
+  → フレーム生成 f1..f9（画像生成、1152×2048）
+  → クリップ生成（image-to-video、必須ビート優先）
+  → 台本 script.json（EN s1..s9+n1..n4）/ _jp.script.json（shout）
+  → spec.json（timeline・crop・overlays・narration配置・sfx・pdcaメタ）
+  → voice.py ×2（Actions 上で edge-tts。この VM からは TTS に届かない）
+  → build_2d_std.py（アート生成→組み立て。配置 assert で台本過長を検出）
+  → motion_audit.py → PASS が投稿可の必須条件
+  → 視聴者チェック（sheet.jpg / motion_strip.jpg を目視）
+  → out/next.json（キャプション＋PDCAメタデータ）
+  → topics.json に used を記録
+  → （別ゲート）tools/publish.py の三重ゲートを通った場合のみ投稿
+```
+
+制作係（Actions の Claude）が読む手順書は `.github/prompts/daily.md`。ビルドだけを再実行する場合は workflow_dispatch の `render-std` モード（音声生成→ビルド→監査ゲートまでを自動実行）。ep02 の再現は `render-2d`（build_2d_v4.py を使用）。
+
+## ファイル構成（エピソード epNN_<slug> ごと）
+
+| ファイル | 役割 |
+|---|---|
+| `engine/episodes/epNN_<slug>.spec.json` | タイムライン・演出・ナレーション配置・SFX・PDCAメタの全定義 |
+| `engine/episodes/epNN_<slug>.script.json` / `_jp.script.json` | EN / JP 台本 |
+| `engine/episodes/epNN_<slug>_frames/` | AI生成フレーム f1..f9 |
+| `engine/episodes/epNN_<slug>_clips/` | i2v クリップ（安定名） |
+| `engine/episodes/epNN_<slug>_art/` | スタンプ・ピル・吹き出し（builder が spec から自動生成） |
+| `engine/out/epNN_<slug>/meta.json` | 尺・配置実測・PDCAメタ（spec の pdca を引き継ぐ） |
+| `engine/out/next.json` | 投稿用：キャプション＋PDCAメタ（topic/category/hook/rule/length_s/gags） |
+
+PDCA は next.json / meta.json のメタデータと posted.json の実績を紐付け、「どのカテゴリ・フック・仕掛けが伸びたか」で判断する。
+
+## 自動化を止めているもの（2026-11-15 時点）
+
+1. **投稿トークン未設定**（担当外の別タスク）：Meta アプリの長期トークン（instagram_content_publish）、repo secret `IG_ACCESS_TOKEN`、var `IG_USER_ID` / `JAPAN_POV_USERNAME` / `CLAUDE_CODE_OAUTH_TOKEN`、最後に `JAPAN_POV_PUBLISH=true`。揃うまで workflow は **disabled のまま**（勝手に有効化しない）。publish.py の三重ゲート自体は完成済みで変更しない。
+2. **フレーム／クリップ生成の実行環境**：画像・動画生成はこの Muse 環境のメディアツールでは動くが、GitHub Actions の制作係には生成ツールが無い。無人で日次を回すには、生成 API（画像＋image-to-video）を Actions から呼べる形で配線する必要がある。それまでは「フレーム／クリップを生成してコミット → render-std で音声・ビルド・監査」が証明済みの半自動フロー。
+3. **生成枠の上限**：メディア生成は1メッセージあたり動画6本まで。必須6ビート（freeze_in／行動／shout／waiting／payoff／punch）で枠を使い切るため、verdict／chapter／行動その2 はズームパン＋グラフィック演出で代替する設計（監査は PASS する）。枠が増えれば全ビート動画化に寄せる。
+
+## 既知の弱点（品質）
+
+- フレーム間のキャラクター・小道具の完全一致は生成依存。特に小さな価格表示などの文字はカット間で揺れることがある（ep02 の券売機 ¥800/¥900 問題）。プロンプトで文字を減らし、要所はプログラム描画（カード・スタンプ）に寄せて緩和する。
+- 店員の「叫び」は TTS の音量と吹き出しで作る対比であり、声の演技そのものではない。
+- カラオケ字幕の単語タイミングはチャンク内を文字数で按分するため、最大でコンマ数秒ずれることがある。
