@@ -1,1 +1,22 @@
-{"posts":[]}
+{
+ "posts": [
+  {
+   "ep": "ep04_ic_card",
+   "topic": "ic_card",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/DfwweHcj5SI/",
+   "post_id": "18393026347228467",
+   "posted_at_jst": "2026-11-15T20:53:00+09:00",
+   "length_s": 41.31,
+   "hook": "First train in Japan. Bought a ticket.",
+   "gags": [
+    "freeze stare (attendant + commuters at the fare chart)",
+    "WRONG WAY / RIGHT WAY verdict stamps",
+    "silence-to-shout (attendant: Touch it!)",
+    "the wait (commuters flow past, one hand hovers)",
+    "punchline: one card for trains, buses, even onigiri"
+   ],
+   "note": "First post-feed attempt timed out client-side after 600s but had published (reel DfwwXHTD794); retry published a second copy (DfwweHcj5SI). The first copy was archived (media 18116921345153630) so only one ep04 is live."
+  }
+ ]
+}
