@@ -1,0 +1,159 @@
+name: japan-pov-daily
+# Publishing is GATED three ways (see tools/publish.py):
+#  - the Publish step only runs when repo variable JAPAN_POV_PUBLISH == 'true'
+#  - it only receives THIS repo's IG_USER_ID variable + IG_ACCESS_TOKEN secret (never the moshimo-reels ones)
+#  - publish.py itself re-checks that the token's account username == vars.JAPAN_POV_USERNAME before uploading
+# Secrets never reach the AI step. No pull_request triggers.
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 07:00 JST
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full = AIで制作→（ゲート通過時のみ）投稿 / no-post = AIで制作のみ / render-only = 既存エピソードの書き出しテスト / ai-check = Claudeのログイン確認'
+        default: 'no-post'
+      ep:
+        description: 'render-only: エピソード名'
+        default: 'ep01_konbini_tray'
+
+concurrency: { group: "japan-pov-main", cancel-in-progress: false }
+permissions: { contents: write, issues: write, id-token: write }
+
+jobs:
+  ai-check:
+    if: inputs.mode == 'ai-check'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - name: Clean Claude token (strip spaces / line breaks from copy-paste)
+        id: tok
+        env: { RAW: '${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}' }
+        run: |
+          t=$(printf %s "$RAW" | tr -d '[:space:]')
+          echo "::add-mask::$t"
+          echo "v=$t" >> "$GITHUB_OUTPUT"
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ steps.tok.outputs.v }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: '1+1は？数字だけ答えて'
+          show_full_output: true
+          claude_args: --model sonnet --max-turns 2
+
+  make:
+    if: inputs.mode != 'ai-check'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      MODE: ${{ github.event_name == 'schedule' && 'full' || inputs.mode }}
+      MOSHIMO_SS: '1'
+      MOSHIMO_MAX_MB: '45'
+      PYTHONUTF8: '1'
+      TZ: Asia/Tokyo
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Install render deps
+        run: |
+          for i in 1 2 3 4; do
+            sudo apt-get update -q -o Acquire::Retries=3 && sudo apt-get install -y -q -o Acquire::Retries=3 ffmpeg fonts-noto-cjk fonts-noto-cjk-extra && break
+            [ $i = 4 ] && exit 1; echo "apt failed, retry $i"; sleep 45
+          done
+          pip install -q playwright pillow numpy edge-tts
+          python -m playwright install --with-deps chromium
+          cd engine && npm ci --silent
+      - name: Fetch sound effects from source
+        run: python tools/fetch_sfx.py
+
+      - name: Load prompt
+        id: p
+        if: env.MODE == 'full' || env.MODE == 'no-post'
+        run: |
+          { echo 'text<<__PROMPT_EOF__'; cat .github/prompts/daily.md; echo '__PROMPT_EOF__'; } >> "$GITHUB_OUTPUT"
+      - name: Clean Claude token (strip spaces / line breaks from copy-paste)
+        id: tok
+        if: env.MODE == 'full' || env.MODE == 'no-post'
+        env: { RAW: '${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}' }
+        run: |
+          t=$(printf %s "$RAW" | tr -d '[:space:]')
+          echo "::add-mask::$t"
+          echo "v=$t" >> "$GITHUB_OUTPUT"
+      - name: Plan and create episode with Claude
+        if: env.MODE == 'full' || env.MODE == 'no-post'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ steps.tok.outputs.v }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: ${{ steps.p.outputs.text }}
+          claude_args: >-
+            --model claude-opus-5-5 --max-turns 180
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+
+      - name: Render existing episode (test)
+        if: env.MODE == 'render-only'
+        working-directory: engine
+        run: |
+          python voice.py "${{ inputs.ep }}"
+          time python render.py "${{ inputs.ep }}" full
+
+      - name: Publish to Instagram (gated — see tools/publish.py)
+        if: env.MODE == 'full' && vars.JAPAN_POV_PUBLISH == 'true'
+        env:
+          JAPAN_POV_PUBLISH: ${{ vars.JAPAN_POV_PUBLISH }}
+          JAPAN_POV_USERNAME: ${{ vars.JAPAN_POV_USERNAME }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/publish.py
+
+      - name: Upload video artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: |
+            engine/out/*/final.mp4
+            engine/out/*/cover.jpg
+            engine/out/*/sheet.jpg
+            engine/out/next.json
+          if-no-files-found: ignore
+
+      - name: Save episode and logs
+        if: always() && env.MODE != 'render-only'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          git config user.name japan-pov-bot
+          git config user.email japan-pov-bot@users.noreply.github.com
+          for p in engine/episodes engine/engine engine/posted.json engine/topics.json; do
+            [ -e "$p" ] && git add -A "$p"
+          done
+          git diff --cached --quiet && exit 0
+          git commit -qm "episode $(date +%F_%H%M) [$MODE]"
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          for i in 1 2 3; do
+            git fetch -q "$REMOTE" main && git rebase -q FETCH_HEAD || { git rebase --abort; sleep 5; continue; }
+            git push -q "$REMOTE" HEAD:main && break
+            sleep 5
+          done
+
+      - name: Notify the owner (GitHub notification on the progress issue)
+        if: always() && env.MODE != 'render-only' && vars.NOTIFY_ISSUE != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          {
+            if [ "$JOB_STATUS" = "success" ]; then echo "@$OWNER ✅ $(date '+%m/%d %H:%M') の回が完了"; else echo "@$OWNER ⚠️ $(date '+%m/%d %H:%M') の回で問題が発生（$JOB_STATUS）。次の回は自動で続きます"; fi
+            echo
+            [ -f engine/out/posted_urls.txt ] && { echo "**投稿:**"; sed 's/^/- /' engine/out/posted_urls.txt; echo; }
+            [ -f engine/out/report.md ] && cat engine/out/report.md
+            echo; echo "<sub>実行ログ: $RUN_URL</sub>"
+          } > /tmp/notify.md
+          gh issue comment "${{ vars.NOTIFY_ISSUE }}" -R "${{ github.repository }}" --body-file /tmp/notify.md
