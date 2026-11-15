@@ -1,0 +1,143 @@
+{
+ "_note": "PLACEHOLDER TIMING (silent audio, estimated durations). Regenerate with voice.py before any real render.",
+ "voice": "en-US-AriaNeural",
+ "rate": "+0%",
+ "lines": {
+  "rule": {
+   "file": "ep01_konbini_tray_voice/rule.mp3",
+   "dur": 3.5,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "In Japan,"
+    },
+    {
+     "t": 0.768,
+     "text": "you don't hand cash"
+    },
+    {
+     "t": 2.39,
+     "text": "to the clerk."
+    }
+   ]
+  },
+  "right": {
+   "file": "ep01_konbini_tray_voice/right.mp3",
+   "dur": 3.9,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Watch."
+    },
+    {
+     "t": 0.459,
+     "text": "The money goes here —"
+    },
+    {
+     "t": 2.065,
+     "text": "on the little [blue tray]."
+    }
+   ]
+  },
+  "card": {
+   "file": "ep01_konbini_tray_voice/card.mp3",
+   "dur": 5.0,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "This is a [cash tray]."
+    },
+    {
+     "t": 1.695,
+     "text": "Your change comes back"
+    },
+    {
+     "t": 3.559,
+     "text": "on the same tray."
+    }
+   ]
+  },
+  "takes": {
+   "file": "ep01_konbini_tray_voice/takes.mp3",
+   "dur": 3.1,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The clerk takes the tray,"
+    },
+    {
+     "t": 1.89,
+     "text": "never your hand."
+    }
+   ]
+  },
+  "thanks": {
+   "file": "ep01_konbini_tray_voice/thanks.mp3",
+   "dur": 2.7,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No touching."
+    },
+    {
+     "t": 0.771,
+     "text": "No dropped coins."
+    },
+    {
+     "t": 1.864,
+     "text": "Just a smile."
+    }
+   ]
+  },
+  "detail": {
+   "file": "ep01_konbini_tray_voice/detail.mp3",
+   "dur": 4.3,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "It started as manners."
+    },
+    {
+     "t": 1.855,
+     "text": "Now it is just"
+    },
+    {
+     "t": 3.035,
+     "text": "how Japan pays."
+    }
+   ]
+  },
+  "punch": {
+   "file": "ep01_konbini_tray_voice/punch.mp3",
+   "dur": 2.7,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No tray?"
+    },
+    {
+     "t": 0.54,
+     "text": "Only a machine?"
+    },
+    {
+     "t": 1.552,
+     "text": "[Feed the machine.]"
+    }
+   ]
+  },
+  "close": {
+   "file": "ep01_konbini_tray_voice/close.mp3",
+   "dur": 2.3,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Follow for more"
+    },
+    {
+     "t": 0.958,
+     "text": "first times in Japan."
+    }
+   ]
+  }
+ }
+}
