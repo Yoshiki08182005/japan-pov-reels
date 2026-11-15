@@ -21,6 +21,7 @@ Reference reels: konbini cash tray (DfscVEHAQWs, 3.4k likes), ramen ticket machi
 
 ## Audio
 - Calm, clear English narration (TTS), flat delivery. No prominent BGM.
+- **Narration runs through the WHOLE episode (user, 2026-11-15: 「ナレーションしっかりあったほうがいい」).** Deadpan EN narration carries the story beats as they happen — every story beat gets its own short line, timed to the action, with karaoke word-highlight subtitles for ALL narration lines. The explainer cards are the **recap**, not the only narration: the story section must never be narration-free. Keep the JP staff shout clean (no EN line over it — the silence→shout contrast is the gag) and keep a short silence right at the freeze snap.
 - Japanese staff lines as speech bubbles + short JP voice clips.
 
 ## Caption template (from the account's posts)
@@ -60,6 +61,7 @@ Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11
 - [ ] Cuts land on narration phrase boundaries (one shot = one or two narration lines).
 - [ ] The only deliberate silence is **0.3–0.5s right before the explainer card / punchline** (ep01 uses `pre: 0.5` on the card shot).
 - [ ] Narration sentences are short; line gaps in the voice timing stay at the pipeline default (0.2s) — no long pauses between lines.
+- [ ] **Narration covers the story section too** — every story beat is narrated as it happens (see Audio); the only deliberately quiet moments are the freeze snap, the wait, and the post-punchline hold. Explainer cards recap the rules; they are never the episode's only narration.
 
 ### Telops (burned into `pov.js` — do not improvise per episode)
 - [ ] One idea per telop, **max ~7 English words** on screen at once (plus the JP speech bubble).
