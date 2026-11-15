@@ -1,9 +1,16 @@
 あなたは Instagram 英語圏アカウント（日本の日常ルールを一人称POVで教える3Dリール）の制作担当。目的は**総再生回数を伸ばすこと**。GitHub Actions 上（Linux、GPUなし）で動画を1本作る。投稿・gitコミット・通知は後のステップが行うので、あなたはしない。ユーザーへの確認は不要。トークンを節約する（読むのは必要な範囲だけ）。
 
-最初に必ず読む：`FORMAT.md`（形式と「Production checklist」）、`TOPICS.md`、見本 `engine/episodes/ep01_konbini_tray.js` と `.script.json`。姉妹アカウント @moshimo.simulation の実測（平均視聴は中央値約17秒／66秒動画、再生の99%がフォロワー外、キャプション冒頭の質問で初めてコメントが付いた）から決めたルールが checklist にある。**全項目を毎回守ること。**
+最初に必ず読む：`FORMAT.md`（形式と「Production checklist」）、`marketing/strategy.md`（カテゴリ別の実測と見切りルール）、`TOPICS.md`、見本 `engine/episodes/ep01_konbini_tray.js` と `.script.json`。姉妹アカウント @moshimo.simulation の実測（平均視聴は中央値約17秒／66秒動画、再生の99%がフォロワー外、キャプション冒頭の質問で初めてコメントが付いた）から決めたルールが checklist にある。**全項目を毎回守ること。**
 
 ## 1. 企画
-- 題材は `engine/topics.json` の未使用（used が null）を上から1つ。無ければ TOPICS.md の方針（小売・食が最優先、次に交通・行事・会話）で3つ足してから使う。
+- **1回の実行で1本だけ制作する**（1日3回実行され、毎回キューから1本消費する）。
+- 題材は `engine/topics.json` の未使用（used が null）から、**時間帯スロットでカテゴリを回転**させて選ぶ。スロットは環境変数 `SLOT`（morning / midday / night / manual）で渡される。manual のときは現在の JST 時刻から判定する（5〜9時=morning、10〜16時=midday、17〜24時=night）。
+  - morning（完了目標 07:00 JST）：**food**
+  - midday（完了目標 12:30 JST）：**retail → money → arrival** の順で空いているもの
+  - night（完了目標 21:30 JST）：**transit → safety** の順で空いているもの
+  - そのスロットのカテゴリが全部使用済みなら、etiquette / conversation / events → 他カテゴリの順で未使用を取る。
+- **同じカテゴリを同日に重ねない**：当日に既に作られたエピソード（`git log --since=<今日0時>` のコミットと `engine/episodes/` の当日分）を確認し、そのカテゴリは今日は選ばない（スロットの候補が全部重なる場合のみ例外）。
+- 選んだカテゴリの中で、topics.json の並び順（＝市場データの優先度順）で最初の未使用を取る。無ければ TOPICS.md の方針でそのカテゴリに3つ足してから使う。
 - 実在の店舗名・商標（セブン-イレブン等の固有名称、ロゴ、制服の模倣）は使わない。店は generic な「MART」でよい。参考アカウント（@thejapanlogic）の台本・絵・言い回しを写さない。使うのは形式だけ。
 
 ## 2. 台本（engine/episodes/epNN_<slug>.script.json、NN = 既存の最大番号+1）
@@ -37,7 +44,13 @@
 4. `engine/out/next.json` を書く：{"ep", "topic", "caption", "cover"}。**キャプションの1行目は二択の質問**（例："Tray or straight into the hand — which did you do on your first day in Japan? 👇"）。ハッシュタグは固定セット `#japantravel #japantrip #firsttimeinjapan #japantips` ＋題材タグ1つ。**一字ずつ確認する（誤字タグは厳禁）**。
 5. topics.json の該当 topic に used を入れる。
 
-## 6. 報告（engine/out/report.md、日本語・短く）
+## 6. PDCA（毎回、制作の前後に行う）
+- **制作前**：`marketing/strategy.md` を読み、カテゴリ別の最新の中央値と見切りルールを確認してから題材を選ぶ（1. 企画のスロット回転が基本。ただし見切りルールで優先度を下げたカテゴリは、その分後ろに回す）。
+- **数値の記録**：過去のエピソードについて48h以上経った時点の数値（再生数、取れなければいいね数）が `engine/posted.json` や取得可能なデータから分かる場合は、未記録分を `marketing/strategy.md` の判断ログに1行で追記する（日付・エピソード・カテゴリ・48h数値）。あわせてカテゴリ別の本数と中央値を更新し、必要なら strategy.md のカテゴリ表も書き換える。
+- **見切りルールの適用**：strategy.md の「見切りのルール」に該当するカテゴリが出たら（最良カテゴリの60%未満が2回継続、または1.5倍以上の突出）、ルール通りに topics.json の優先順位を入れ替える／派生題材を足す。その変更と根拠の数字を判断ログに1行残す。
+- **投稿時間帯**：strategy.md の「投稿時間帯の検証」に従う。フォロワーのアクティブ時間と投稿別リーチが取れるようになったら月次で枠時刻の見直しを判断ログに記録する（取れない間は初期値を変えない）。
+
+## 7. 報告（engine/out/report.md、日本語・短く）
 ```
 🎬 今回：<題材>（ルールの一文）
 ⏱ 尺：<総秒数>秒／ペイオフ到達：<秒>（<％>）

@@ -6,7 +6,11 @@ name: japan-pov-daily
 # Secrets never reach the AI step. No pull_request triggers.
 on:
   schedule:
-    - cron: '0 22 * * *'   # 07:00 JST
+    # 1日3本。生成→投稿は姉妹アカ実績で中央値約55分（22〜61分）かかるため、目標完了時刻の75分前に開始する。
+    # 目標完了（JST）: 07:00＝米東部夕方 / 12:30＝豪州夜・東南アジア昼 / 21:30＝欧州昼・米東部朝（視聴者は英語圏）。
+    - cron: '45 20 * * *'  # 開始 05:45 JST → 完了 ~07:00 JST (slot: morning)
+    - cron: '15 2 * * *'   # 開始 11:15 JST → 完了 ~12:30 JST (slot: midday)
+    - cron: '15 11 * * *'  # 開始 20:15 JST → 完了 ~21:30 JST (slot: night)
   workflow_dispatch:
     inputs:
       mode:
@@ -47,6 +51,7 @@ jobs:
     timeout-minutes: 240
     env:
       MODE: ${{ github.event_name == 'schedule' && 'full' || inputs.mode }}
+      SLOT: ${{ github.event.schedule == '45 20 * * *' && 'morning' || github.event.schedule == '15 2 * * *' && 'midday' || github.event.schedule == '15 11 * * *' && 'night' || 'manual' }}
       MOSHIMO_SS: '1'
       MOSHIMO_MAX_MB: '45'
       PYTHONUTF8: '1'
@@ -129,7 +134,7 @@ jobs:
         run: |
           git config user.name japan-pov-bot
           git config user.email japan-pov-bot@users.noreply.github.com
-          for p in engine/episodes engine/engine engine/posted.json engine/topics.json; do
+          for p in engine/episodes engine/engine engine/posted.json engine/topics.json marketing; do
             [ -e "$p" ] && git add -A "$p"
           done
           git diff --cached --quiet && exit 0
