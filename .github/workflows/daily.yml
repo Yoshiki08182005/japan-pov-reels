@@ -14,10 +14,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'full = AIで制作→（ゲート通過時のみ）投稿 / no-post = AIで制作のみ / render-only = 既存エピソードの書き出しテスト / ai-check = Claudeのログイン確認'
+        description: 'full = AIで制作→（ゲート通過時のみ）投稿 / no-post = AIで制作のみ / render-only = 既存エピソードの書き出しテスト / render-2d = 2D静止画エピソード(build_2d.py)の書き出し / ai-check = Claudeのログイン確認'
         default: 'no-post'
       ep:
-        description: 'render-only: エピソード名'
+        description: 'render-only / render-2d: エピソード名'
         default: 'ep01_konbini_tray'
 
 concurrency: { group: "japan-pov-main", cancel-in-progress: false }
@@ -105,6 +105,15 @@ jobs:
         run: |
           python voice.py "${{ inputs.ep }}"
           time python render.py "${{ inputs.ep }}" full
+
+      - name: Render 2D stills episode (copy-format)
+        if: env.MODE == 'render-2d'
+        working-directory: engine
+        run: |
+          python episodes/ep02_ramen_ticket_assets.py
+          python voice.py "${{ inputs.ep }}"
+          python voice.py "${{ inputs.ep }}_jp"
+          time python build_2d.py "${{ inputs.ep }}"
 
       - name: Publish to Instagram (gated — see tools/publish.py)
         if: env.MODE == 'full' && vars.JAPAN_POV_PUBLISH == 'true'
