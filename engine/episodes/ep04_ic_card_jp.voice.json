@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep04_ic_card_jp_voice/shout.mp3",
+   "dur": 2.039,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "タッチです！タッチ！"
+    }
+   ]
+  }
+ }
+}
