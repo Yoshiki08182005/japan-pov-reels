@@ -2,6 +2,124 @@
  "voice": "en-US-GuyNeural",
  "rate": "+8%",
  "lines": {
+  "s1": {
+   "file": "ep02_ramen_ticket_voice/s1.mp3",
+   "dur": 2.728,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "First ramen shop in Japan."
+    },
+    {
+     "t": 1.678,
+     "text": "I paid him directly."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep02_ramen_ticket_voice/s2.mp3",
+   "dur": 1.602,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone froze."
+    },
+    {
+     "t": 0.964,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep02_ramen_ticket_voice/s3.mp3",
+   "dur": 1.843,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Here, you pay"
+    },
+    {
+     "t": 0.843,
+     "text": "the machine first."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep02_ramen_ticket_voice/s4.mp3",
+   "dur": 1.531,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Feed in"
+    },
+    {
+     "t": 0.633,
+     "text": "a thousand yen…"
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep02_ramen_ticket_voice/s5.mp3",
+   "dur": 1.836,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pick your ramen,"
+    },
+    {
+     "t": 1.022,
+     "text": "take the ticket."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep02_ramen_ticket_voice/s6.mp3",
+   "dur": 1.366,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hand it over,"
+    },
+    {
+     "t": 0.94,
+     "text": "and—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep02_ramen_ticket_voice/s7.mp3",
+   "dur": 0.948,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Then you wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep02_ramen_ticket_voice/s8.mp3",
+   "dur": 0.804,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Worth it."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep02_ramen_ticket_voice/s9.mp3",
+   "dur": 1.684,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Ninety seconds later:"
+    },
+    {
+     "t": 1.254,
+     "text": "gone."
+    }
+   ]
+  },
   "n1": {
    "file": "ep02_ramen_ticket_voice/n1.mp3",
    "dur": 3.675,
@@ -26,19 +144,19 @@
   },
   "n2": {
    "file": "ep02_ramen_ticket_voice/n2.mp3",
-   "dur": 2.306,
+   "dur": 2.107,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Buy your ticket first,"
+     "text": "Ticket first."
     },
     {
-     "t": 1.15,
-     "text": "hand it over,"
+     "t": 0.883,
+     "text": "Hand it over."
     },
     {
-     "t": 1.728,
-     "text": "then sit."
+     "t": 1.52,
+     "text": "Then sit."
     }
    ]
   },
