@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep03_izakaya_otoshi_voice/s1.mp3",
+   "dur": 2.322,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "First izakaya in Japan."
+    },
+    {
+     "t": 1.636,
+     "text": "Sent it back."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep03_izakaya_otoshi_voice/s2.mp3",
+   "dur": 1.602,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone froze."
+    },
+    {
+     "t": 0.964,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep03_izakaya_otoshi_voice/s3.mp3",
+   "dur": 1.477,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That dish?"
+    },
+    {
+     "t": 0.802,
+     "text": "Otoshi."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep03_izakaya_otoshi_voice/s4.mp3",
+   "dur": 1.418,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "It comes with the seat…"
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep03_izakaya_otoshi_voice/s5.mp3",
+   "dur": 1.436,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Kept it."
+    },
+    {
+     "t": 0.687,
+     "text": "Ordered a beer."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep03_izakaya_otoshi_voice/s6.mp3",
+   "dur": 0.87,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She grinned—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep03_izakaya_otoshi_voice/s7.mp3",
+   "dur": 1.534,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Then the kitchen"
+    },
+    {
+     "t": 0.801,
+     "text": "went to work."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep03_izakaya_otoshi_voice/s8.mp3",
+   "dur": 1.101,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Worth every yen."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep03_izakaya_otoshi_voice/s9.mp3",
+   "dur": 2.132,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Rent for your chair."
+    },
+    {
+     "t": 1.161,
+     "text": "Served as a snack."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep03_izakaya_otoshi_voice/n1.mp3",
+   "dur": 3.376,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "At an izakaya,"
+    },
+    {
+     "t": 1.138,
+     "text": "the otoshi lands"
+    },
+    {
+     "t": 2.092,
+     "text": "before you order"
+    },
+    {
+     "t": 2.849,
+     "text": "anything."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep03_izakaya_otoshi_voice/n2.mp3",
+   "dur": 2.685,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "It's the table charge."
+    },
+    {
+     "t": 1.207,
+     "text": "About 400 yen a head."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep03_izakaya_otoshi_voice/n3.mp3",
+   "dur": 2.032,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't want it?"
+    },
+    {
+     "t": 0.872,
+     "text": "Ask before it lands."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep03_izakaya_otoshi_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
