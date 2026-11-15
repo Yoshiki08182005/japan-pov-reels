@@ -55,7 +55,8 @@ Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11
 - [ ] The first narration line **is the counter-intuitive rule itself** — not a greeting, not scene-setting.
 
 ### Pacing （間の長さ）
-- [ ] No dead air: a visual change, camera move, bubble or new telop at least every **2–3 seconds**.
+- [ ] **HARD RULE — the 1-second rule (user, 2026-11-15): no perceived-static segment longer than 1 second — motion, cut, or graphic change at ≤1s intervals, in every episode.** A still image running longer than 1 second kills retention and views. Every beat needs real motion, a cut, a punch-zoom, or graphic animation at intervals of 1 second or less. A slow push-in over a still does NOT count as motion. This applies to *everything*: freeze gags (the freeze itself is held ≤1s, bracketed by motion and punch-zooms), explainer cards (icons animate, progress bar runs), and the end card (stamp slams in, ring text rotates, follow prompt pulses). Reference implementation: `engine/build_2d_v3.py` (ep02 v3), verified by a frame-diff motion audit.
+- [ ] No dead air: a visual change, camera move, bubble or new telop at least every **2–3 seconds** (the 1-second rule above is stricter and wins where they differ).
 - [ ] Cuts land on narration phrase boundaries (one shot = one or two narration lines).
 - [ ] The only deliberate silence is **0.3–0.5s right before the explainer card / punchline** (ep01 uses `pre: 0.5` on the card shot).
 - [ ] Narration sentences are short; line gaps in the voice timing stay at the pipeline default (0.2s) — no long pauses between lines.
