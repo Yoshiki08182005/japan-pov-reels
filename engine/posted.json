@@ -17,6 +17,24 @@
     "punchline: one card for trains, buses, even onigiri"
    ],
    "note": "First post-feed attempt timed out client-side after 600s but had published (reel DfwwXHTD794); retry published a second copy (DfwweHcj5SI). The first copy was archived (media 18116921345153630) so only one ep04 is live."
+  },
+  {
+   "ep": "ep03_izakaya_otoshi",
+   "topic": "izakaya_otoshi",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DfyAVATjqy1/",
+   "post_id": "17972119806192408",
+   "posted_at_jst": "2026-11-16T08:53:00+09:00",
+   "length_s": 38.68,
+   "hook": "First izakaya in Japan. Sent it back.",
+   "gags": [
+    "freeze snap inside a moving clip (server + all customers freeze, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (server calls the beer order)",
+    "the wait (grill steam, unbothered customers)",
+    "punchline: rent for your chair, served as a snack"
+   ],
+   "note": "v2 all-animation rebuild (2026-11-16 user rule): the original ep03 was never posted (user rejected it at the approval prompt because its opening beats were stills). Rebuilt with every scene beat as a real i2v clip, motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. Old video kept at posts/ep03_izakaya_otoshi.mp4."
   }
  ]
 }
