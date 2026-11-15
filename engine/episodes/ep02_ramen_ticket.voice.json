@@ -4,15 +4,15 @@
  "lines": {
   "s1": {
    "file": "ep02_ramen_ticket_voice/s1.mp3",
-   "dur": 2.728,
+   "dur": 2.612,
    "chunks": [
     {
      "t": 0.0,
      "text": "First ramen shop in Japan."
     },
     {
-     "t": 1.678,
-     "text": "I paid him directly."
+     "t": 1.717,
+     "text": "Paid him directly."
     }
    ]
   },
@@ -32,14 +32,14 @@
   },
   "s3": {
    "file": "ep02_ramen_ticket_voice/s3.mp3",
-   "dur": 1.843,
+   "dur": 1.568,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Here, you pay"
+     "text": "You pay"
     },
     {
-     "t": 0.843,
+     "t": 0.461,
      "text": "the machine first."
     }
    ]
@@ -60,29 +60,25 @@
   },
   "s5": {
    "file": "ep02_ramen_ticket_voice/s5.mp3",
-   "dur": 1.836,
+   "dur": 1.707,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Pick your ramen,"
+     "text": "Pick a ramen,"
     },
     {
-     "t": 1.022,
+     "t": 0.895,
      "text": "take the ticket."
     }
    ]
   },
   "s6": {
    "file": "ep02_ramen_ticket_voice/s6.mp3",
-   "dur": 1.366,
+   "dur": 1.001,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Hand it over,"
-    },
-    {
-     "t": 0.94,
-     "text": "and—"
+     "text": "Hand it over—"
     }
    ]
   },
