@@ -51,6 +51,7 @@ Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11
 - [ ] Follow pill in the final shot ("Follow for more first times in Japan").
 
 ### Hook
+- [ ] **The first 3 seconds are adapted from an entry in `marketing/hook_library.md` — never invented from scratch (rule added 2026-11-16).** The library holds the first-3-seconds hooks of proven outlier reels (Views ≥5× the account's followers; likes-based proxy per the note in the library). Prefer Tier A/A' entries; adapt the hook's *structure and mechanics* (wrong action already moving at t=0, a character speaking the hook in-scene, imperative text over a product close-up, the transgression shown not described) to the episode's topic — do not copy the reference's script, art or wording. If no entry fits the topic, use the closest entry's mechanics and say so in the metadata. **Cite the entry used as `hook_source` (e.g. `hook_library #1`) in the episode metadata** (spec `pdca` and `next.json`).
 - [ ] Frame 0 already shows the situation **and** the title label. No intro, no logo.
 - [ ] The WRONG action starts within the **first 1 second** (hand already moving at t=0).
 - [ ] The first narration line **is the counter-intuitive rule itself** — not a greeting, not scene-setting.

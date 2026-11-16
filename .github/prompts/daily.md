@@ -2,7 +2,7 @@
 
 **形式は ep02 v4 で承認された標準形式に固定**（`posts/` の見本と `engine/build_2d_std.py` が実装）。旧3Dエンジン（engine/engine/*.js、render.py）は**使わない**。
 
-最初に必ず読む：`FORMAT.md`（形式と Production checklist、特に **1秒ルール**とナレーション全編ルール）、`COPY_SPEC_ramen.md`（笑いの仕掛け7つ）、`marketing/strategy.md`（カテゴリ実測・見切りルール・500k目標）、`PIPELINE.md`（工程とゲート）、見本 `engine/episodes/ep02_ramen_ticket.spec.json` 相当の ep03 `engine/episodes/ep03_izakaya_otoshi.spec.json` と両エピソードの `.script.json`。
+最初に必ず読む：`FORMAT.md`（形式と Production checklist、特に **1秒ルール**とナレーション全編ルール）、`COPY_SPEC_ramen.md`（笑いの仕掛け7つ）、`marketing/strategy.md`（カテゴリ実測・見切りルール・500k目標）、`marketing/hook_library.md`（アウトライヤーの冒頭3秒フック集。フックはここから選ぶ）、`PIPELINE.md`（工程とゲート）、見本 `engine/episodes/ep02_ramen_ticket.spec.json` 相当の ep03 `engine/episodes/ep03_izakaya_otoshi.spec.json` と両エピソードの `.script.json`。
 
 ## 1. 企画
 - **1回の実行で1本だけ制作する**（1日3回実行され、毎回キューから1本消費する）。
@@ -13,6 +13,7 @@
   - そのスロットのカテゴリが全部使用済みなら、etiquette / conversation / events → 他カテゴリの順で未使用を取る。
 - **同じカテゴリを同日に重ねない**：当日に既に作られたエピソード（`git log --since=<今日0時>` のコミットと `engine/episodes/` の当日分）を確認し、そのカテゴリは今日は選ばない（スロットの候補が全部重なる場合のみ例外）。
 - 選んだカテゴリの中で、topics.json の並び順（＝市場データの優先度順）で最初の未使用を取る。無ければ TOPICS.md の方針でそのカテゴリに3つ足してから使う。
+- **フックは `marketing/hook_library.md` から選ぶ**（2026-11-16 採用のアウトライヤー・フック手法）：冒頭3秒は、実証済みアウトライヤー（再生数≥フォロワー数の5倍）のフック構造を題材に適応する。**ゼロから発明しない**。原則 Tier A/A' のエントリを使い、題材に合うものが無ければ最も近いエントリの力学（間違った行動を1秒以内に開始／登場人物がフックを喋る／命令形テキスト＋小道具アップ／違反行為そのものを見せる等）を流用する。使ったエントリは spec の pdca と next.json に `hook_source`（例：`hook_library #1`）として記録する。
 - 実在の店舗名・商標（セブン-イレブン等の固有名称、ロゴ、制服の模倣）は使わない。参考アカウント（@thejapanlogic）の台本・絵・言い回しを写さない。使うのは形式と仕掛けだけ。
 
 ## 2. ビートシート設計（標準の骨格、合計38〜44秒）
@@ -41,14 +42,14 @@
 
 ## 5. 台本（engine/episodes/epNN_<slug>.script.json と _jp.script.json）
 - EN: voice `en-US-GuyNeural`、rate `+8%`（淡々と）。行は s1〜s9（物語）＋ n1〜n3（カード）＋ n4（締め）。
-  - **s1 は「場面＋間違い」の一文**（挨拶・説明から始めない）。以降はビートに1行ずつ、短く（目安：1行 45字以内、チェーンに収まる長さ。builder の assert が落ちたら行を短くする）。
+  - **s1 は「場面＋間違い」の一文**（挨拶・説明から始めない）。s1 と冒頭3秒の画は、企画で選んだ hook_library エントリのフック（最初の発話行・最初の画面テキスト・最初の動作）に構造を合わせる。以降はビートに1行ずつ、短く（目安：1行 45字以内、チェーンに収まる長さ。builder の assert が落ちたら行を短くする）。
   - s6 は言いかけで切れる行（「She grinned—」型）。shout の JP 音声と重ならない配置は spec の constraints で保証する。
   - punch 行（s9）は例外か「本当だけど変」な引用したくなる一文（例："Rent for your chair. Served as a snack."）。
   - 字幕チャンクは `|` 区切り、**1チャンク最大7語**。
 - JP: voice `ja-JP-KeitaNeural`、shout 行1つ（店員の叫び。吹き出しの文と完全一致させる）。
 
 ## 6. spec（engine/episodes/epNN_<slug>.spec.json）
-ep03 の spec を雛形に、art（タイトルピル文・吹き出し文）/ segments / cards / endcard / shout / narration（chains・singles・constraints）/ sfx / pdca（topic・category・rule・hook・gags）を書く。**segments は全て `kind: "clip"` ＋実在するクリップファイルで書く**（`still` / `freeze_hold` はビルド時ガードで弾かれる）。フリーズのスナップ位置は freeze シーケンスのセグメントに `snap_off`（セグメント内オフセット秒）で宣言する。SFX は全ビートに付ける（場面転換 whoosh、スタンプ impact_don、成功 sparkle、カード text_tin、調理 sizzle 等。キーは sfx-library/sfx.json 参照）。
+ep03 の spec を雛形に、art（タイトルピル文・吹き出し文）/ segments / cards / endcard / shout / narration（chains・singles・constraints）/ sfx / pdca（topic・category・rule・hook・hook_source・gags）を書く。hook_source は使用した hook_library エントリ（例：`hook_library #1`）。**segments は全て `kind: "clip"` ＋実在するクリップファイルで書く**（`still` / `freeze_hold` はビルド時ガードで弾かれる）。フリーズのスナップ位置は freeze シーケンスのセグメントに `snap_off`（セグメント内オフセット秒）で宣言する。SFX は全ビートに付ける（場面転換 whoosh、スタンプ impact_don、成功 sparkle、カード text_tin、調理 sizzle 等。キーは sfx-library/sfx.json 参照）。
 
 ## 7. ビルドとゲート（必須・省略不可）
 作業ディレクトリは engine。
@@ -60,9 +61,9 @@ ep03 の spec を雛形に、art（タイトルピル文・吹き出し文）/ s
 5. **冒頭5秒チェック（必須）**：完成動画の **0s / 2s / 4s のフレームペア**を抜き、キャラクターの動きと背景の動き（湯気・暖簾・提灯・背景の客）の両方があることを確認する。モーション監査はズームした静止画でも PASS するため、監査 PASS だけでは投稿可にしない。冒頭に静止画区間があればクリップ差し替えで直す（2回まで）。直らなければ監査FAIL扱いで next.json を書かない。
 
 ## 8. 書き出し
-1. `engine/out/next.json` を書く：{"ep", "topic", "caption", "cover", "category", "hook", "rule", "length_s", "gags"}。
+1. `engine/out/next.json` を書く：{"ep", "topic", "caption", "cover", "category", "hook", "hook_source", "rule", "length_s", "gags"}。
    - **キャプションの1行目は二択の質問**（例："Send it back or just eat it — what did you do with the dish you never ordered? 👇"）。続けて FORMAT.md のキャプションテンプレ通り。ハッシュタグは固定セット `#japantravel #japantrip #firsttimeinjapan #japantips` ＋題材タグ1つ。**一字ずつ確認する（誤字タグは厳禁）**。
-   - length_s は meta.json の duration。hook は s1 の文、gags は使った仕掛けの配列（PDCAで再生数と紐付けるため正確に）。
+   - length_s は meta.json の duration。hook は s1 の文、hook_source は使用した hook_library エントリ（例：`hook_library #1`、無い場合は最も近いエントリの力学を流用した旨）、gags は使った仕掛けの配列（PDCAで再生数と紐付けるため正確に）。
    - cover は [1.0, "POV:|your first|<場面>", "in Japan", ""] 形式。
 2. topics.json の該当 topic に used = エピソード名を入れる。
 
@@ -70,6 +71,7 @@ ep03 の spec を雛形に、art（タイトルピル文・吹き出し文）/ s
 - **制作前**：`marketing/strategy.md` を読み、カテゴリ別の最新の中央値と見切りルール、**500k目標に対する現在地**を確認してから題材を選ぶ（1. 企画のスロット回転が基本。ただし見切りルールで優先度を下げたカテゴリは、その分後ろに回す）。
 - **数値の記録**：過去のエピソードについて48h以上経った時点の数値（再生数、取れなければいいね数）が `engine/posted.json` や取得可能なデータから分かる場合は、未記録分を `marketing/strategy.md` の判断ログに1行で追記する（日付・エピソード・カテゴリ・48h数値）。あわせてカテゴリ別の本数と中央値を更新し、必要なら strategy.md のカテゴリ表も書き換える。数値は next.json / meta.json の PDCA メタデータ（topic・category・hook・length・gags）と紐付けて、**どのフック・どの仕掛けが伸びたか**を判断できるようにする。
 - **見切りルールの適用**：strategy.md の「見切りのルール」に該当するカテゴリが出たら、ルール通りに topics.json の優先順位を入れ替える／派生題材を足す。その変更と根拠の数字を判断ログに1行残す。
+- **フック・ライブラリの更新**：strategy.md「定常リサーチ：アウトライヤー・フック収集」に従い、競合（hook_library のスキャン範囲＋新規アカウント）の直近投稿を再スキャンし、新規アウトライヤー（いいね≥フォロワー数の5倍＝Tier A、新規の候補＝Tier B）があれば冒頭3秒のフックを抽出して `marketing/hook_library.md`／`.json` に追加し、既存エントリの数値も更新する。
 - **投稿時間帯**：strategy.md の「投稿時間帯の検証」に従う。データが取れない間は初期値を変えない。
 
 ## 10. 報告（engine/out/report.md、日本語・短く）
