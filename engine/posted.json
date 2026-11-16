@@ -1,6 +1,24 @@
 {
  "posts": [
   {
+   "ep": "ep05_konbini_bag",
+   "topic": "konbini_bag",
+   "category": "retail",
+   "url": "https://www.instagram.com/reel/DfyZXOsDvTv/",
+   "post_id": "18319581874304041",
+   "posted_at_jst": "2026-11-16T12:32:00+09:00",
+   "length_s": 39.43,
+   "hook": "First konbini in Japan. Grabbed a bag.",
+   "gags": [
+    "freeze snap inside a moving clip (clerk + all customers freeze, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (clerk: the bag is 3 yen!)",
+    "the wait (steam rises, condensation drips, clerk wipes the counter)",
+    "punchline: three yen, two bags, zero soggy onigiri"
+   ],
+   "note": "v1 noon slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Posted after user approval on the Instagram post card."
+  },
+  {
    "ep": "ep04_ic_card",
    "topic": "ic_card",
    "category": "transit",
