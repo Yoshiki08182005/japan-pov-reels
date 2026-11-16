@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep06_night_tout_jp_voice/shout.mp3",
+   "dur": 1.985,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "こっち！安いよ！"
+    }
+   ]
+  }
+ }
+}

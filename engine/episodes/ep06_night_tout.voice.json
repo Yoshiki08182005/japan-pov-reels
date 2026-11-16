@@ -1,0 +1,196 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep06_night_tout_voice/s1.mp3",
+   "dur": 2.571,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "A friendly guy knows a cheap bar."
+    },
+    {
+     "t": 1.717,
+     "text": "Don't follow him."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep06_night_tout_voice/s2.mp3",
+   "dur": 1.602,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone froze."
+    },
+    {
+     "t": 0.964,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep06_night_tout_voice/s3.mp3",
+   "dur": 1.695,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Cheap drinks?"
+    },
+    {
+     "t": 0.93,
+     "text": "There's a catch."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep06_night_tout_voice/s4.mp3",
+   "dur": 2.192,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pick your own bar."
+    },
+    {
+     "t": 1.08,
+     "text": "Check the price first."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep06_night_tout_voice/s5.mp3",
+   "dur": 1.819,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "A bar with the price"
+    },
+    {
+     "t": 1.141,
+     "text": "on the door."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep06_night_tout_voice/s6.mp3",
+   "dur": 0.953,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He called out—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep06_night_tout_voice/s7.mp3",
+   "dur": 1.983,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Then I sat down"
+    },
+    {
+     "t": 0.857,
+     "text": "and ordered like a local."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep06_night_tout_voice/s8.mp3",
+   "dur": 3.354,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One drink. One bill."
+    },
+    {
+     "t": 2.278,
+     "text": "Nine thirty yen."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep06_night_tout_voice/s9.mp3",
+   "dur": 3.682,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Five hundred dollars,"
+    },
+    {
+     "t": 1.231,
+     "text": "or nine-thirty yen. Your call."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep06_night_tout_voice/n1.mp3",
+   "dur": 3.278,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The tout isn't your friend."
+    },
+    {
+     "t": 1.284,
+     "text": "He's paid per customer"
+    },
+    {
+     "t": 2.357,
+     "text": "he brings inside."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep06_night_tout_voice/n2.mp3",
+   "dur": 3.359,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "A cheap drink can cost"
+    },
+    {
+     "t": 1.216,
+     "text": "fifty thousand yen."
+    },
+    {
+     "t": 2.261,
+     "text": "Check the price first."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep06_night_tout_voice/n3.mp3",
+   "dur": 2.722,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Walk in yourself —"
+    },
+    {
+     "t": 1.11,
+     "text": "the price on the door"
+    },
+    {
+     "t": 2.012,
+     "text": "is the price."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep06_night_tout_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
