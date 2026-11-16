@@ -32,15 +32,15 @@
   },
   "s3": {
    "file": "ep07_sushi_soy_voice/s3.mp3",
-   "dur": 2.354,
+   "dur": 1.775,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Soy sauce on the rice?"
+     "text": "Sauce on the rice?"
     },
     {
-     "t": 1.439,
-     "text": "There's a better way."
+     "t": 1.265,
+     "text": "Flip it."
     }
    ]
   },
@@ -60,15 +60,15 @@
   },
   "s5": {
    "file": "ep07_sushi_soy_voice/s5.mp3",
-   "dur": 1.922,
+   "dur": 1.568,
    "chunks": [
     {
      "t": 0.0,
      "text": "A light touch."
     },
     {
-     "t": 0.855,
-     "text": "That's all it takes."
+     "t": 0.906,
+     "text": "That's all."
     }
    ]
   },
