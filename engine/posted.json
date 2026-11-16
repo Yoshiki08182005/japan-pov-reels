@@ -1,6 +1,25 @@
 {
  "posts": [
   {
+   "ep": "ep06_night_tout",
+   "topic": "night_tout",
+   "category": "safety",
+   "url": "https://www.instagram.com/reel/DfzSsMNDjh2/",
+   "post_id": "18400868131203704",
+   "posted_at_jst": "2026-11-16T20:53:31+09:00",
+   "length_s": 39.53,
+   "hook": "A friendly guy knows a cheap bar. Don't follow him.",
+   "hook_source": "hook_library #4",
+   "gags": [
+    "freeze snap inside a moving clip (tout + all passers-by freeze, neon keeps flickering, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (tout: こっち！安いよ！)",
+    "the wait (beer pouring, steam rising, tout silhouette passing outside the window)",
+    "punchline: five hundred dollars, or nine-thirty yen. Your call."
+   ],
+   "note": "v1 night slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: waiting beat bartender continuity (female->same male bartender), re-rendered and re-verified."
+  },
+  {
    "ep": "ep05_konbini_bag",
    "topic": "konbini_bag",
    "category": "retail",
