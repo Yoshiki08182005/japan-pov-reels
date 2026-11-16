@@ -4,7 +4,7 @@ Reference reels: konbini cash tray (DfscVEHAQWs, 3.4k likes), ramen ticket machi
 
 ## What the reference actually is
 - NOT live action. Flat 2D illustration / pop-art animation, AI-generated (Instagram labels it AI content).
-- **Our differentiator: same format and camera grammar, rendered in real 3D** (Three.js engine from moshimo-reels).
+- **Our standard (decided 2026-11-16): same format and camera grammar, rendered as flat 2D illustration frames + image-to-video animation.** The decision was made after a same-topic 2D-vs-3D comparison on ep03; the 3D engine (Three.js, from moshimo-reels) is retired for this project and kept only as reference.
 
 ## Camera grammar (to reproduce)
 - First-person POV the whole way. The protagonist is never seen except **two hands + mustard-color sleeves at the bottom of the frame**.
@@ -41,7 +41,7 @@ POV: your first ___ in Japan. <counter-intuitive rule in one sentence>. <emoji>
 
 ## Production checklist — view-count rules (every episode, no exceptions)
 
-Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11-15: median watch ~17s of ~66s videos; 99% of views from non-followers; comments near zero until the caption carried a question). Encoded in `engine/engine/pov.js`, `engine/episodes/ep01_konbini_tray.js` (the model episode) and `.github/prompts/daily.md`.
+Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11-15: median watch ~17s of ~66s videos; 99% of views from non-followers; comments near zero until the caption carried a question). Encoded in the 2D standard builder `engine/build_2d_std.py` and `.github/prompts/daily.md`, with ep02 as the model episode (the ep01-era `engine/engine/pov.js` / `engine/episodes/ep01_konbini_tray.js` belong to the retired 3D engine).
 
 ### Length & structure
 - [ ] Total length **38–48s** (reference format is ~46s; moshimo cut 58–68s → 38–50s for the same reason).
@@ -71,7 +71,7 @@ Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11
 - [ ] Narration sentences are short; line gaps in the voice timing stay at the pipeline default (0.2s) — no long pauses between lines.
 - [ ] **Narration covers the story section too** — every story beat is narrated as it happens (see Audio); the only deliberately quiet moments are the freeze snap, the wait, and the post-punchline hold. Explainer cards recap the rules; they are never the episode's only narration.
 
-### Telops (burned into `pov.js` — do not improvise per episode)
+### Telops (burned into `build_2d_std.py` — do not improvise per episode)
 - [ ] One idea per telop, **max ~7 English words** on screen at once (plus the JP speech bubble).
 - [ ] Main telop (narration caption): **88px** at 1080 wide (rule: ≥64px), white bold + ink outline, baseline **y=1300** — lower-third, above the hands.
 - [ ] Title label: black rounded label, top of frame (y≈268), present from second 0 to the end.
