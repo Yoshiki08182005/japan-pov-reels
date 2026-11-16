@@ -1,6 +1,25 @@
 {
  "posts": [
   {
+   "ep": "ep07_sushi_soy",
+   "topic": "sushi_soy",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df0loqFDgKI/",
+   "post_id": "18111103667189675",
+   "posted_at_jst": "2026-11-17T08:57:47+09:00",
+   "length_s": 40.79,
+   "hook": "Don't drown the nigiri. Dip the fish — just a touch.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (chef + all customers freeze, steam keeps rising, lanterns keep swaying)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef: 魚だけ！軽く！)",
+    "the wait (chef shaping rice, customers eating, steam rising)",
+    "punchline: dry rice, wet fish. One bite. That's sushi."
+   ],
+   "note": "v1 morning slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Two build retries: s3/s5 then s2 shortened to fit narration placement (build assert). Posted ~2h late vs 07:00 target (build retries + a service restart during the first post attempt; the interrupted attempt did not publish, verified before retry). First post-feed attempt interrupted by service restart; retry published cleanly, no duplicate."
+  },
+  {
    "ep": "ep06_night_tout",
    "topic": "night_tout",
    "category": "safety",
