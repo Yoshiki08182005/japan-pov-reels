@@ -1,0 +1,192 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep05_konbini_bag_voice/s1.mp3",
+   "dur": 2.307,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "First konbini in Japan."
+    },
+    {
+     "t": 1.532,
+     "text": "Grabbed a bag."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep05_konbini_bag_voice/s2.mp3",
+   "dur": 1.602,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone froze."
+    },
+    {
+     "t": 0.964,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep05_konbini_bag_voice/s3.mp3",
+   "dur": 1.632,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One bag?"
+    },
+    {
+     "t": 0.872,
+     "text": "For everything?"
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep05_konbini_bag_voice/s4.mp3",
+   "dur": 2.048,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Warm and cold…"
+    },
+    {
+     "t": 1.022,
+     "text": "never share a bag."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep05_konbini_bag_voice/s5.mp3",
+   "dur": 1.958,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Two bags, please."
+    },
+    {
+     "t": 1.235,
+     "text": "Three yen."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep05_konbini_bag_voice/s6.mp3",
+   "dur": 0.87,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She grinned—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep05_konbini_bag_voice/s7.mp3",
+   "dur": 1.721,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Then she packed"
+    },
+    {
+     "t": 0.915,
+     "text": "it like a pro."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep05_konbini_bag_voice/s8.mp3",
+   "dur": 2.086,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot stays hot."
+    },
+    {
+     "t": 1.057,
+     "text": "Cold stays cold."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep05_konbini_bag_voice/s9.mp3",
+   "dur": 3.948,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Three yen."
+    },
+    {
+     "t": 0.68,
+     "text": "Two bags. Zero soggy onigiri."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep05_konbini_bag_voice/n1.mp3",
+   "dur": 3.93,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "At a konbini,"
+    },
+    {
+     "t": 0.918,
+     "text": "the bag costs 3 yen."
+    },
+    {
+     "t": 2.307,
+     "text": "And warm and cold"
+    },
+    {
+     "t": 3.021,
+     "text": "never share one."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep05_konbini_bag_voice/n2.mp3",
+   "dur": 2.883,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One bag for hot food."
+    },
+    {
+     "t": 1.37,
+     "text": "One bag for cold drinks."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep05_konbini_bag_voice/n3.mp3",
+   "dur": 2.182,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Say yes to the bag —"
+    },
+    {
+     "t": 1.293,
+     "text": "and let them sort it."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep05_konbini_bag_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
