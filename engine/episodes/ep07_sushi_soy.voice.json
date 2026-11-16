@@ -18,14 +18,14 @@
   },
   "s2": {
    "file": "ep07_sushi_soy_voice/s2.mp3",
-   "dur": 1.602,
+   "dur": 1.375,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Everyone froze."
+     "text": "All froze."
     },
     {
-     "t": 0.964,
+     "t": 0.721,
      "text": "Wrong way."
     }
    ]
