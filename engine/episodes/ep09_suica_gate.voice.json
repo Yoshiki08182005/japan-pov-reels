@@ -1,0 +1,188 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep09_suica_gate_voice/s1.mp3",
+   "dur": 1.773,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't insert the card."
+    },
+    {
+     "t": 1.265,
+     "text": "Tap it."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep09_suica_gate_voice/s2.mp3",
+   "dur": 1.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.721,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep09_suica_gate_voice/s3.mp3",
+   "dur": 1.342,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Insert it?"
+    },
+    {
+     "t": 0.872,
+     "text": "Never."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep09_suica_gate_voice/s4.mp3",
+   "dur": 1.443,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same card."
+    },
+    {
+     "t": 0.837,
+     "text": "New move."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep09_suica_gate_voice/s5.mp3",
+   "dur": 1.552,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tap the reader."
+    },
+    {
+     "t": 0.941,
+     "text": "Red beep."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep09_suica_gate_voice/s6.mp3",
+   "dur": 1.003,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She called out—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep09_suica_gate_voice/s7.mp3",
+   "dur": 1.802,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Charged it here."
+    },
+    {
+     "t": 1.034,
+     "text": "Not at the gate."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep09_suica_gate_voice/s8.mp3",
+   "dur": 1.411,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tap again."
+    },
+    {
+     "t": 0.768,
+     "text": "Green light."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep09_suica_gate_voice/s9.mp3",
+   "dur": 1.715,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Charge first."
+    },
+    {
+     "t": 0.976,
+     "text": "Tap second."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep09_suica_gate_voice/n1.mp3",
+   "dur": 2.965,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The card is your ticket."
+    },
+    {
+     "t": 1.15,
+     "text": "Trains, buses, konbini."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep09_suica_gate_voice/n2.mp3",
+   "dur": 2.308,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tap the blue reader."
+    },
+    {
+     "t": 1.132,
+     "text": "Don't feed the slot."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep09_suica_gate_voice/n3.mp3",
+   "dur": 2.513,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Red beep?"
+    },
+    {
+     "t": 0.791,
+     "text": "Charge at the machine."
+    },
+    {
+     "t": 1.717,
+     "text": "Before the gate."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep09_suica_gate_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
