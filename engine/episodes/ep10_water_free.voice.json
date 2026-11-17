@@ -18,7 +18,7 @@
   },
   "s2": {
    "file": "ep10_water_free_voice/s2.mp3",
-   "dur": 1.374,
+   "dur": 1.375,
    "chunks": [
     {
      "t": 0.0,
@@ -46,7 +46,7 @@
   },
   "s4": {
    "file": "ep10_water_free_voice/s4.mp3",
-   "dur": 1.509,
+   "dur": 1.508,
    "chunks": [
     {
      "t": 0.0,
@@ -98,7 +98,7 @@
   },
   "s8": {
    "file": "ep10_water_free_voice/s8.mp3",
-   "dur": 1.476,
+   "dur": 1.472,
    "chunks": [
     {
      "t": 0.0,
@@ -112,7 +112,7 @@
   },
   "s9": {
    "file": "ep10_water_free_voice/s9.mp3",
-   "dur": 1.781,
+   "dur": 1.782,
    "chunks": [
     {
      "t": 0.0,
