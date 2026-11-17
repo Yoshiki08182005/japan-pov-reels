@@ -32,35 +32,35 @@
   },
   "s3": {
    "file": "ep08_customs_qr_voice/s3.mp3",
-   "dur": 2.01,
+   "dur": 1.651,
    "chunks": [
     {
      "t": 0.0,
      "text": "Paper forms?"
     },
     {
-     "t": 1.034,
-     "text": "Use the QR."
+     "t": 0.999,
+     "text": "Skip them."
     }
    ]
   },
   "s4": {
    "file": "ep08_customs_qr_voice/s4.mp3",
-   "dur": 2.187,
+   "dur": 1.926,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Do it mid-flight."
+     "text": "Mid-flight."
     },
     {
-     "t": 1.024,
+     "t": 0.756,
      "text": "One QR code."
     }
    ]
   },
   "s5": {
    "file": "ep08_customs_qr_voice/s5.mp3",
-   "dur": 1.575,
+   "dur": 1.574,
    "chunks": [
     {
      "t": 0.0,
@@ -74,7 +74,7 @@
   },
   "s6": {
    "file": "ep08_customs_qr_voice/s6.mp3",
-   "dur": 0.952,
+   "dur": 0.953,
    "chunks": [
     {
      "t": 0.0,
