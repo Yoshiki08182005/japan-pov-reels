@@ -74,7 +74,7 @@
   },
   "s6": {
    "file": "ep09_suica_gate_voice/s6.mp3",
-   "dur": 1.003,
+   "dur": 1.002,
    "chunks": [
     {
      "t": 0.0,
@@ -98,7 +98,7 @@
   },
   "s8": {
    "file": "ep09_suica_gate_voice/s8.mp3",
-   "dur": 1.411,
+   "dur": 1.41,
    "chunks": [
     {
      "t": 0.0,
@@ -112,7 +112,7 @@
   },
   "s9": {
    "file": "ep09_suica_gate_voice/s9.mp3",
-   "dur": 1.715,
+   "dur": 1.717,
    "chunks": [
     {
      "t": 0.0,
