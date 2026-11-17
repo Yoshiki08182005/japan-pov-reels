@@ -4,15 +4,15 @@
  "lines": {
   "s1": {
    "file": "ep08_customs_qr_voice/s1.mp3",
-   "dur": 3.36,
+   "dur": 2.266,
    "chunks": [
     {
      "t": 0.0,
-     "text": "The customs line goes on forever."
+     "text": "Skip the line."
     },
     {
-     "t": 1.868,
-     "text": "Everyone's writing on paper."
+     "t": 0.941,
+     "text": "Fill in the QR first."
     }
    ]
   },
@@ -32,35 +32,35 @@
   },
   "s3": {
    "file": "ep08_customs_qr_voice/s3.mp3",
-   "dur": 2.009,
+   "dur": 2.01,
    "chunks": [
     {
      "t": 0.0,
      "text": "Paper forms?"
     },
     {
-     "t": 1.057,
-     "text": "Do it on the plane."
+     "t": 1.034,
+     "text": "Use the QR."
     }
    ]
   },
   "s4": {
    "file": "ep08_customs_qr_voice/s4.mp3",
-   "dur": 2.312,
+   "dur": 2.187,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Fill it in mid-flight."
+     "text": "Do it mid-flight."
     },
     {
-     "t": 1.243,
+     "t": 1.024,
      "text": "One QR code."
     }
    ]
   },
   "s5": {
    "file": "ep08_customs_qr_voice/s5.mp3",
-   "dur": 1.574,
+   "dur": 1.575,
    "chunks": [
     {
      "t": 0.0,
@@ -74,11 +74,11 @@
   },
   "s6": {
    "file": "ep08_customs_qr_voice/s6.mp3",
-   "dur": 1.388,
+   "dur": 0.952,
    "chunks": [
     {
      "t": 0.0,
-     "text": "The officer called out—"
+     "text": "He called out—"
     }
    ]
   },
@@ -98,15 +98,15 @@
   },
   "s8": {
    "file": "ep08_customs_qr_voice/s8.mp3",
-   "dur": 3.643,
+   "dur": 3.214,
    "chunks": [
     {
      "t": 0.0,
      "text": "No paper. No queue."
     },
     {
-     "t": 2.604,
-     "text": "The officer smiled."
+     "t": 2.478,
+     "text": "He smiled."
     }
    ]
   },
