@@ -71,7 +71,7 @@
    "rule": "Skip the customs line — the QR code is filled in before you land.",
    "narration": "Everyone lands and starts writing on paper. You did it on the plane: one QR code, and you walk past the whole line.",
    "title": "POV: your first arrival in Japan",
-   "used": null
+   "used": "ep08_customs_qr"
   },
   {
    "narration": "Don't insert the card. Tap it — and if the gate beeps red, you charge it here, not at the gate with a line behind you.",
