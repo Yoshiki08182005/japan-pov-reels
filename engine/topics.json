@@ -79,7 +79,7 @@
    "scene": "station gate",
    "slug": "suica_gate",
    "title": "POV: your first train station in Japan",
-   "used": null,
+   "used": "ep09_suica_gate",
    "category": "transit"
   },
   {
