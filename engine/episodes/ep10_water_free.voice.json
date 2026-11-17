@@ -1,0 +1,188 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep10_water_free_voice/s1.mp3",
+   "dur": 2.008,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't pay for the water."
+    },
+    {
+     "t": 1.336,
+     "text": "It's free."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep10_water_free_voice/s2.mp3",
+   "dur": 1.374,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.721,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep10_water_free_voice/s3.mp3",
+   "dur": 1.43,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pay for water?"
+    },
+    {
+     "t": 1.011,
+     "text": "Never."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep10_water_free_voice/s4.mp3",
+   "dur": 1.509,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same glass."
+    },
+    {
+     "t": 0.872,
+     "text": "New move."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep10_water_free_voice/s5.mp3",
+   "dur": 1.826,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pour it yourself."
+    },
+    {
+     "t": 1.092,
+     "text": "Help yourself."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep10_water_free_voice/s6.mp3",
+   "dur": 1.003,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She called out—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep10_water_free_voice/s7.mp3",
+   "dur": 1.579,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Free water."
+    },
+    {
+     "t": 0.849,
+     "text": "Free tea."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep10_water_free_voice/s8.mp3",
+   "dur": 1.476,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Drink up."
+    },
+    {
+     "t": 0.733,
+     "text": "No bill."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep10_water_free_voice/s9.mp3",
+   "dur": 1.781,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Water's free."
+    },
+    {
+     "t": 0.93,
+     "text": "Refills too."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep10_water_free_voice/n1.mp3",
+   "dur": 2.23,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The water is free."
+    },
+    {
+     "t": 1.265,
+     "text": "So is the tea."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep10_water_free_voice/n2.mp3",
+   "dur": 1.934,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pour it yourself."
+    },
+    {
+     "t": 1.191,
+     "text": "At the table."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep10_water_free_voice/n3.mp3",
+   "dur": 2.372,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No waiter?"
+    },
+    {
+     "t": 0.802,
+     "text": "No bill."
+    },
+    {
+     "t": 1.393,
+     "text": "Just help yourself."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep10_water_free_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
