@@ -96,15 +96,38 @@ def _pill(text, fill_rgba, fnt, path, pad_x=72, height=108, radius=54):
 
 
 def _bubble(text, path):
-    f = fit(text, 800, 68, jp=True)
+    lines = text.split("\n")
+    if len(lines) == 1:
+        f = fit(text, 800, 68, jp=True)
+        d0 = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
+        tw = int(d0.textlength(text, font=f))
+        w, h = tw + 84, 150
+        img = Image.new("RGBA", (w, h + 46), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        rrect(d, (2, 2, w - 2, h - 2), 34, fill=(255, 255, 255, 255))
+        d.polygon([(70, h - 8), (128, h - 8), (82, h + 42)], fill=(255, 255, 255, 255))
+        d.text((w / 2, h / 2 + 2), text, font=f, fill=INK + (255,), anchor="mm")
+        img.save(path)
+        print("bubble", path, img.size)
+        return
+    # multi-line: fit the widest line to 300px so the bubble fits the
+    # free space right of the speaker (frame is 1080 wide)
     d0 = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
-    tw = int(d0.textlength(text, font=f))
-    w, h = tw + 84, 150
+    size = 60
+    while size > 18 and max(d0.textlength(s, font=font(size, jp=True)) for s in lines) > 300:
+        size -= 3
+    f = font(size, jp=True)
+    tw = max(int(d0.textlength(s, font=f)) for s in lines)
+    lh = f.size + 12
+    w, h = tw + 72, lh * len(lines) + 44
     img = Image.new("RGBA", (w, h + 46), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     rrect(d, (2, 2, w - 2, h - 2), 34, fill=(255, 255, 255, 255))
     d.polygon([(70, h - 8), (128, h - 8), (82, h + 42)], fill=(255, 255, 255, 255))
-    d.text((w / 2, h / 2 + 2), text, font=f, fill=INK + (255,), anchor="mm")
+    y = h / 2 - (len(lines) - 1) * lh / 2
+    for s in lines:
+        d.text((w / 2, y + 2), s, font=f, fill=INK + (255,), anchor="mm")
+        y += lh
     img.save(path)
     print("bubble", path, img.size)
 
