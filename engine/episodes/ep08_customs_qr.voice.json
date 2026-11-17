@@ -1,0 +1,192 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep08_customs_qr_voice/s1.mp3",
+   "dur": 3.36,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The customs line goes on forever."
+    },
+    {
+     "t": 1.868,
+     "text": "Everyone's writing on paper."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep08_customs_qr_voice/s2.mp3",
+   "dur": 1.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.721,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep08_customs_qr_voice/s3.mp3",
+   "dur": 2.009,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Paper forms?"
+    },
+    {
+     "t": 1.057,
+     "text": "Do it on the plane."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep08_customs_qr_voice/s4.mp3",
+   "dur": 2.312,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Fill it in mid-flight."
+    },
+    {
+     "t": 1.243,
+     "text": "One QR code."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep08_customs_qr_voice/s5.mp3",
+   "dur": 1.574,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Show the code."
+    },
+    {
+     "t": 0.901,
+     "text": "That's all."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep08_customs_qr_voice/s6.mp3",
+   "dur": 1.388,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The officer called out—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep08_customs_qr_voice/s7.mp3",
+   "dur": 2.518,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Then the gate opened,"
+    },
+    {
+     "t": 1.115,
+     "text": "and the line stayed behind me."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep08_customs_qr_voice/s8.mp3",
+   "dur": 3.643,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No paper. No queue."
+    },
+    {
+     "t": 2.604,
+     "text": "The officer smiled."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep08_customs_qr_voice/s9.mp3",
+   "dur": 2.268,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One QR code."
+    },
+    {
+     "t": 1.143,
+     "text": "That's the whole trick."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep08_customs_qr_voice/n1.mp3",
+   "dur": 3.291,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Fill it in before you land."
+    },
+    {
+     "t": 1.381,
+     "text": "Immigration and customs, one form."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep08_customs_qr_voice/n2.mp3",
+   "dur": 3.19,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Show the QR code"
+    },
+    {
+     "t": 1.065,
+     "text": "at the e-gate."
+    },
+    {
+     "t": 1.809,
+     "text": "Passport out, code ready."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep08_customs_qr_voice/n3.mp3",
+   "dur": 3.298,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No QR?"
+    },
+    {
+     "t": 0.999,
+     "text": "Paper forms still work."
+    },
+    {
+     "t": 2.249,
+     "text": "They just take forever."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep08_customs_qr_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
