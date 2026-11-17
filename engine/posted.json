@@ -1,6 +1,44 @@
 {
  "posts": [
   {
+   "ep": "ep09_suica_gate",
+   "topic": "suica_gate",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df13Y_GDnvz/",
+   "post_id": "18439649803145897",
+   "posted_at_jst": "2026-11-17T20:52:02+09:00",
+   "length_s": 38.1,
+   "hook": "Don't insert the card. Tap it.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + commuters freeze, departure board keeps flickering, train passes)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: チャージです！)",
+    "the wait (charging the card at the machine while commuters stream through the gates)",
+    "punchline: charge first, tap second."
+   ],
+   "note": "v2 night slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: v1 accept clip showed a green check while the narration said Red beep — f4 frame + accept clip remade (red X / ERROR), re-rendered as v2 and re-verified (8.7s frame shows red X + ERROR with the Red beep subtitle). Posted ~40 min ahead of the 21:30 target."
+  },
+  {
+   "ep": "ep08_customs_qr",
+   "topic": "customs_qr",
+   "category": "arrival",
+   "url": "https://www.instagram.com/reel/Df1J-fVD1L_/",
+   "post_id": "17966523483233128",
+   "posted_at_jst": "2026-11-17T14:15:27+09:00",
+   "length_s": 39.95,
+   "hook": "Skip the line. Fill in the QR first.",
+   "hook_source": "hook_library #5",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + all passengers freeze, clouds keep drifting past the window)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (officer: QRコードをどうぞ！)",
+    "the wait (officer scans the passport, travelers walk past, the paper queue still shuffles)",
+    "punchline: one QR code. That is the whole trick."
+   ],
+   "note": "v2 midday slot 2026-11-17 (backfilled by the night run — the noon run did not write posted.json): shout bubble reworked to two lines at [700,350] after v1 overflowed the frame edge; motion audit PASS (Actions + local re-run). Posted late vs the 12:30 target (re-render + first post attempt interrupted by a service restart; retry published cleanly, no duplicate)."
+  },
+  {
    "ep": "ep07_sushi_soy",
    "topic": "sushi_soy",
    "category": "food",
