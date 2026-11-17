@@ -65,6 +65,15 @@
    "used": "ep04_ic_card"
   },
   {
+   "slug": "customs_qr",
+   "category": "arrival",
+   "scene": "airport arrival hall",
+   "rule": "Skip the customs line — the QR code is filled in before you land.",
+   "narration": "Everyone lands and starts writing on paper. You did it on the plane: one QR code, and you walk past the whole line.",
+   "title": "POV: your first arrival in Japan",
+   "used": null
+  },
+  {
    "narration": "Don't insert the card. Tap it — and if the gate beeps red, you charge it here, not at the gate with a line behind you.",
    "rule": "Tap, don't insert; charge before the gate, not at it.",
    "scene": "station gate",
@@ -80,15 +89,6 @@
    "rule": "Don't tip. Ever. There is no tip jar — service is already in the price.",
    "narration": "You leave cash on the table and walk out. Seconds later the waiter runs after you — you forgot your money. Tipping doesn't exist here.",
    "title": "POV: your first restaurant bill in Japan",
-   "used": null
-  },
-  {
-   "slug": "customs_qr",
-   "category": "arrival",
-   "scene": "airport arrival hall",
-   "rule": "Skip the customs line — the QR code is filled in before you land.",
-   "narration": "Everyone lands and starts writing on paper. You did it on the plane: one QR code, and you walk past the whole line.",
-   "title": "POV: your first arrival in Japan",
    "used": null
   },
   {

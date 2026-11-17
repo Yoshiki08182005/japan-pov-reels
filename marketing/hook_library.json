@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-16 (refreshed 2026-11-17)",
   "method": "Outlier = a reel whose Views are >= 5x the account's follower count (per the viral-marketing tutorial practice adopted 2026-11-16). Extract each outlier's first 3 seconds (opening frame/action, first on-screen text, first spoken line) as the hook reference for future scripts.",
   "views_data_note": "Instagram does not expose competitor reel Views through instagram-cli (posts returns likes/comments; individual-post-insights works only for the account owner's own posts — verified 2026-11-16, competitor post returned media_not_found). Following strategy.md's standing convention (use likes when Views cannot be obtained), ratios here are likes-based. Because Views >= Likes on every reel, Tier A (likes >= 5x followers) satisfies the Views criterion with certainty; Tier A' uses the account's documented follower count at posting time; Tier B (likes 0.15x-1.4x followers) are probable view-outliers given typical reel like-rates of ~2-5% of views, but their Views are UNCONFIRMED — treat Tier B hooks as candidates, not proven outliers.",
   "accounts_scanned": [
@@ -22,17 +22,17 @@
     "japan.manners",
     "tokyo_tipsin60"
   ],
-  "scan_note": "18 accounts scanned 2026-11-16; last 30 posts each; 339 video posts analyzed. japan.tips (15 followers, 0 posts), japan.manners (4 followers) and tokyo_tipsin60 (0 followers) have no meaningful follower base and are excluded from ranking. Follower counts are at scan time except Tier A' (at posting, from strategy.md 2026-11-15 survey).",
+  "scan_note": "18 accounts scanned 2026-11-16; last 30 posts each; 339 video posts analyzed. japan.tips (15 followers, 0 posts), japan.manners (4 followers) and tokyo_tipsin60 (0 followers) have no meaningful follower base and are excluded from ranking. Follower counts are at scan time except Tier A' (at posting, from strategy.md 2026-11-15 survey). 2026-11-17 refresh: 14 accounts re-scanned (thejapanlogic last 30 posts; 13 others, last 10-12 posts). No new Tier A outlier. The customs e-gate POV (thejapanlogic) broke out a day late: 5,258 -> 60,665 likes (2.10x current followers), promoted to #5 (top of Tier B). Top entries' counts updated to 2026-11-17.",
   "entries": [
     {
       "account": "thejapanlogic",
-      "followers_at_scan": 21719,
+      "followers_at_scan": 28844,
       "views": null,
       "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-      "likes": 334056,
-      "comments": 276,
-      "likes_ratio": 15.38,
-      "ratio_basis": "likes / followers at scan (2026-11-16)",
+      "likes": 369985,
+      "comments": 291,
+      "likes_ratio": 12.83,
+      "ratio_basis": "likes / followers at scan (2026-11-17)",
       "tier": "A",
       "url": "https://www.instagram.com/reel/DfvjjmogNRP/",
       "date": "2026-11-14",
@@ -72,13 +72,13 @@
     },
     {
       "account": "thejapanlogic",
-      "followers_at_scan": 21719,
+      "followers_at_scan": 28844,
       "views": null,
       "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-      "likes": 28807,
-      "comments": 32,
-      "likes_ratio": 1.33,
-      "ratio_basis": "likes / followers at posting (3,213, per strategy.md 2026-11-15 survey; 1.33x vs followers at scan)",
+      "likes": 37781,
+      "comments": 33,
+      "likes_ratio": 1.31,
+      "ratio_basis": "likes / followers at posting (3,213, per strategy.md 2026-11-15 survey; 1.31x vs followers at scan)",
       "tier": "A'",
       "url": "https://www.instagram.com/reel/DfscVEHAQWs/",
       "date": "2026-11-13",
@@ -93,17 +93,17 @@
       "hook_basis": "Observed: media-understanding narrative + caption line 1.",
       "caption_first_line": "POV: your first konbini in Japan. Cash goes on the little tray, not in the clerk's hand. 💴",
       "followers_at_posting": 3213,
-      "likes_ratio_at_posting": 8.97
+      "likes_ratio_at_posting": 11.76
     },
     {
       "account": "thejapanlogic",
-      "followers_at_scan": 21719,
+      "followers_at_scan": 28844,
       "views": null,
       "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-      "likes": 24150,
-      "comments": 81,
-      "likes_ratio": 1.11,
-      "ratio_basis": "likes / followers at posting (3,213, per strategy.md 2026-11-15 survey; 1.11x vs followers at scan)",
+      "likes": 25638,
+      "comments": 97,
+      "likes_ratio": 0.89,
+      "ratio_basis": "likes / followers at posting (3,213, per strategy.md 2026-11-15 survey; 0.89x vs followers at scan)",
       "tier": "A'",
       "url": "https://www.instagram.com/reel/DfvBDPOjX0U/",
       "date": "2026-11-14",
@@ -118,7 +118,30 @@
       "hook_basis": "Observed: media-understanding narrative + caption line 1.",
       "caption_first_line": "POV: your first night out in Tokyo. A friendly guy says he knows a cheap bar. Don't follow him. 🍻",
       "followers_at_posting": 3213,
-      "likes_ratio_at_posting": 7.52
+      "likes_ratio_at_posting": 7.98
+    },
+    {
+      "account": "thejapanlogic",
+      "followers_at_scan": 28844,
+      "views": null,
+      "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
+      "likes": 60665,
+      "comments": 63,
+      "likes_ratio": 2.1,
+      "ratio_basis": "likes / followers at scan (2026-11-17)",
+      "tier": "B",
+      "url": "https://www.instagram.com/reel/DfyIb0rGAYg/",
+      "date": "2026-11-15",
+      "duration_s": 57.4,
+      "topic": "Arrival procedure — customs e-gate / Visit Japan Web (POV animation)",
+      "hook": {
+        "description": "Opens with an airplane-window view (Mt Fuji + Tokyo Skytree) and the title 'POV: your first landing in Japan', then cuts to the pain: a packed customs hall, endless queue, frustrated traveler — marked WRONG WAY. Beauty shot first, pain point immediately after.",
+        "first_on_screen_text": "POV: your first landing in Japan",
+        "first_spoken_line": "POV: your first landing in Japan, and the customs line goes on forever."
+      },
+      "structure": "Pain (endless queue, WRONG WAY) -> rewind -> RIGHT WAY (do Visit Japan Web on the plane, QR + passport at kiosk, e-gate) -> info cards (7 airports, per-person scanning, bag checks possible).",
+      "hook_basis": "Observed: media-understanding narrative + caption line 1. BREAKOUT 2026-11-17: 5,258 likes on the 2026-11-16 scan -> 60,665 likes a day later (11.5x in ~24h, now the account's #2 reel). The 2026-11-16 lesson that procedure-explainer POVs underperform is overturned — breakouts can arrive a day late, so judge POVs at 48h, not 24h.",
+      "caption_first_line": "POV: your first landing in Japan, and the customs line goes on forever. 🛃"
     },
     {
       "account": "japan.travel.hacks",
@@ -280,29 +303,6 @@
       "structure": "Embarrassing act -> cut to real footage 'We don't do that' -> mascot explainer -> spotless bathroom payoff 'Use them and leave them clean.'",
       "hook_basis": "Observed: media-understanding narrative (opening described first) + caption lines 1-2.",
       "caption_first_line": "Are you serious?"
-    },
-    {
-      "account": "thejapanlogic",
-      "followers_at_scan": 21719,
-      "views": null,
-      "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-      "likes": 5258,
-      "comments": 6,
-      "likes_ratio": 0.24,
-      "ratio_basis": "likes / followers at scan (2026-11-16)",
-      "tier": "B",
-      "url": "https://www.instagram.com/reel/DfyIb0rGAYg/",
-      "date": "2026-11-15",
-      "duration_s": 57.4,
-      "topic": "Arrival procedure — customs e-gate / Visit Japan Web (POV animation)",
-      "hook": {
-        "description": "Opens with an airplane-window view (Mt Fuji + Tokyo Skytree) and the title 'POV: your first landing in Japan', then cuts to the pain: a packed customs hall, endless queue, frustrated traveler — marked WRONG WAY. Beauty shot first, pain point immediately after.",
-        "first_on_screen_text": "POV: your first landing in Japan",
-        "first_spoken_line": "POV: your first landing in Japan, and the customs line goes on forever."
-      },
-      "structure": "Pain (endless queue, WRONG WAY) -> rewind -> RIGHT WAY (do Visit Japan Web on the plane, QR + passport at kiosk, e-gate) -> info cards (7 airports, per-person scanning, bag checks possible).",
-      "hook_basis": "Observed: media-understanding narrative + caption line 1. (Note: weakest of the account's POV reels — 111 likes at 2026-11-15 survey; procedure-explainer POV underperforms.)",
-      "caption_first_line": "POV: your first landing in Japan, and the customs line goes on forever. 🛃"
     },
     {
       "account": "japan.etiquette",
