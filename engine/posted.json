@@ -1,6 +1,25 @@
 {
  "posts": [
   {
+   "ep": "ep10_water_free",
+   "topic": "water_free",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df4U9HEjrXb/",
+   "post_id": "17928450000435740",
+   "posted_at_jst": "2026-11-18T19:48:50+09:00",
+   "length_s": 38.0,
+   "hook": "Don't pay for the water. It's free.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (waitress + diners freeze staring at the coins over the water glass, steam and lanterns keep moving; a coin drops into the glass)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (waitress: お水は無料です！)",
+    "the wait (tea steaming, waitress refilling another table while diners eat)",
+    "punchline: water's free. refills too."
+   ],
+   "note": "v2 morning slot 2026-11-18, posted 19:48 JST (~12h late: publish stalled on connector already-running lock + exec service restarts; early attempts never completed, final detached post-feed succeeded). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. One rework: v1 shout bubble clipped at the right edge and the title pill covered line 1 — bubble moved [780,230] -> [660,360], re-rendered as v2 and re-verified (11.7s frame shows full お水は無料です！). Shared next.json was overwritten by the noon ep11 run mid-flight; posted from a dedicated caption file, not next.json."
+  },
+  {
    "ep": "ep09_suica_gate",
    "topic": "suica_gate",
    "category": "transit",
