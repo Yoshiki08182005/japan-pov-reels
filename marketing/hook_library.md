@@ -37,15 +37,17 @@
 
 2026-11-17更新：14アカウントを再スキャン（@thejapanlogic は直近30本、他13アカウントは直近10〜12本）。新規の Tier A はなし。@thejapanlogic のフォロワーは 28,844、食券機は 369,985 いいね（12.8x）に成長。最大の動きは税関eゲートPOV（5,258 → 60,665 いいね、2.10x）で、Tier B の先頭（#5）に昇格。
 
-## アウトライヤー一覧（倍率降順）
+2026-11-18更新：13アカウントを再スキャン（@thejapanlogic は直近30本、他12アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 37,462 にさらに増加。食券機は 384,451 いいね（10.3x）、eゲートは 72,627 いいね（1.94x）に成長。新規ブレイクアウトは Tier B に3本追加（#21〜#23）：温泉POV 59,024 いいね（1.58x）、チップ断りPOV 31,566 いいね（0.84x）、回転寿司POV 18,079 いいね（0.48x、約22hで最速の伸び）。旅館スリッパPOVは300いいねで不発。@japan.explores はユーザー名が解決せず（tokyo.explores のフィードを返したため対象外）、@flipjapanguide／@japantravelbasics は5倍基準が約0.9M／1.8Mいいねと一晩では到達不能のため未再スキャン。
+
+## アウトライヤー一覧（#1〜#20は倍率降順。#21以降は追加順とし、エピソードの hook_source 引用番号を安定させる）
 
 | # | Tier | アカウント | フォロワー | いいね | 倍率 | 日付 | 題材 | URL |
 |---|---|---|---|---|---|---|---|---|
-| 1 | A | @thejapanlogic | 28,844 | 369,985 | 12.8x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
+| 1 | A | @thejapanlogic | 37,462 | 384,451 | 10.3x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
 | 2 | A | @japan_rule | 28,594 | 321,963 | 11.3x | 2026-06-08 | マナー論争：公共の場での祈り（PSA） | https://www.instagram.com/reel/DZU0aHqTzaN/ |
-| 3 | A' | @thejapanlogic | 3,213（投稿時） | 37,781 | 11.8x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
-| 4 | A' | @thejapanlogic | 3,213（投稿時） | 25,638 | 8.0x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
-| 5 | B | @thejapanlogic | 28,844 | 60,665 | 2.1x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
+| 3 | A' | @thejapanlogic | 3,213（投稿時） | 44,698 | 13.9x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
+| 4 | A' | @thejapanlogic | 3,213（投稿時） | 27,064 | 8.4x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
+| 5 | B | @thejapanlogic | 37,462 | 72,627 | 1.9x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
 | 6 | B | @japan.travel.hacks | 5,144 | 7,181 | 1.40x | 2026-08-31 | 買い物：セブンのフリーズドライ味噌汁 | https://www.instagram.com/reel/Dcsm79ihieH/ |
 | 7 | B | @japan.etiquette | 566 | 345 | 0.61x | 2026-10-30 | 旅行リスト：江戸の街並み5選 | https://www.instagram.com/reel/DfJbD9iRy2A/ |
 | 8 | B | @japan.etiquette | 566 | 305 | 0.54x | 2026-11-03 | 旅行リスト：現存天守5城 | https://www.instagram.com/reel/DfTTC2thQt7/ |
@@ -61,9 +63,12 @@
 | 18 | B | @japan_rule | 28,594 | 4,490 | 0.16x | 2026-06-06 | 交通マナーPSA：ラッシュ時の巨大スーツケース | https://www.instagram.com/reel/DZRSMgYpA6b/ |
 | 19 | B | @japantraveltips__ | 9,930 | 1,545 | 0.16x | 2026-09-12 | 旅行リスト：東京の穴場20選 | https://www.instagram.com/reel/DdL7zKZJenS/ |
 | 20 | B | @japan.explores | 9,502 | 1,438 | 0.15x | 2026-11-14 | ホテル紹介：JWマリオット東京 | https://www.instagram.com/reel/DfuWuYdplZf/ |
+| 21 | B | @thejapanlogic | 37,462 | 59,024 | 1.58x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
+| 22 | B | @thejapanlogic | 37,462 | 31,566 | 0.84x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
+| 23 | B | @thejapanlogic | 37,462 | 18,079 | 0.48x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
 ## フック詳細（冒頭3秒）
 
-### #1 [Tier A] @thejapanlogic — ラーメン食券機（12.8x）
+### #1 [Tier A] @thejapanlogic — ラーメン食券機（10.3x）
 - **冒頭3秒**：フレーム0でタイトルピル「POV: your first ramen shop in Japan」。POVが着席し、店主に直接現金を渡そうとする「間違った行動」が1秒以内に始まる。店主が驚き、全員が凝視。吹き出し＋叫び「先に食券を！」。
 - **最初の発話**：「Don't sit down and call for a menu. Buy your ticket first.」（＝ルールそのもの）
 - **構成**：間違い（フリーズ／凝視ギャグ）→ WRONG WAY → THE RIGHT WAY やり直し → 叫び → LED解説（THE MACHINE：TICKET / HAND IT OVER / THEN SIT）→ 判子エンドカード。
@@ -76,18 +81,18 @@
 - **注意**：伸びの主因は論争性（コメント1.3万）。借りるのは「二人称への直接の禁止＋アイデンティティの緊張をフレーム0に置く」という**フックの力学だけ**。排外的な内容そのものは我々の題材にしない（使うのは形式だけ、という既存方針通り）。
 - 根拠：media-understanding＋キャプション1行目。
 
-### #3 [Tier A'] @thejapanlogic — コンビニのトレイ（投稿時11.8x）
+### #3 [Tier A'] @thejapanlogic — コンビニのトレイ（投稿時13.9x）
 - **冒頭3秒**：タイトルピル「POV: your first konbini in Japan」の下で、POVが店員（Mio）に現金を直接手渡す間違いが即座に始まり、WRONG WAY スタンプ。
 - **最初の発話**：「Cash goes on the little tray, not in the clerk's hand.」
 - **構成**：間違い → 巻き戻し → THE RIGHT WAY（買い物→トレイ→お釣り）→ LED解説 → エンドカード。
 - 根拠：media-understanding＋キャプション1行目。
 
-### #4 [Tier A'] @thejapanlogic — 新宿の客引き（投稿時8.0x）
+### #4 [Tier A'] @thejapanlogic — 新宿の客引き（投稿時8.4x）
 - **冒頭3秒**：夜の街POV。客引きがカメラに近づき、**登場人物自身がフックを喋る**：「Hey, my friend! Looking for a bar? Pretty girls, cheap drinks. Just down here」。数秒で路地へ誘導が始まる。ナレーションでなく「自分に話しかけてくる他者」が脅威。
 - **構成**：間違い（ついて行く）→ WRONG WAY → リセット → RIGHT WAY（警察の「DON'T FOLLOW TOUTS」看板→自分で店を選ぶ→明朗会計¥930）→ 解説（本当の罠は請求額）→ CASE エンドカード。
 - 根拠：media-understanding＋キャプション1行目。
 
-### #5 [Tier B] @thejapanlogic — 税関eゲート（2.1x）
+### #5 [Tier B] @thejapanlogic — 税関eゲート（1.9x）
 - **冒頭3秒**：飛行機の窓からの富士山＋スカイツリーの美景に「POV: your first landing in Japan」。直後に混雑した税関ホールの長い列と苛立つ旅行者（WRONG WAY）へ。美景→痛点の順。
 - **最初の発話**：「POV: your first landing in Japan, and the customs line goes on forever.」
 - **構成**：痛点 → 巻き戻し → RIGHT WAY（機内で Visit Japan Web、QR＋パスポート、eゲート）→ 情報カード。
@@ -164,6 +169,26 @@
 ### #20 [Tier B] @japan.explores — JWマリオット東京（0.15x）
 - **冒頭3秒**：夜の屋内インフィニティプール越しに東京タワーが光る画。テキストも声もなく、環境音楽だけの「純粋な視覚的ラグジュアリー」フック。我々の形式との適合は最弱だが、このアカウントの倍率トップのため記録。
 - 根拠：media-understanding（冒頭明示）。
+
+### #21 [Tier B] @thejapanlogic — 温泉・洗ってから入る（1.58x）
+- **冒頭3秒**：タイトルピル「POV: your first onsen in Japan」の下で、POVが走ってきてそのまま湯船に飛び込む間違いが即座に始まる。入浴客が凝視。最初の発話がルールそのもの（「Don't run in and jump straight into the bath. Wash first.」）。
+- **最初の発話**：「POV: your first onsen in Japan. Don't run in and jump straight into the bath. Wash first.」
+- **構成**：間違い（飛び込み）→ WRONG WAY → THE RIGHT WAY（洗い場の椅子で体を洗ってから入る、タオルは湯に入れない）→ 静かに浸かる締め。
+- 根拠：キャプション1行目＋2026-11-18の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #22 [Tier B] @thejapanlogic — チップ断り・店員が釣りを追いかける（0.84x）
+- **冒頭3秒**：タイトルピル「POV: your first restaurant in Japan」の下で、POVが釣りをチップとして断り、店員が釣り銭を持って通りまで追いかけてくる。間違った行動とその滑稽な帰結が冒頭数秒に両方ある。
+- **最初の発話**：「POV: your first restaurant in Japan. You wave off your change as a tip, and the staff chase you down the street with it.」
+- **構成**：間違い（釣りを断る）→ WRONG WAY → THE RIGHT WAY（受け取って「ありがとう」、それだけ）→ 締め。
+- **備考**：未使用トピック no_tipping と同じルール。このエントリは no_tipping のフック参照として使う。
+- 根拠：キャプション1行目＋2026-11-18の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #23 [Tier B] @thejapanlogic — 回転寿司・皿を戻すな（0.48x）
+- **冒頭3秒**：タイトルピル「POV: your first conveyor sushi in Japan」の下で、POVがレーンから取った皿を戻す間違いが即座に始まる。ベルトと監視カメラが画面内にある。
+- **最初の発話**：「POV: your first conveyor sushi in Japan, and you put the plate back.」
+- **構成**：間違い（皿をレーンに戻す）→ WRONG WAY → THE RIGHT WAY（取った皿は自分のもの。欲しいものはタッチパネルで注文）→ 締め。
+- **備考**：2026-11-18スキャンで最速の伸び（投稿約22hで18,079いいね）。コピー優先ルールにより本日昼枠の次エピソードに指定（topics.json の conveyor_sushi）。
+- 根拠：キャプション1行目＋2026-11-18の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
 
 ## 使い方（制作への接続）
 - **各エピソードの冒頭3秒は、このライブラリのエントリ（原則 Tier A/A'）のフック構造を題材に合わせて適応する**。ゼロから発明しない。使ったエントリはエピソードのメタデータ（spec の pdca / next.json）に `hook_source` として記録する（FORMAT.md「Hook」ルール、daily.md 企画・台本セクション参照）。

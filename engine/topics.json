@@ -83,6 +83,14 @@
    "category": "transit"
   },
   {
+   "slug": "conveyor_sushi",
+   "category": "food",
+   "scene": "conveyor sushi restaurant (kaiten-zushi), plates circling on the belt",
+   "rule": "A plate you take off the belt is yours — never put it back.",
+   "narration": "You grabbed a plate, changed your mind, and slid it back onto the belt. In Japan, the plate is yours the moment you touch it — cameras watch the belt, and a plate that looks tampered with gets pulled.",
+   "title": "POV: your first conveyor sushi in Japan"
+  },
+  {
    "slug": "no_tipping",
    "category": "money",
    "scene": "restaurant checkout",
