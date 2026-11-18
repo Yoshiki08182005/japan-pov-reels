@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep12_train_line_voice/s1.mp3",
+   "dur": 2.282,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Step on now?"
+    },
+    {
+     "t": 0.975,
+     "text": "No — let them off first."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep12_train_line_voice/s2.mp3",
+   "dur": 1.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.721,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep12_train_line_voice/s3.mp3",
+   "dur": 1.39,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Board now?"
+    },
+    {
+     "t": 0.953,
+     "text": "Never."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep12_train_line_voice/s4.mp3",
+   "dur": 1.518,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same doors."
+    },
+    {
+     "t": 0.906,
+     "text": "New move."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep12_train_line_voice/s5.mp3",
+   "dur": 1.59,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Wait in line."
+    },
+    {
+     "t": 0.918,
+     "text": "Let them off."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep12_train_line_voice/s6.mp3",
+   "dur": 0.907,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She pointed—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep12_train_line_voice/s7.mp3",
+   "dur": 1.898,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "They stream off."
+    },
+    {
+     "t": 0.923,
+     "text": "We stand still."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep12_train_line_voice/s8.mp3",
+   "dur": 1.677,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Now board."
+    },
+    {
+     "t": 0.802,
+     "text": "Smooth and easy."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep12_train_line_voice/s9.mp3",
+   "dur": 1.595,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Off first,"
+    },
+    {
+     "t": 0.883,
+     "text": "on second."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep12_train_line_voice/n1.mp3",
+   "dur": 1.648,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The floor lines"
+    },
+    {
+     "t": 0.814,
+     "text": "mark your spot."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep12_train_line_voice/n2.mp3",
+   "dur": 1.652,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Off first."
+    },
+    {
+     "t": 0.941,
+     "text": "Then board."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep12_train_line_voice/n3.mp3",
+   "dur": 1.693,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No pushing."
+    },
+    {
+     "t": 1.042,
+     "text": "No rushing."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep12_train_line_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
