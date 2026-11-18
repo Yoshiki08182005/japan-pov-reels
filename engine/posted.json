@@ -167,6 +167,25 @@
     "punchline: touch it, it is yours. no take-backs."
    ],
    "note": "2026-11-18 noon slot: copy of @thejapanlogic conveyor-sushi breakout (18,079 likes in ~22h); hook adapts hook_library #23. Motion audit PASS (Actions + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS, viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.10 endcard). Posted while ep10 water_free morning post was still awaiting user approval."
+  },
+  {
+   "ep": "ep12_train_line",
+   "topic": "train_line",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df4a8Q6DyQ2/",
+   "post_id": "18112976471215758",
+   "posted_at_jst": "2026-11-18T20:41:08+09:00",
+   "length_s": 38.0,
+   "hook": "Step on now? No — let them off first.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (station staff + passengers freeze staring at the POV hands stepping on, train doors and platform crowd keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (station staff: 降りる方が先です！)",
+    "the wait (passengers streaming off, queue standing still in the marked lines)",
+    "punchline: off first, on second."
+   ],
+   "note": "2026-11-18 night slot: transit, first unused in queue order. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) with #18 mechanics (blocked doors, victims visible immediately). Motion audit PASS (Actions, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + far-hall passengers moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 降りる方が先です！ in-frame, LED cards + CASE No.11 endcard; audio mean -20.0dB). Minor flaw noted: accept clip drifts in its last ~2s — POV hands morph into the protagonist seen from behind in the queue (same mustard top); story still reads. Platform-number signage varies across frames (1/2/3/4), same known generator weakness as ep02 price flicker."
   }
  ]
 }
