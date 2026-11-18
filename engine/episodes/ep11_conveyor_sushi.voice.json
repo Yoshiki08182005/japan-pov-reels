@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep11_conveyor_sushi_voice/s1.mp3",
+   "dur": 3.173,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Put the plate back?"
+    },
+    {
+     "t": 1.126,
+     "text": "Never. It's yours."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep11_conveyor_sushi_voice/s2.mp3",
+   "dur": 1.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.721,
+     "text": "Wrong way."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep11_conveyor_sushi_voice/s3.mp3",
+   "dur": 1.309,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Put it back?"
+    },
+    {
+     "t": 0.86,
+     "text": "Never."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep11_conveyor_sushi_voice/s4.mp3",
+   "dur": 1.413,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same plate."
+    },
+    {
+     "t": 0.825,
+     "text": "New move."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep11_conveyor_sushi_voice/s5.mp3",
+   "dur": 1.367,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Keep it."
+    },
+    {
+     "t": 0.629,
+     "text": "Order more."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep11_conveyor_sushi_voice/s6.mp3",
+   "dur": 0.952,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He called out—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep11_conveyor_sushi_voice/s7.mp3",
+   "dur": 2.15,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Belt keeps turning."
+    },
+    {
+     "t": 1.138,
+     "text": "Plates keep coming."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep11_conveyor_sushi_voice/s8.mp3",
+   "dur": 1.237,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Eat up."
+    },
+    {
+     "t": 0.606,
+     "text": "Enjoy it."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep11_conveyor_sushi_voice/s9.mp3",
+   "dur": 2.333,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Touch it, it's yours."
+    },
+    {
+     "t": 1.454,
+     "text": "No take-backs."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep11_conveyor_sushi_voice/n1.mp3",
+   "dur": 2.212,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The plate is yours."
+    },
+    {
+     "t": 1.173,
+     "text": "The moment you touch it."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep11_conveyor_sushi_voice/n2.mp3",
+   "dur": 1.952,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Want more?"
+    },
+    {
+     "t": 0.872,
+     "text": "Order on the screen."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep11_conveyor_sushi_voice/n3.mp3",
+   "dur": 2.34,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Cameras watch the belt."
+    },
+    {
+     "t": 1.297,
+     "text": "Don't touch twice."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep11_conveyor_sushi_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
