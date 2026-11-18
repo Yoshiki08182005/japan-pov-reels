@@ -129,6 +129,25 @@
     "punchline: rent for your chair, served as a snack"
    ],
    "note": "v2 all-animation rebuild (2026-11-16 user rule): the original ep03 was never posted (user rejected it at the approval prompt because its opening beats were stills). Rebuilt with every scene beat as a real i2v clip, motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. Old video kept at posts/ep03_izakaya_otoshi.mp4."
+  },
+  {
+   "ep": "ep11_conveyor_sushi",
+   "topic": "conveyor_sushi",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df3eL5pjgTE/",
+   "post_id": "18108348443570904",
+   "posted_at_jst": "2026-11-18T11:50:19+09:00",
+   "length_s": 38.0,
+   "hook": "Put the plate back? Never. It is yours.",
+   "hook_source": "hook_library #23",
+   "gags": [
+    "freeze snap inside a moving clip (chef + diners freeze staring at the plate sliding back onto the belt, steam and lanterns keep moving, belt keeps turning)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef: 戻さないでください！)",
+    "the wait (chef slicing fish, diners eating, belt circling)",
+    "punchline: touch it, it is yours. no take-backs."
+   ],
+   "note": "2026-11-18 noon slot: copy of @thejapanlogic conveyor-sushi breakout (18,079 likes in ~22h); hook adapts hook_library #23. Motion audit PASS (Actions + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS, viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.10 endcard). Posted while ep10 water_free morning post was still awaiting user approval."
   }
  ]
 }
