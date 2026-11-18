@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep13_buffet_tray_jp_voice/shout.mp3",
+   "dur": 1.336,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "新しいお皿です！"
+    }
+   ]
+  }
+ }
+}
