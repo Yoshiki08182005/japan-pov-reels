@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep16_chopsticks_rice_voice/s1.mp3",
+   "dur": 2.015,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't stand your chopsticks"
+    },
+    {
+     "t": 1.362,
+     "text": "in the rice."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep16_chopsticks_rice_voice/s2.mp3",
+   "dur": 1.456,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep16_chopsticks_rice_voice/s3.mp3",
+   "dur": 1.726,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Funeral food."
+    },
+    {
+     "t": 1.034,
+     "text": "Not lunch."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep16_chopsticks_rice_voice/s4.mp3",
+   "dur": 1.708,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same hands."
+    },
+    {
+     "t": 0.918,
+     "text": "Lay them flat."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep16_chopsticks_rice_voice/s5.mp3",
+   "dur": 1.59,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "On the rest."
+    },
+    {
+     "t": 0.768,
+     "text": "Bowl in hand."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep16_chopsticks_rice_voice/s6.mp3",
+   "dur": 0.908,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She pointed—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep16_chopsticks_rice_voice/s7.mp3",
+   "dur": 1.765,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "They keep eating."
+    },
+    {
+     "t": 0.931,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep16_chopsticks_rice_voice/s8.mp3",
+   "dur": 1.764,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Chopsticks flat,"
+    },
+    {
+     "t": 1.103,
+     "text": "rice gone."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep16_chopsticks_rice_voice/s9.mp3",
+   "dur": 2.282,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Flat, not standing."
+    },
+    {
+     "t": 1.447,
+     "text": "That's the rule."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep16_chopsticks_rice_voice/n1.mp3",
+   "dur": 1.924,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Upright chopsticks"
+    },
+    {
+     "t": 1.09,
+     "text": "mean a funeral."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep16_chopsticks_rice_voice/n2.mp3",
+   "dur": 1.455,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Lay them flat"
+    },
+    {
+     "t": 0.756,
+     "text": "on the rest."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep16_chopsticks_rice_voice/n3.mp3",
+   "dur": 1.751,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bowl in hand."
+    },
+    {
+     "t": 0.953,
+     "text": "Eat like this."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep16_chopsticks_rice_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
