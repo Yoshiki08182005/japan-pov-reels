@@ -186,6 +186,25 @@
     "punchline: off first, on second."
    ],
    "note": "2026-11-18 night slot: transit, first unused in queue order. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) with #18 mechanics (blocked doors, victims visible immediately). Motion audit PASS (Actions, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + far-hall passengers moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 降りる方が先です！ in-frame, LED cards + CASE No.11 endcard; audio mean -20.0dB). Minor flaw noted: accept clip drifts in its last ~2s — POV hands morph into the protagonist seen from behind in the queue (same mustard top); story still reads. Platform-number signage varies across frames (1/2/3/4), same known generator weakness as ep02 price flicker."
+  },
+  {
+   "ep": "ep13_buffet_tray",
+   "topic": "buffet_tray",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df6iKkLjLjS/",
+   "post_id": "18599960341067194",
+   "posted_at_jst": "2026-11-19T16:22:48+09:00",
+   "length_s": 38.0,
+   "hook": "Tray first. New plate every round.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (buffet attendant + guests freeze staring at the dirty plate, steam and buffet-line guests keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: 新しいお皿です！)",
+    "the wait (guests eating, POV fists still on the empty table)",
+    "punchline: new plate. every round."
+   ],
+   "note": "2026-11-19 morning slot: food, only unused food topic in queue. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) — dirty-plate second helping as the wrong action; tray/plate rhyme from #3 tray mechanics. Motion audit PASS (Actions run 44398431244, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + steam + background guests moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 新しいお皿です！ in-frame, LED cards + CASE No.12 endcard). First render-std dispatch (44393044884) stalled 27+ min on Install render deps and was cancelled; re-dispatch succeeded. First post-feed attempt died with its approval card during a ~9.5h service interruption; re-posted via backgrounded post-feed and verified live. Posted late (16:22 JST vs 07:00 target) due to the interruption."
   }
  ]
 }
