@@ -216,6 +216,33 @@
    "title": "POV: your first shrine visit in Japan",
    "used": null,
    "category": "events"
+  },
+  {
+   "slug": "chopsticks_rice",
+   "category": "food",
+   "scene": "Japanese family restaurant table, rice bowl",
+   "rule": "Never stick your chopsticks upright in rice — it looks like a funeral offering.",
+   "narration": "You stick your chopsticks upright in the rice bowl. Everyone freezes — upright chopsticks are only for the dead.",
+   "title": "POV: your first meal in Japan",
+   "used": "ep16_chopsticks_rice"
+  },
+  {
+   "slug": "slurp_noodles",
+   "category": "food",
+   "scene": "ramen shop counter",
+   "rule": "Slurp your noodles — loudly. Silence means you didn't like them.",
+   "narration": "You eat your ramen in silence, politely. The chef looks worried — in Japan, loud slurping means you love it.",
+   "title": "POV: your first ramen in Japan",
+   "used": null
+  },
+  {
+   "slug": "pour_beer",
+   "category": "food",
+   "scene": "izakaya table",
+   "rule": "Never pour your own beer — pour for others, and hold your glass with two hands.",
+   "narration": "You pour your own beer. Everyone stares — in Japan you pour for others, and they pour for you.",
+   "title": "POV: your first izakaya in Japan",
+   "used": null
   }
  ]
 }
