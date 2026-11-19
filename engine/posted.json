@@ -205,6 +205,25 @@
     "punchline: new plate. every round."
    ],
    "note": "2026-11-19 morning slot: food, only unused food topic in queue. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) — dirty-plate second helping as the wrong action; tray/plate rhyme from #3 tray mechanics. Motion audit PASS (Actions run 44398431244, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + steam + background guests moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 新しいお皿です！ in-frame, LED cards + CASE No.12 endcard). First render-std dispatch (44393044884) stalled 27+ min on Install render deps and was cancelled; re-dispatch succeeded. First post-feed attempt died with its approval card during a ~9.5h service interruption; re-posted via backgrounded post-feed and verified live. Posted late (16:22 JST vs 07:00 target) due to the interruption."
+  },
+  {
+   "ep": "ep14_no_tipping",
+   "topic": "no_tipping",
+   "category": "money",
+   "url": "https://www.instagram.com/reel/Df6-Hu9DsNC/",
+   "post_id": "18109551590376826",
+   "posted_at_jst": "2026-11-19T20:27:01+09:00",
+   "length_s": 38.0,
+   "hook": "Don't leave a tip. Not in Japan.",
+   "hook_source": "hook_library #22",
+   "gags": [
+    "freeze snap inside a moving clip (waiter + diners freeze staring at the tip on the table, steam and background diners keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (waiter: お忘れ物です！)",
+    "the wait (diners eating, POV fists still at the door)",
+    "punchline: no tip. just thanks."
+   ],
+   "note": "2026-11-19 noon slot: money, first unused money topic in queue (PDCA 2026-11-18 designated no_tipping). Produced by the noon run (frames + clips + spec committed; render-std run 44445619516, motion audit PASS, opening 0/2/4s frame-pair check PASS). Posting stalled: the noon run never issued a post-feed (no approval request in history). Posted by the night run 2026-11-19 20:27 JST via backgrounded post-feed from a frozen caption file, verified live as the 15th post on the account."
   }
  ]
 }

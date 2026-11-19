@@ -124,7 +124,7 @@
    "scene": "station gate",
    "slug": "ic_empty",
    "title": "POV: your first ticket gate in Japan",
-   "used": null,
+   "used": "ep15_ic_empty",
    "category": "transit"
   },
   {
