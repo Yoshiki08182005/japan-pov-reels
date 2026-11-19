@@ -224,6 +224,25 @@
     "punchline: no tip. just thanks."
    ],
    "note": "2026-11-19 noon slot: money, first unused money topic in queue (PDCA 2026-11-18 designated no_tipping). Produced by the noon run (frames + clips + spec committed; render-std run 44445619516, motion audit PASS, opening 0/2/4s frame-pair check PASS). Posting stalled: the noon run never issued a post-feed (no approval request in history). Posted by the night run 2026-11-19 20:27 JST via backgrounded post-feed from a frozen caption file, verified live as the 15th post on the account."
+  },
+  {
+   "ep": "ep15_ic_empty",
+   "topic": "ic_empty",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df7AHf-jnaI/",
+   "post_id": "17946932637369130",
+   "posted_at_jst": "2026-11-19T20:44:35+09:00",
+   "length_s": 38.0,
+   "hook": "Don't tap first. Check the balance.",
+   "hook_source": "hook_library #24",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + commuters freeze staring at the tapped card, departure board flickers and train passes behind)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: 残高不足です！)",
+    "the wait (hands hold the card still at the machine while commuters stream through the gates)",
+    "punchline: charge first. tap second."
+   ],
+   "note": "2026-11-19 night slot: transit, PDCA 2026-11-19 designated ic_empty (copy of @thejapanlogic ticket-gate insufficient-balance breakout, hook_library #24). Motion audit PASS (Actions run 44515786750, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hand tapping + departure board + train + commuters moving), viewer-eye check PASS (stamps, shout bubble 残高不足です！ in-frame, LED cards + CASE No.14 endcard). Audio mean -20.3dB, no silence >=0.5s. f1 regenerated once to remove the Suica brand text from the card. Render-std needed a temporary workflow enable (daily.yml was disabled_manually, blocking dispatch); enabled, dispatched, disabled again immediately — run continued and succeeded. Posted 20:44 JST (target 21:30, ~45 min early). The noon ep14 no_tipping was also posted in this run (20:27 JST, https://www.instagram.com/reel/Df6-Hu9DsNC/) since the noon run never issued its post-feed."
   }
  ]
 }
