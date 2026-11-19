@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep14_no_tipping_voice/s1.mp3",
+   "dur": 1.838,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't leave a tip."
+    },
+    {
+     "t": 0.93,
+     "text": "Not in Japan."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep14_no_tipping_voice/s2.mp3",
+   "dur": 1.45,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep14_no_tipping_voice/s3.mp3",
+   "dur": 1.804,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take it back."
+    },
+    {
+     "t": 0.825,
+     "text": "That's the fix."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep14_no_tipping_voice/s4.mp3",
+   "dur": 1.698,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same coins."
+    },
+    {
+     "t": 0.976,
+     "text": "Right pocket."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep14_no_tipping_voice/s5.mp3",
+   "dur": 1.635,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Change in hand."
+    },
+    {
+     "t": 0.93,
+     "text": "Say thanks."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep14_no_tipping_voice/s6.mp3",
+   "dur": 0.994,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He ran after—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep14_no_tipping_voice/s7.mp3",
+   "dur": 1.982,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Diners keep eating."
+    },
+    {
+     "t": 1.176,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep14_no_tipping_voice/s8.mp3",
+   "dur": 1.78,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Change back."
+    },
+    {
+     "t": 0.779,
+     "text": "Everyone smiles."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep14_no_tipping_voice/s9.mp3",
+   "dur": 1.54,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No tip."
+    },
+    {
+     "t": 0.744,
+     "text": "Just thanks."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep14_no_tipping_voice/n1.mp3",
+   "dur": 1.298,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No tipping."
+    },
+    {
+     "t": 0.93,
+     "text": "Ever."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep14_no_tipping_voice/n2.mp3",
+   "dur": 1.562,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Service is"
+    },
+    {
+     "t": 0.762,
+     "text": "in the price."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep14_no_tipping_voice/n3.mp3",
+   "dur": 1.566,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take your change."
+    },
+    {
+     "t": 0.86,
+     "text": "Say thanks."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep14_no_tipping_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
