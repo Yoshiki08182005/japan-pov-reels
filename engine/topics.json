@@ -119,6 +119,15 @@
    "category": "transit"
   },
   {
+   "narration": "You tap your IC card and the gate slams shut — the balance is empty, and the whole rush-hour line is behind you. Charge it before the gate, not at it.",
+   "rule": "Charge your IC card before the gate — an empty balance slams it shut with the line behind you.",
+   "scene": "station gate",
+   "slug": "ic_empty",
+   "title": "POV: your first ticket gate in Japan",
+   "used": null,
+   "category": "transit"
+  },
+  {
    "narration": "A full train, and you can hear a pin drop. Your phone goes on manner mode — and your calls wait for the platform.",
    "rule": "Phone on silent (manner mode); no calls on the train.",
    "scene": "train carriage",
