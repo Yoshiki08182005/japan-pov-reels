@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep15_ic_empty_voice/s1.mp3",
+   "dur": 1.981,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't tap first."
+    },
+    {
+     "t": 1.115,
+     "text": "Check the balance."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep15_ic_empty_voice/s2.mp3",
+   "dur": 1.452,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep15_ic_empty_voice/s3.mp3",
+   "dur": 1.802,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Charge first."
+    },
+    {
+     "t": 0.867,
+     "text": "That's the fix."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep15_ic_empty_voice/s4.mp3",
+   "dur": 1.764,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same card."
+    },
+    {
+     "t": 0.814,
+     "text": "Cash in first."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep15_ic_empty_voice/s5.mp3",
+   "dur": 1.721,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Balance back."
+    },
+    {
+     "t": 0.918,
+     "text": "Tap it flat."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep15_ic_empty_voice/s6.mp3",
+   "dur": 0.908,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She pointed—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep15_ic_empty_voice/s7.mp3",
+   "dur": 1.859,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The line moves on."
+    },
+    {
+     "t": 1.063,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep15_ic_empty_voice/s8.mp3",
+   "dur": 1.467,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Green light."
+    },
+    {
+     "t": 0.756,
+     "text": "Gate opens."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep15_ic_empty_voice/s9.mp3",
+   "dur": 1.714,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Charge first."
+    },
+    {
+     "t": 0.976,
+     "text": "Tap second."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep15_ic_empty_voice/n1.mp3",
+   "dur": 1.706,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Charge first."
+    },
+    {
+     "t": 0.895,
+     "text": "Before the gate."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep15_ic_empty_voice/n2.mp3",
+   "dur": 1.736,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "An empty card"
+    },
+    {
+     "t": 0.837,
+     "text": "slams it shut."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep15_ic_empty_voice/n3.mp3",
+   "dur": 1.491,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tap it flat."
+    },
+    {
+     "t": 0.86,
+     "text": "Walk through."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep15_ic_empty_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}

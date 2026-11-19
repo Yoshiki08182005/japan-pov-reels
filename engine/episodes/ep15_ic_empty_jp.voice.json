@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep15_ic_empty_jp_voice/shout.mp3",
+   "dur": 1.243,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "残高不足です！"
+    }
+   ]
+  }
+ }
+}
