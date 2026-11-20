@@ -18,7 +18,7 @@
   },
   "s2": {
    "file": "ep19_supermarket_basket_voice/s2.mp3",
-   "dur": 1.454,
+   "dur": 1.453,
    "chunks": [
     {
      "t": 0.0,
@@ -32,15 +32,15 @@
   },
   "s3": {
    "file": "ep19_supermarket_basket_voice/s3.mp3",
-   "dur": 2.098,
+   "dur": 1.823,
    "chunks": [
     {
      "t": 0.0,
      "text": "Basket in hand."
     },
     {
-     "t": 1.103,
-     "text": "Everyone stares."
+     "t": 1.138,
+     "text": "All stare."
     }
    ]
   },
@@ -60,7 +60,7 @@
   },
   "s5": {
    "file": "ep19_supermarket_basket_voice/s5.mp3",
-   "dur": 1.602,
+   "dur": 1.603,
    "chunks": [
     {
      "t": 0.0,
@@ -84,7 +84,7 @@
   },
   "s7": {
    "file": "ep19_supermarket_basket_voice/s7.mp3",
-   "dur": 1.764,
+   "dur": 1.763,
    "chunks": [
     {
      "t": 0.0,
@@ -98,7 +98,7 @@
   },
   "s8": {
    "file": "ep19_supermarket_basket_voice/s8.mp3",
-   "dur": 1.814,
+   "dur": 1.811,
    "chunks": [
     {
      "t": 0.0,
