@@ -41,15 +41,17 @@
 
 2026-11-19更新：11アカウントを再スキャン（@thejapanlogic は直近30本、他10アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 42,517 にさらに増加。食券機は 394,212 いいね（9.3x）、eゲートは 77,307 いいね（1.8x）に成長。新規ブレイクアウトは Tier B に1本追加（#24）：改札・残高不足POV 7,693 いいね（0.18x、約22h）。旅館スリッパPOVは 300 → 3,561 いいねに1日で急伸（0.08xで Tier B 基準未満のためライブラリには追加せず、strategy.md の市場メモに記録）。箸立てPOV（2026-11-18）は383いいねと弱い出足で様子見。回転寿司POVは 18,079 → 69,656 いいね（1.64x）に伸長中。他10アカウントに新規アウトライヤーなし。
 
+2026-11-20更新：11アカウントを再スキャン（@thejapanlogic は直近30本、他10アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 46,868 にさらに増加。食券機は 403,024 いいね（8.6x）、eゲートは 79,377 いいね（1.69x）に成長。新規ブレイクアウトは Tier B に1本追加（#25）：箸立てPOV 383 → 25,956 いいね（0.55x、約1日で急伸）— 遅れてくるブレイクの4例目。自アカの ep16 chopsticks_rice はこのニアコピーで、今朝制作済み・検証PASS。改札・残高不足POVも 7,693 → 35,780 いいね（0.76x）に伸長中。新規POVは2本：公園の空きペットボトルPOV 4,446 いいね（0.095x、Tier B 基準未満のため様子見）、女性専用車両POV 245 いいねで弱い出足。旅館スリッパPOVは 3,561 → 4,618 いいねと緩やかに伸長中。他10アカウントに新規アウトライヤーなし。@japan.etiquette のフォロワーは 612、絶景列車5選は 114 → 129 いいね（#13、0.21x）。
+
 ## アウトライヤー一覧（#1〜#20は倍率降順。#21以降は追加順とし、エピソードの hook_source 引用番号を安定させる）
 
 | # | Tier | アカウント | フォロワー | いいね | 倍率 | 日付 | 題材 | URL |
 |---|---|---|---|---|---|---|---|---|
-| 1 | A | @thejapanlogic | 42,517 | 394,212 | 9.3x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
+| 1 | A | @thejapanlogic | 46,868 | 403,024 | 8.6x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
 | 2 | A | @japan_rule | 28,594 | 321,963 | 11.3x | 2026-06-08 | マナー論争：公共の場での祈り（PSA） | https://www.instagram.com/reel/DZU0aHqTzaN/ |
-| 3 | A' | @thejapanlogic | 3,213（投稿時） | 48,976 | 15.2x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
-| 4 | A' | @thejapanlogic | 3,213（投稿時） | 28,166 | 8.8x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
-| 5 | B | @thejapanlogic | 42,517 | 77,307 | 1.8x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
+| 3 | A' | @thejapanlogic | 3,213（投稿時） | 51,778 | 16.1x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
+| 4 | A' | @thejapanlogic | 3,213（投稿時） | 29,264 | 9.1x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
+| 5 | B | @thejapanlogic | 46,868 | 79,377 | 1.69x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
 | 6 | B | @japan.travel.hacks | 5,144 | 7,181 | 1.40x | 2026-08-31 | 買い物：セブンのフリーズドライ味噌汁 | https://www.instagram.com/reel/Dcsm79ihieH/ |
 | 7 | B | @japan.etiquette | 566 | 345 | 0.61x | 2026-10-30 | 旅行リスト：江戸の街並み5選 | https://www.instagram.com/reel/DfJbD9iRy2A/ |
 | 8 | B | @japan.etiquette | 566 | 305 | 0.54x | 2026-11-03 | 旅行リスト：現存天守5城 | https://www.instagram.com/reel/DfTTC2thQt7/ |
@@ -57,7 +59,7 @@
 | 10 | B | @japantraveltips__ | 9,930 | 2,863 | 0.29x | 2026-09-19 | 旅行リスト：大阪の穴場20選 | https://www.instagram.com/reel/DdeMYB8JzYO/ |
 | 11 | B | @japantraveltips__ | 9,930 | 2,510 | 0.25x | 2026-09-26 | 買い物リスト：日本の買い物スポット12選 | https://www.instagram.com/reel/Ddv-hnlpOT2/ |
 | 12 | B | @japan_rule | 28,594 | 6,869 | 0.24x | 2026-06-22 | マナーPSA：路上トイレ問題 | https://www.instagram.com/reel/DZ4yWokT7ZH/ |
-| 13 | B | @japan.etiquette | 566 | 114 | 0.20x | 2026-11-13 | 旅行リスト：絶景列車5選 | https://www.instagram.com/reel/DftkhE6tTIQ/ |
+| 13 | B | @japan.etiquette | 612 | 129 | 0.21x | 2026-11-13 | 旅行リスト：絶景列車5選 | https://www.instagram.com/reel/DftkhE6tTIQ/ |
 | 14 | B | @japan.etiquette | 566 | 111 | 0.20x | 2026-11-01 | 旅行リスト：庭園5選 | https://www.instagram.com/reel/DfOJ3VshX_g/ |
 | 15 | B | @japan.travel.hacks | 5,144 | 997 | 0.19x | 2026-08-21 | 食：大阪駅前ビル地下飲食街 | https://www.instagram.com/reel/DcS3BY7hHvS/ |
 | 16 | B | @japan_rule | 28,594 | 4,772 | 0.17x | 2026-07-04 | 交通マナーPSA：新幹線の騒音 | https://www.instagram.com/reel/DaZMAzWzbHI/ |
@@ -65,10 +67,11 @@
 | 18 | B | @japan_rule | 28,594 | 4,490 | 0.16x | 2026-06-06 | 交通マナーPSA：ラッシュ時の巨大スーツケース | https://www.instagram.com/reel/DZRSMgYpA6b/ |
 | 19 | B | @japantraveltips__ | 9,930 | 1,545 | 0.16x | 2026-09-12 | 旅行リスト：東京の穴場20選 | https://www.instagram.com/reel/DdL7zKZJenS/ |
 | 20 | B | @japan.explores | 9,502 | 1,438 | 0.15x | 2026-11-14 | ホテル紹介：JWマリオット東京 | https://www.instagram.com/reel/DfuWuYdplZf/ |
-| 21 | B | @thejapanlogic | 42,517 | 71,917 | 1.69x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
-| 22 | B | @thejapanlogic | 42,517 | 41,342 | 0.97x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
-| 23 | B | @thejapanlogic | 42,517 | 69,656 | 1.64x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
-| 24 | B | @thejapanlogic | 42,517 | 7,693 | 0.18x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
+| 21 | B | @thejapanlogic | 46,868 | 77,268 | 1.65x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
+| 22 | B | @thejapanlogic | 46,868 | 44,546 | 0.95x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
+| 23 | B | @thejapanlogic | 46,868 | 77,008 | 1.64x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
+| 24 | B | @thejapanlogic | 46,868 | 35,780 | 0.76x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
+| 25 | B | @thejapanlogic | 46,868 | 25,956 | 0.55x | 2026-11-18 | 食のルール：箸立て・ご飯に箸を立てるな（POV） | https://www.instagram.com/reel/Df52mWtHGWW/ |
 ## フック詳細（冒頭3秒）
 
 ### #1 [Tier A] @thejapanlogic — ラーメン食券機（10.3x）
@@ -199,6 +202,13 @@
 - **構成**：間違い（残高不足でタップ→ゲートが閉まる）→ WRONG WAY → THE RIGHT WAY（先にチャージする：券売機で現金、または Apple Wallet に Suica へ入金。タップは平らに当てて通る）→ 締め。
 - **備考**：2026-11-19スキャンの新規ブレイクアウト（投稿約22hで7,693いいね、コメント19）。自アカの ep09（Suica改札・挿すなタップせよ）とは別角度（残高不足）で、ep09が前日比+220と最も伸びている最中でもある。コピー優先ルールにより今夜の夜枠（交通／安全）の次エピソードに指定（topics.json の ic_empty）。
 - 根拠：キャプション1行目＋2026-11-19の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #25 [Tier B] @thejapanlogic — 箸立て・ご飯に箸を立てるな（0.55x）
+- **冒頭3秒**：タイトルピル「POV: your first set meal in Japan」の下で、POVがご飯に箸を立てる間違いが即座に始まり、テーブル全員が凝視。タブー（立てた箸＝葬式の供え物）がパンチライン。
+- **最初の発話**：「POV: your first set meal in Japan, and you just stood your chopsticks up in the rice.」
+- **構成**：間違い（箸を立てる、フリーズ／凝視、店員の叫び）→ WRONG WAY → THE RIGHT WAY（箸置きに横に置く、茶碗は手に持つ）→ 解説カード → エンドカード。#1/#3 と同じ Tier A テンプレート。
+- **備考**：遅れてくるブレイクの4例目。2026-11-19時点では383いいねの弱い出足だったが、翌日 25,956 いいね（0.55x）に急伸。自アカの ep16 chopsticks_rice はこのニアコピーで、2026-11-20朝枠に制作済み・PDCA検証PASS。
+- 根拠：キャプション1行目＋2026-11-20の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
 
 ## 使い方（制作への接続）
 - **各エピソードの冒頭3秒は、このライブラリのエントリ（原則 Tier A/A'）のフック構造を題材に合わせて適応する**。ゼロから発明しない。使ったエントリはエピソードのメタデータ（spec の pdca / next.json）に `hook_source` として記録する（FORMAT.md「Hook」ルール、daily.md 企画・台本セクション参照）。

@@ -1,5 +1,5 @@
 {
- "_note": "Queue for the Japan POV format (see ../FORMAT.md, ../TOPICS.md and ../marketing/strategy.md). Ordered by competitor-data priority (2026-11-15 PDCA: POV food/safety/retail rules win; see strategy.md). Each topic has a category; the daily run picks by time-slot rotation (morning=food, midday=retail/money/arrival, night=transit/safety) and never repeats a category within the same day. Set \"used\" to the episode id when produced. Fields: slug / category / scene / rule (the counter-intuitive one-liner the first narration line must state) / narration / title (the top label).",
+ "_note": "Queue for the Japan POV format (see ../FORMAT.md, ../TOPICS.md and ../marketing/strategy.md). Ordered by competitor-data priority (2026-11-15 PDCA: POV food/safety/retail rules win; see strategy.md). Each topic has a category; the daily run picks by time-slot rotation (morning=food, midday=retail/money/arrival, night=transit/safety) and never repeats a category within the same day. Set \"used\" to the episode id when produced. Fields: slug / category / scene / rule (the counter-intuitive one-liner the first narration line must state) / narration / title (the top label). PDCA 2026-11-20: transit deprioritized to the end of the queue (48h median 196 vs food 1,458, <60% of best for 4 cycles — cut rule). Tonight's night slot (2026-11-20 21:30 JST) = slurp_noodles (food) as the experiment slot, NOT train_silence.",
  "topics": [
   {
    "narration": "No waiter, no menu at the table. In Japan, you feed the machine first — then you sit down.",
@@ -128,15 +128,6 @@
    "category": "transit"
   },
   {
-   "narration": "A full train, and you can hear a pin drop. Your phone goes on manner mode — and your calls wait for the platform.",
-   "rule": "Phone on silent (manner mode); no calls on the train.",
-   "scene": "train carriage",
-   "slug": "train_silence",
-   "title": "POV: your first train in Japan",
-   "used": null,
-   "category": "transit"
-  },
-  {
    "narration": "At a Japanese buffet, the tray comes first — and every round gets a fresh plate. No exceptions.",
    "rule": "At a buffet, take a tray first; new plate for each round.",
    "scene": "hotel buffet",
@@ -155,15 +146,6 @@
    "category": "retail"
   },
   {
-   "slug": "escalator_side",
-   "category": "transit",
-   "scene": "station escalator",
-   "rule": "Stand on the left in Tokyo — the right in Osaka. One side stays open.",
-   "narration": "Stand on the wrong side and the whole city queues behind you in silence. Tokyo stands left, Osaka stands right — and one lane is always for walking.",
-   "title": "POV: your first escalator in Japan",
-   "used": null
-  },
-  {
    "narration": "Don't hand the cashier your basket. Put it on the stand, step back, and watch the system work.",
    "rule": "In a supermarket, put your basket on the stand — don't hand it over.",
    "scene": "supermarket checkout",
@@ -171,15 +153,6 @@
    "title": "POV: your first supermarket in Japan",
    "used": null,
    "category": "retail"
-  },
-  {
-   "narration": "On this bus, you don't pay to get on. You pay to get off — one flat fare, at the front, on your way out.",
-   "rule": "On many city buses you pay when you get OFF — flat fare at the front.",
-   "scene": "city bus",
-   "slug": "bus_pay",
-   "title": "POV: your first bus in Japan",
-   "used": null,
-   "category": "transit"
   },
   {
    "narration": "Need the staff? Don't wait quietly. Call out sumimasen — nice and loud. It's not rude. It's the system.",
@@ -243,6 +216,33 @@
    "narration": "You pour your own beer. Everyone stares — in Japan you pour for others, and they pour for you.",
    "title": "POV: your first izakaya in Japan",
    "used": null
+  },
+  {
+   "narration": "A full train, and you can hear a pin drop. Your phone goes on manner mode — and your calls wait for the platform.",
+   "rule": "Phone on silent (manner mode); no calls on the train.",
+   "scene": "train carriage",
+   "slug": "train_silence",
+   "title": "POV: your first train in Japan",
+   "used": null,
+   "category": "transit"
+  },
+  {
+   "slug": "escalator_side",
+   "category": "transit",
+   "scene": "station escalator",
+   "rule": "Stand on the left in Tokyo — the right in Osaka. One side stays open.",
+   "narration": "Stand on the wrong side and the whole city queues behind you in silence. Tokyo stands left, Osaka stands right — and one lane is always for walking.",
+   "title": "POV: your first escalator in Japan",
+   "used": null
+  },
+  {
+   "narration": "On this bus, you don't pay to get on. You pay to get off — one flat fare, at the front, on your way out.",
+   "rule": "On many city buses you pay when you get OFF — flat fare at the front.",
+   "scene": "city bus",
+   "slug": "bus_pay",
+   "title": "POV: your first bus in Japan",
+   "used": null,
+   "category": "transit"
   }
  ]
 }
