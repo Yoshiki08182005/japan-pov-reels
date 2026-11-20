@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep18_slurp_noodles_voice/s1.mp3",
+   "dur": 2.236,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Slurp it loud —"
+    },
+    {
+     "t": 1.018,
+     "text": "silence means you hate it."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep18_slurp_noodles_voice/s2.mp3",
+   "dur": 1.453,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep18_slurp_noodles_voice/s3.mp3",
+   "dur": 1.792,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Polite silence."
+    },
+    {
+     "t": 0.976,
+     "text": "Chef panics."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep18_slurp_noodles_voice/s4.mp3",
+   "dur": 1.811,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same hands."
+    },
+    {
+     "t": 0.964,
+     "text": "Slurp it loud."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep18_slurp_noodles_voice/s5.mp3",
+   "dur": 1.616,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Loud slurp."
+    },
+    {
+     "t": 0.802,
+     "text": "Chef grins."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep18_slurp_noodles_voice/s6.mp3",
+   "dur": 0.879,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He shouted—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep18_slurp_noodles_voice/s7.mp3",
+   "dur": 1.726,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He cooks on."
+    },
+    {
+     "t": 0.836,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep18_slurp_noodles_voice/s8.mp3",
+   "dur": 1.523,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bowl empty."
+    },
+    {
+     "t": 0.71,
+     "text": "Chef beams."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep18_slurp_noodles_voice/s9.mp3",
+   "dur": 2.008,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Loud means love."
+    },
+    {
+     "t": 1.138,
+     "text": "That's the rule."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep18_slurp_noodles_voice/n1.mp3",
+   "dur": 1.477,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Silence worries"
+    },
+    {
+     "t": 0.886,
+     "text": "the chef."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep18_slurp_noodles_voice/n2.mp3",
+   "dur": 2.211,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Slurp loud."
+    },
+    {
+     "t": 1.053,
+     "text": "It means delicious."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep18_slurp_noodles_voice/n3.mp3",
+   "dur": 1.977,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Empty bowl."
+    },
+    {
+     "t": 0.999,
+     "text": "Best compliment."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep18_slurp_noodles_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
