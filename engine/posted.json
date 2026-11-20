@@ -281,6 +281,25 @@
     "punchline: flat, not standing."
    ],
    "note": "v1 morning slot 2026-11-20, posted 14:09 JST (~7h late: runtime restarts interrupted the first post-feed attempt before an approval card was issued; retry posted cleanly, verified live). All 6 food topics in queue were used, so 3 new food topics added per TOPICS.md policy (chopsticks_rice / slurp_noodles / pour_beer) and the first used. Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Noon slot ep17 konbini_points was posted the same minute by its own run (different topic, no conflict)."
+  },
+  {
+   "ep": "ep18_slurp_noodles",
+   "topic": "slurp_noodles",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df9kgwcDlOp/",
+   "post_id": "18116579501184616",
+   "posted_at_jst": "2026-11-20T21:41:00+09:00",
+   "length_s": 38.0,
+   "hook": "Slurp it loud — silence means you hate it.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (chef + customers freeze staring at the silently lifted noodles, steam and lanterns keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef: ズルズルっと食べて！)",
+    "the wait (chef stirring the boiling pot, customers slurping, POV hands still beside the untouched bowl)",
+    "punchline: loud means love."
+   ],
+   "note": "night slot 2026-11-20, food as the experiment slot per 2026-11-20 PDCA transit cut rule (night slot tests whether food grows at night; same-category overlap with ep16 waived for this once). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local), opening 0/2/4s frame-pair check PASS. Known minor flaw: payoff RIGHT WAY stamp covers the chef face (same as ep16/ep17)."
   }
  ]
 }
