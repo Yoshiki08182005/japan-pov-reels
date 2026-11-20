@@ -1,267 +1,286 @@
 {
-  "posts": [
-    {
-      "ep": "ep10_water_free",
-      "topic": "water_free",
-      "category": "food",
-      "url": "https://www.instagram.com/reel/Df4U9HEjrXb/",
-      "post_id": "17928450000435740",
-      "posted_at_jst": "2026-11-18T19:48:50+09:00",
-      "length_s": 38.0,
-      "hook": "Don't pay for the water. It's free.",
-      "hook_source": "hook_library #1",
-      "gags": [
-        "freeze snap inside a moving clip (waitress + diners freeze staring at the coins over the water glass, steam and lanterns keep moving; a coin drops into the glass)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (waitress: お水は無料です！)",
-        "the wait (tea steaming, waitress refilling another table while diners eat)",
-        "punchline: water's free. refills too."
-      ],
-      "note": "v2 morning slot 2026-11-18, posted 19:48 JST (~12h late: publish stalled on connector already-running lock + exec service restarts; early attempts never completed, final detached post-feed succeeded). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. One rework: v1 shout bubble clipped at the right edge and the title pill covered line 1 — bubble moved [780,230] -> [660,360], re-rendered as v2 and re-verified (11.7s frame shows full お水は無料です！). Shared next.json was overwritten by the noon ep11 run mid-flight; posted from a dedicated caption file, not next.json."
-    },
-    {
-      "ep": "ep09_suica_gate",
-      "topic": "suica_gate",
-      "category": "transit",
-      "url": "https://www.instagram.com/reel/Df13Y_GDnvz/",
-      "post_id": "18439649803145897",
-      "posted_at_jst": "2026-11-17T20:52:02+09:00",
-      "length_s": 38.1,
-      "hook": "Don't insert the card. Tap it.",
-      "hook_source": "hook_library #1",
-      "gags": [
-        "freeze snap inside a moving clip (attendant + commuters freeze, departure board keeps flickering, train passes)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (attendant: チャージです！)",
-        "the wait (charging the card at the machine while commuters stream through the gates)",
-        "punchline: charge first, tap second."
-      ],
-      "note": "v2 night slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: v1 accept clip showed a green check while the narration said Red beep — f4 frame + accept clip remade (red X / ERROR), re-rendered as v2 and re-verified (8.7s frame shows red X + ERROR with the Red beep subtitle). Posted ~40 min ahead of the 21:30 target."
-    },
-    {
-      "ep": "ep08_customs_qr",
-      "topic": "customs_qr",
-      "category": "arrival",
-      "url": "https://www.instagram.com/reel/Df1J-fVD1L_/",
-      "post_id": "17966523483233128",
-      "posted_at_jst": "2026-11-17T14:15:27+09:00",
-      "length_s": 39.95,
-      "hook": "Skip the line. Fill in the QR first.",
-      "hook_source": "hook_library #5",
-      "gags": [
-        "freeze snap inside a moving clip (attendant + all passengers freeze, clouds keep drifting past the window)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (officer: QRコードをどうぞ！)",
-        "the wait (officer scans the passport, travelers walk past, the paper queue still shuffles)",
-        "punchline: one QR code. That is the whole trick."
-      ],
-      "note": "v2 midday slot 2026-11-17 (backfilled by the night run — the noon run did not write posted.json): shout bubble reworked to two lines at [700,350] after v1 overflowed the frame edge; motion audit PASS (Actions + local re-run). Posted late vs the 12:30 target (re-render + first post attempt interrupted by a service restart; retry published cleanly, no duplicate)."
-    },
-    {
-      "ep": "ep07_sushi_soy",
-      "topic": "sushi_soy",
-      "category": "food",
-      "url": "https://www.instagram.com/reel/Df0loqFDgKI/",
-      "post_id": "18111103667189675",
-      "posted_at_jst": "2026-11-17T08:57:47+09:00",
-      "length_s": 40.79,
-      "hook": "Don't drown the nigiri. Dip the fish — just a touch.",
-      "hook_source": "hook_library #1",
-      "gags": [
-        "freeze snap inside a moving clip (chef + all customers freeze, steam keeps rising, lanterns keep swaying)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (chef: 魚だけ！軽く！)",
-        "the wait (chef shaping rice, customers eating, steam rising)",
-        "punchline: dry rice, wet fish. One bite. That's sushi."
-      ],
-      "note": "v1 morning slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Two build retries: s3/s5 then s2 shortened to fit narration placement (build assert). Posted ~2h late vs 07:00 target (build retries + a service restart during the first post attempt; the interrupted attempt did not publish, verified before retry). First post-feed attempt interrupted by service restart; retry published cleanly, no duplicate."
-    },
-    {
-      "ep": "ep06_night_tout",
-      "topic": "night_tout",
-      "category": "safety",
-      "url": "https://www.instagram.com/reel/DfzSsMNDjh2/",
-      "post_id": "18400868131203704",
-      "posted_at_jst": "2026-11-16T20:53:31+09:00",
-      "length_s": 39.53,
-      "hook": "A friendly guy knows a cheap bar. Don't follow him.",
-      "hook_source": "hook_library #4",
-      "gags": [
-        "freeze snap inside a moving clip (tout + all passers-by freeze, neon keeps flickering, steam keeps rising)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (tout: こっち！安いよ！)",
-        "the wait (beer pouring, steam rising, tout silhouette passing outside the window)",
-        "punchline: five hundred dollars, or nine-thirty yen. Your call."
-      ],
-      "note": "v1 night slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: waiting beat bartender continuity (female->same male bartender), re-rendered and re-verified."
-    },
-    {
-      "ep": "ep05_konbini_bag",
-      "topic": "konbini_bag",
-      "category": "retail",
-      "url": "https://www.instagram.com/reel/DfyZXOsDvTv/",
-      "post_id": "18319581874304041",
-      "posted_at_jst": "2026-11-16T12:32:00+09:00",
-      "length_s": 39.43,
-      "hook": "First konbini in Japan. Grabbed a bag.",
-      "gags": [
-        "freeze snap inside a moving clip (clerk + all customers freeze, steam keeps rising)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (clerk: the bag is 3 yen!)",
-        "the wait (steam rises, condensation drips, clerk wipes the counter)",
-        "punchline: three yen, two bags, zero soggy onigiri"
-      ],
-      "note": "v1 noon slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Posted after user approval on the Instagram post card."
-    },
-    {
-      "ep": "ep04_ic_card",
-      "topic": "ic_card",
-      "category": "transit",
-      "url": "https://www.instagram.com/reel/DfwweHcj5SI/",
-      "post_id": "18393026347228467",
-      "posted_at_jst": "2026-11-15T20:53:00+09:00",
-      "length_s": 41.31,
-      "hook": "First train in Japan. Bought a ticket.",
-      "gags": [
-        "freeze stare (attendant + commuters at the fare chart)",
-        "WRONG WAY / RIGHT WAY verdict stamps",
-        "silence-to-shout (attendant: Touch it!)",
-        "the wait (commuters flow past, one hand hovers)",
-        "punchline: one card for trains, buses, even onigiri"
-      ],
-      "note": "First post-feed attempt timed out client-side after 600s but had published (reel DfwwXHTD794); retry published a second copy (DfwweHcj5SI). The first copy was archived (media 18116921345153630) so only one ep04 is live."
-    },
-    {
-      "ep": "ep03_izakaya_otoshi",
-      "topic": "izakaya_otoshi",
-      "category": "food",
-      "url": "https://www.instagram.com/reel/DfyAVATjqy1/",
-      "post_id": "17972119806192408",
-      "posted_at_jst": "2026-11-16T08:53:00+09:00",
-      "length_s": 38.68,
-      "hook": "First izakaya in Japan. Sent it back.",
-      "gags": [
-        "freeze snap inside a moving clip (server + all customers freeze, steam keeps rising)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (server calls the beer order)",
-        "the wait (grill steam, unbothered customers)",
-        "punchline: rent for your chair, served as a snack"
-      ],
-      "note": "v2 all-animation rebuild (2026-11-16 user rule): the original ep03 was never posted (user rejected it at the approval prompt because its opening beats were stills). Rebuilt with every scene beat as a real i2v clip, motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. Old video kept at posts/ep03_izakaya_otoshi.mp4."
-    },
-    {
-      "ep": "ep11_conveyor_sushi",
-      "topic": "conveyor_sushi",
-      "category": "food",
-      "url": "https://www.instagram.com/reel/Df3eL5pjgTE/",
-      "post_id": "18108348443570904",
-      "posted_at_jst": "2026-11-18T11:50:19+09:00",
-      "length_s": 38.0,
-      "hook": "Put the plate back? Never. It is yours.",
-      "hook_source": "hook_library #23",
-      "gags": [
-        "freeze snap inside a moving clip (chef + diners freeze staring at the plate sliding back onto the belt, steam and lanterns keep moving, belt keeps turning)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (chef: 戻さないでください！)",
-        "the wait (chef slicing fish, diners eating, belt circling)",
-        "punchline: touch it, it is yours. no take-backs."
-      ],
-      "note": "2026-11-18 noon slot: copy of @thejapanlogic conveyor-sushi breakout (18,079 likes in ~22h); hook adapts hook_library #23. Motion audit PASS (Actions + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS, viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.10 endcard). Posted while ep10 water_free morning post was still awaiting user approval."
-    },
-    {
-      "ep": "ep12_train_line",
-      "topic": "train_line",
-      "category": "transit",
-      "url": "https://www.instagram.com/reel/Df4a8Q6DyQ2/",
-      "post_id": "18112976471215758",
-      "posted_at_jst": "2026-11-18T20:41:08+09:00",
-      "length_s": 38.0,
-      "hook": "Step on now? No — let them off first.",
-      "hook_source": "hook_library #1",
-      "gags": [
-        "freeze snap inside a moving clip (station staff + passengers freeze staring at the POV hands stepping on, train doors and platform crowd keep moving)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (station staff: 降りる方が先です！)",
-        "the wait (passengers streaming off, queue standing still in the marked lines)",
-        "punchline: off first, on second."
-      ],
-      "note": "2026-11-18 night slot: transit, first unused in queue order. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) with #18 mechanics (blocked doors, victims visible immediately). Motion audit PASS (Actions, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + far-hall passengers moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 降りる方が先です！ in-frame, LED cards + CASE No.11 endcard; audio mean -20.0dB). Minor flaw noted: accept clip drifts in its last ~2s — POV hands morph into the protagonist seen from behind in the queue (same mustard top); story still reads. Platform-number signage varies across frames (1/2/3/4), same known generator weakness as ep02 price flicker."
-    },
-    {
-      "ep": "ep13_buffet_tray",
-      "topic": "buffet_tray",
-      "category": "food",
-      "url": "https://www.instagram.com/reel/Df6iKkLjLjS/",
-      "post_id": "18599960341067194",
-      "posted_at_jst": "2026-11-19T16:22:48+09:00",
-      "length_s": 38.0,
-      "hook": "Tray first. New plate every round.",
-      "hook_source": "hook_library #1",
-      "gags": [
-        "freeze snap inside a moving clip (buffet attendant + guests freeze staring at the dirty plate, steam and buffet-line guests keep moving)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (attendant: 新しいお皿です！)",
-        "the wait (guests eating, POV fists still on the empty table)",
-        "punchline: new plate. every round."
-      ],
-      "note": "2026-11-19 morning slot: food, only unused food topic in queue. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) — dirty-plate second helping as the wrong action; tray/plate rhyme from #3 tray mechanics. Motion audit PASS (Actions run 44398431244, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + steam + background guests moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 新しいお皿です！ in-frame, LED cards + CASE No.12 endcard). First render-std dispatch (44393044884) stalled 27+ min on Install render deps and was cancelled; re-dispatch succeeded. First post-feed attempt died with its approval card during a ~9.5h service interruption; re-posted via backgrounded post-feed and verified live. Posted late (16:22 JST vs 07:00 target) due to the interruption."
-    },
-    {
-      "ep": "ep14_no_tipping",
-      "topic": "no_tipping",
-      "category": "money",
-      "url": "https://www.instagram.com/reel/Df6-Hu9DsNC/",
-      "post_id": "18109551590376826",
-      "posted_at_jst": "2026-11-19T20:27:01+09:00",
-      "length_s": 38.0,
-      "hook": "Don't leave a tip. Not in Japan.",
-      "hook_source": "hook_library #22",
-      "gags": [
-        "freeze snap inside a moving clip (waiter + diners freeze staring at the tip on the table, steam and background diners keep moving)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (waiter: お忘れ物です！)",
-        "the wait (diners eating, POV fists still at the door)",
-        "punchline: no tip. just thanks."
-      ],
-      "note": "2026-11-19 noon slot: money, first unused money topic in queue (PDCA 2026-11-18 designated no_tipping). Produced by the noon run (frames + clips + spec committed; render-std run 44445619516, motion audit PASS, opening 0/2/4s frame-pair check PASS). Posting stalled: the noon run never issued a post-feed (no approval request in history). Posted by the night run 2026-11-19 20:27 JST via backgrounded post-feed from a frozen caption file, verified live as the 15th post on the account."
-    },
-    {
-      "ep": "ep15_ic_empty",
-      "topic": "ic_empty",
-      "category": "transit",
-      "url": "https://www.instagram.com/reel/Df7AHf-jnaI/",
-      "post_id": "17946932637369130",
-      "posted_at_jst": "2026-11-19T20:44:35+09:00",
-      "length_s": 38.0,
-      "hook": "Don't tap first. Check the balance.",
-      "hook_source": "hook_library #24",
-      "gags": [
-        "freeze snap inside a moving clip (attendant + commuters freeze staring at the tapped card, departure board flickers and train passes behind)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (attendant: 残高不足です！)",
-        "the wait (hands hold the card still at the machine while commuters stream through the gates)",
-        "punchline: charge first. tap second."
-      ],
-      "note": "2026-11-19 night slot: transit, PDCA 2026-11-19 designated ic_empty (copy of @thejapanlogic ticket-gate insufficient-balance breakout, hook_library #24). Motion audit PASS (Actions run 44515786750, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hand tapping + departure board + train + commuters moving), viewer-eye check PASS (stamps, shout bubble 残高不足です！ in-frame, LED cards + CASE No.14 endcard). Audio mean -20.3dB, no silence >=0.5s. f1 regenerated once to remove the Suica brand text from the card. Render-std needed a temporary workflow enable (daily.yml was disabled_manually, blocking dispatch); enabled, dispatched, disabled again immediately — run continued and succeeded. Posted 20:44 JST (target 21:30, ~45 min early). The noon ep14 no_tipping was also posted in this run (20:27 JST, https://www.instagram.com/reel/Df6-Hu9DsNC/) since the noon run never issued its post-feed."
-    },
-    {
-      "ep": "ep17_konbini_points",
-      "topic": "konbini_points",
-      "category": "retail",
-      "url": "https://www.instagram.com/reel/Df83uNLju_M/",
-      "post_id": "18119385053118815",
-      "posted_at_jst": "2026-11-20T14:09:36+09:00",
-      "length_s": 38.0,
-      "hook": "Pay first, and the points are gone.",
-      "hook_source": "hook_library #3",
-      "gags": [
-        "freeze snap inside a moving clip (Mio + queue freeze staring at the cash thrust forward, oden steam and shoppers keep moving)",
-        "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
-        "silence-to-shout (Mio: ポイントカードはお持ちですか？)",
-        "the wait (Mio scanning items, queue shuffling, POV hands still on the counter)",
-        "punchline: card first, that's the rule."
-      ],
-      "note": "2026-11-20 noon slot: retail, first unused retail topic in queue order (konbini_points). Hook adapts hook_library #3 (Tier A': wrong action at the konbini counter within 1s, freeze/stare, staff shout). Motion audit PASS (Actions run 44661609379 + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (cash thrust + Mio's stare + oden steam moving; pair diffs 12.7/65.0/80.8), viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.16 endcard). Payoff at 19.4s (51%). f6 shout frame regenerated once (v1 had a 28% blank white band at top). Posted 14:09 JST (target 12:30, ~1h39m late: render 11m + service restart interrupted the first post-feed attempt, retried and confirmed live). Note: the morning ep16 chopsticks_rice appeared live at the same second (https://www.instagram.com/reel/Df83uaPDnyz/) — posted by the morning slot's own retry, not by this run. Minor flaw: payoff RIGHT WAY stamp covers Mio's face (same as ep16)."
-    }
-  ]
+ "posts": [
+  {
+   "ep": "ep10_water_free",
+   "topic": "water_free",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df4U9HEjrXb/",
+   "post_id": "17928450000435740",
+   "posted_at_jst": "2026-11-18T19:48:50+09:00",
+   "length_s": 38.0,
+   "hook": "Don't pay for the water. It's free.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (waitress + diners freeze staring at the coins over the water glass, steam and lanterns keep moving; a coin drops into the glass)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (waitress: お水は無料です！)",
+    "the wait (tea steaming, waitress refilling another table while diners eat)",
+    "punchline: water's free. refills too."
+   ],
+   "note": "v2 morning slot 2026-11-18, posted 19:48 JST (~12h late: publish stalled on connector already-running lock + exec service restarts; early attempts never completed, final detached post-feed succeeded). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. One rework: v1 shout bubble clipped at the right edge and the title pill covered line 1 — bubble moved [780,230] -> [660,360], re-rendered as v2 and re-verified (11.7s frame shows full お水は無料です！). Shared next.json was overwritten by the noon ep11 run mid-flight; posted from a dedicated caption file, not next.json."
+  },
+  {
+   "ep": "ep09_suica_gate",
+   "topic": "suica_gate",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df13Y_GDnvz/",
+   "post_id": "18439649803145897",
+   "posted_at_jst": "2026-11-17T20:52:02+09:00",
+   "length_s": 38.1,
+   "hook": "Don't insert the card. Tap it.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + commuters freeze, departure board keeps flickering, train passes)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: チャージです！)",
+    "the wait (charging the card at the machine while commuters stream through the gates)",
+    "punchline: charge first, tap second."
+   ],
+   "note": "v2 night slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: v1 accept clip showed a green check while the narration said Red beep — f4 frame + accept clip remade (red X / ERROR), re-rendered as v2 and re-verified (8.7s frame shows red X + ERROR with the Red beep subtitle). Posted ~40 min ahead of the 21:30 target."
+  },
+  {
+   "ep": "ep08_customs_qr",
+   "topic": "customs_qr",
+   "category": "arrival",
+   "url": "https://www.instagram.com/reel/Df1J-fVD1L_/",
+   "post_id": "17966523483233128",
+   "posted_at_jst": "2026-11-17T14:15:27+09:00",
+   "length_s": 39.95,
+   "hook": "Skip the line. Fill in the QR first.",
+   "hook_source": "hook_library #5",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + all passengers freeze, clouds keep drifting past the window)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (officer: QRコードをどうぞ！)",
+    "the wait (officer scans the passport, travelers walk past, the paper queue still shuffles)",
+    "punchline: one QR code. That is the whole trick."
+   ],
+   "note": "v2 midday slot 2026-11-17 (backfilled by the night run — the noon run did not write posted.json): shout bubble reworked to two lines at [700,350] after v1 overflowed the frame edge; motion audit PASS (Actions + local re-run). Posted late vs the 12:30 target (re-render + first post attempt interrupted by a service restart; retry published cleanly, no duplicate)."
+  },
+  {
+   "ep": "ep07_sushi_soy",
+   "topic": "sushi_soy",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df0loqFDgKI/",
+   "post_id": "18111103667189675",
+   "posted_at_jst": "2026-11-17T08:57:47+09:00",
+   "length_s": 40.79,
+   "hook": "Don't drown the nigiri. Dip the fish — just a touch.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (chef + all customers freeze, steam keeps rising, lanterns keep swaying)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef: 魚だけ！軽く！)",
+    "the wait (chef shaping rice, customers eating, steam rising)",
+    "punchline: dry rice, wet fish. One bite. That's sushi."
+   ],
+   "note": "v1 morning slot 2026-11-17: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Two build retries: s3/s5 then s2 shortened to fit narration placement (build assert). Posted ~2h late vs 07:00 target (build retries + a service restart during the first post attempt; the interrupted attempt did not publish, verified before retry). First post-feed attempt interrupted by service restart; retry published cleanly, no duplicate."
+  },
+  {
+   "ep": "ep06_night_tout",
+   "topic": "night_tout",
+   "category": "safety",
+   "url": "https://www.instagram.com/reel/DfzSsMNDjh2/",
+   "post_id": "18400868131203704",
+   "posted_at_jst": "2026-11-16T20:53:31+09:00",
+   "length_s": 39.53,
+   "hook": "A friendly guy knows a cheap bar. Don't follow him.",
+   "hook_source": "hook_library #4",
+   "gags": [
+    "freeze snap inside a moving clip (tout + all passers-by freeze, neon keeps flickering, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (tout: こっち！安いよ！)",
+    "the wait (beer pouring, steam rising, tout silhouette passing outside the window)",
+    "punchline: five hundred dollars, or nine-thirty yen. Your call."
+   ],
+   "note": "v1 night slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. One rework: waiting beat bartender continuity (female->same male bartender), re-rendered and re-verified."
+  },
+  {
+   "ep": "ep05_konbini_bag",
+   "topic": "konbini_bag",
+   "category": "retail",
+   "url": "https://www.instagram.com/reel/DfyZXOsDvTv/",
+   "post_id": "18319581874304041",
+   "posted_at_jst": "2026-11-16T12:32:00+09:00",
+   "length_s": 39.43,
+   "hook": "First konbini in Japan. Grabbed a bag.",
+   "gags": [
+    "freeze snap inside a moving clip (clerk + all customers freeze, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (clerk: the bag is 3 yen!)",
+    "the wait (steam rises, condensation drips, clerk wipes the counter)",
+    "punchline: three yen, two bags, zero soggy onigiri"
+   ],
+   "note": "v1 noon slot 2026-11-16: every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Posted after user approval on the Instagram post card."
+  },
+  {
+   "ep": "ep04_ic_card",
+   "topic": "ic_card",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/DfwweHcj5SI/",
+   "post_id": "18393026347228467",
+   "posted_at_jst": "2026-11-15T20:53:00+09:00",
+   "length_s": 41.31,
+   "hook": "First train in Japan. Bought a ticket.",
+   "gags": [
+    "freeze stare (attendant + commuters at the fare chart)",
+    "WRONG WAY / RIGHT WAY verdict stamps",
+    "silence-to-shout (attendant: Touch it!)",
+    "the wait (commuters flow past, one hand hovers)",
+    "punchline: one card for trains, buses, even onigiri"
+   ],
+   "note": "First post-feed attempt timed out client-side after 600s but had published (reel DfwwXHTD794); retry published a second copy (DfwweHcj5SI). The first copy was archived (media 18116921345153630) so only one ep04 is live."
+  },
+  {
+   "ep": "ep03_izakaya_otoshi",
+   "topic": "izakaya_otoshi",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DfyAVATjqy1/",
+   "post_id": "17972119806192408",
+   "posted_at_jst": "2026-11-16T08:53:00+09:00",
+   "length_s": 38.68,
+   "hook": "First izakaya in Japan. Sent it back.",
+   "gags": [
+    "freeze snap inside a moving clip (server + all customers freeze, steam keeps rising)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (server calls the beer order)",
+    "the wait (grill steam, unbothered customers)",
+    "punchline: rent for your chair, served as a snack"
+   ],
+   "note": "v2 all-animation rebuild (2026-11-16 user rule): the original ep03 was never posted (user rejected it at the approval prompt because its opening beats were stills). Rebuilt with every scene beat as a real i2v clip, motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS. Old video kept at posts/ep03_izakaya_otoshi.mp4."
+  },
+  {
+   "ep": "ep11_conveyor_sushi",
+   "topic": "conveyor_sushi",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df3eL5pjgTE/",
+   "post_id": "18108348443570904",
+   "posted_at_jst": "2026-11-18T11:50:19+09:00",
+   "length_s": 38.0,
+   "hook": "Put the plate back? Never. It is yours.",
+   "hook_source": "hook_library #23",
+   "gags": [
+    "freeze snap inside a moving clip (chef + diners freeze staring at the plate sliding back onto the belt, steam and lanterns keep moving, belt keeps turning)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef: 戻さないでください！)",
+    "the wait (chef slicing fish, diners eating, belt circling)",
+    "punchline: touch it, it is yours. no take-backs."
+   ],
+   "note": "2026-11-18 noon slot: copy of @thejapanlogic conveyor-sushi breakout (18,079 likes in ~22h); hook adapts hook_library #23. Motion audit PASS (Actions + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS, viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.10 endcard). Posted while ep10 water_free morning post was still awaiting user approval."
+  },
+  {
+   "ep": "ep12_train_line",
+   "topic": "train_line",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df4a8Q6DyQ2/",
+   "post_id": "18112976471215758",
+   "posted_at_jst": "2026-11-18T20:41:08+09:00",
+   "length_s": 38.0,
+   "hook": "Step on now? No — let them off first.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (station staff + passengers freeze staring at the POV hands stepping on, train doors and platform crowd keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (station staff: 降りる方が先です！)",
+    "the wait (passengers streaming off, queue standing still in the marked lines)",
+    "punchline: off first, on second."
+   ],
+   "note": "2026-11-18 night slot: transit, first unused in queue order. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) with #18 mechanics (blocked doors, victims visible immediately). Motion audit PASS (Actions, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + far-hall passengers moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 降りる方が先です！ in-frame, LED cards + CASE No.11 endcard; audio mean -20.0dB). Minor flaw noted: accept clip drifts in its last ~2s — POV hands morph into the protagonist seen from behind in the queue (same mustard top); story still reads. Platform-number signage varies across frames (1/2/3/4), same known generator weakness as ep02 price flicker."
+  },
+  {
+   "ep": "ep13_buffet_tray",
+   "topic": "buffet_tray",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df6iKkLjLjS/",
+   "post_id": "18599960341067194",
+   "posted_at_jst": "2026-11-19T16:22:48+09:00",
+   "length_s": 38.0,
+   "hook": "Tray first. New plate every round.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (buffet attendant + guests freeze staring at the dirty plate, steam and buffet-line guests keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: 新しいお皿です！)",
+    "the wait (guests eating, POV fists still on the empty table)",
+    "punchline: new plate. every round."
+   ],
+   "note": "2026-11-19 morning slot: food, only unused food topic in queue. Hook adapts hook_library #1 (Tier A: wrong action within 1s, freeze/stare, staff shout) — dirty-plate second helping as the wrong action; tray/plate rhyme from #3 tray mechanics. Motion audit PASS (Actions run 44398431244, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hands + steam + background guests moving, freeze snap reads), viewer-eye check PASS (stamps, shout bubble 新しいお皿です！ in-frame, LED cards + CASE No.12 endcard). First render-std dispatch (44393044884) stalled 27+ min on Install render deps and was cancelled; re-dispatch succeeded. First post-feed attempt died with its approval card during a ~9.5h service interruption; re-posted via backgrounded post-feed and verified live. Posted late (16:22 JST vs 07:00 target) due to the interruption."
+  },
+  {
+   "ep": "ep14_no_tipping",
+   "topic": "no_tipping",
+   "category": "money",
+   "url": "https://www.instagram.com/reel/Df6-Hu9DsNC/",
+   "post_id": "18109551590376826",
+   "posted_at_jst": "2026-11-19T20:27:01+09:00",
+   "length_s": 38.0,
+   "hook": "Don't leave a tip. Not in Japan.",
+   "hook_source": "hook_library #22",
+   "gags": [
+    "freeze snap inside a moving clip (waiter + diners freeze staring at the tip on the table, steam and background diners keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (waiter: お忘れ物です！)",
+    "the wait (diners eating, POV fists still at the door)",
+    "punchline: no tip. just thanks."
+   ],
+   "note": "2026-11-19 noon slot: money, first unused money topic in queue (PDCA 2026-11-18 designated no_tipping). Produced by the noon run (frames + clips + spec committed; render-std run 44445619516, motion audit PASS, opening 0/2/4s frame-pair check PASS). Posting stalled: the noon run never issued a post-feed (no approval request in history). Posted by the night run 2026-11-19 20:27 JST via backgrounded post-feed from a frozen caption file, verified live as the 15th post on the account."
+  },
+  {
+   "ep": "ep15_ic_empty",
+   "topic": "ic_empty",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/Df7AHf-jnaI/",
+   "post_id": "17946932637369130",
+   "posted_at_jst": "2026-11-19T20:44:35+09:00",
+   "length_s": 38.0,
+   "hook": "Don't tap first. Check the balance.",
+   "hook_source": "hook_library #24",
+   "gags": [
+    "freeze snap inside a moving clip (attendant + commuters freeze staring at the tapped card, departure board flickers and train passes behind)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (attendant: 残高不足です！)",
+    "the wait (hands hold the card still at the machine while commuters stream through the gates)",
+    "punchline: charge first. tap second."
+   ],
+   "note": "2026-11-19 night slot: transit, PDCA 2026-11-19 designated ic_empty (copy of @thejapanlogic ticket-gate insufficient-balance breakout, hook_library #24). Motion audit PASS (Actions run 44515786750, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (hand tapping + departure board + train + commuters moving), viewer-eye check PASS (stamps, shout bubble 残高不足です！ in-frame, LED cards + CASE No.14 endcard). Audio mean -20.3dB, no silence >=0.5s. f1 regenerated once to remove the Suica brand text from the card. Render-std needed a temporary workflow enable (daily.yml was disabled_manually, blocking dispatch); enabled, dispatched, disabled again immediately — run continued and succeeded. Posted 20:44 JST (target 21:30, ~45 min early). The noon ep14 no_tipping was also posted in this run (20:27 JST, https://www.instagram.com/reel/Df6-Hu9DsNC/) since the noon run never issued its post-feed."
+  },
+  {
+   "ep": "ep17_konbini_points",
+   "topic": "konbini_points",
+   "category": "retail",
+   "url": "https://www.instagram.com/reel/Df83uNLju_M/",
+   "post_id": "18119385053118815",
+   "posted_at_jst": "2026-11-20T14:09:36+09:00",
+   "length_s": 38.0,
+   "hook": "Pay first, and the points are gone.",
+   "hook_source": "hook_library #3",
+   "gags": [
+    "freeze snap inside a moving clip (Mio + queue freeze staring at the cash thrust forward, oden steam and shoppers keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (Mio: ポイントカードはお持ちですか？)",
+    "the wait (Mio scanning items, queue shuffling, POV hands still on the counter)",
+    "punchline: card first, that's the rule."
+   ],
+   "note": "2026-11-20 noon slot: retail, first unused retail topic in queue order (konbini_points). Hook adapts hook_library #3 (Tier A': wrong action at the konbini counter within 1s, freeze/stare, staff shout). Motion audit PASS (Actions run 44661609379 + local re-run, 0 static 1s windows), opening 0/2/4s frame-pair check PASS (cash thrust + Mio's stare + oden steam moving; pair diffs 12.7/65.0/80.8), viewer-eye check PASS (stamps, shout bubble in-frame, LED cards + CASE No.16 endcard). Payoff at 19.4s (51%). f6 shout frame regenerated once (v1 had a 28% blank white band at top). Posted 14:09 JST (target 12:30, ~1h39m late: render 11m + service restart interrupted the first post-feed attempt, retried and confirmed live). Note: the morning ep16 chopsticks_rice appeared live at the same second (https://www.instagram.com/reel/Df83uaPDnyz/) — posted by the morning slot's own retry, not by this run. Minor flaw: payoff RIGHT WAY stamp covers Mio's face (same as ep16)."
+  },
+  {
+   "ep": "ep16_chopsticks_rice",
+   "topic": "chopsticks_rice",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/Df83uaPDnyz/",
+   "post_id": "17990794634883281",
+   "posted_at_jst": "2026-11-20T14:09:36+09:00",
+   "length_s": 38.0,
+   "hook": "Don't stand your chopsticks in the rice.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (server + diners freeze staring at the upright chopsticks, steam and lanterns keep moving; hands push the chopsticks in)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (server: お箸は立てないで！)",
+    "the wait (server cooking at the wok, diners eating, POV hands still beside the untouched rice bowl)",
+    "punchline: flat, not standing."
+   ],
+   "note": "v1 morning slot 2026-11-20, posted 14:09 JST (~7h late: runtime restarts interrupted the first post-feed attempt before an approval card was issued; retry posted cleanly, verified live). All 6 food topics in queue were used, so 3 new food topics added per TOPICS.md policy (chopsticks_rice / slurp_noodles / pour_beer) and the first used. Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS. Noon slot ep17 konbini_points was posted the same minute by its own run (different topic, no conflict)."
+  }
+ ]
 }
