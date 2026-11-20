@@ -300,6 +300,25 @@
     "punchline: loud means love."
    ],
    "note": "night slot 2026-11-20, food as the experiment slot per 2026-11-20 PDCA transit cut rule (night slot tests whether food grows at night; same-category overlap with ep16 waived for this once). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local), opening 0/2/4s frame-pair check PASS. Known minor flaw: payoff RIGHT WAY stamp covers the chef face (same as ep16/ep17)."
+  },
+  {
+   "ep": "ep19_supermarket_basket",
+   "topic": "supermarket_basket",
+   "category": "retail",
+   "url": "https://www.instagram.com/reel/Df-3c-lDkKi/",
+   "post_id": "18079105151733527",
+   "posted_at_jst": "2026-11-21T08:45:00+09:00",
+   "length_s": 38.0,
+   "hook": "Don't hand over your basket — put it on the stand.",
+   "hook_source": "hook_library #3",
+   "gags": [
+    "freeze snap inside a moving clip (cashier + shoppers freeze staring at the handed-over basket, background shoppers keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (cashier: 台に置いてください！)",
+    "the wait (cashier scanning, belt rolling, POV hands still on the empty counter)",
+    "punchline: the stand does the work."
+   ],
+   "note": "v1 morning slot 2026-11-21, posted ~08:45 JST (~1h45m late: two render-std dispatches — first build failed on s3 overrun (6.65 > 6.55), s3 shortened to 'Basket in hand. All stare.' and re-rendered; plus exec service restarts during posting). Topic switched from food pour_beer (media safety check blocked the beer-pouring frames; not retried) to the highest-priority unused non-food, non-transit topic; previous post ep18 was food so the no-same-category rule also pointed away from food. First post-feed attempt was interrupted by a service restart and did not publish; the retry published but with an empty caption because /tmp/ep19_caption.txt was lost in the restart — caption was then set via edit-post and verified live with full caption + hashtags. Motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS (0-0.5s soft ramp, strong motion 0.5-4.5s, background shopper walking through the freeze snap)."
   }
  ]
 }
