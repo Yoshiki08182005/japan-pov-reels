@@ -29,3 +29,4 @@ action at t=0 + freeze/stare + staff shout). Previous post: ep20 matsuri_garbage
 - A later run (new request) may retry the two clip generations — the tool decides
   then — and resume from the frames + 4 clips already committed here.
 - Night slot 2026-11-21 21:30 JST has no new post from this run.
+- UPDATE 2026-11-22 morning run: the retry was attempted for both clips and refused again by the media tool's safety check (integrity_check_failed, same two requests). Per the run's instruction these two requests are not retried again here. Morning slot switched to the fallback topic oshibori (ep21) per daily.md; pour_beer stays used=null in topics.json.
