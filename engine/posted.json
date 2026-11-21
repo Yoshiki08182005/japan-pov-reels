@@ -319,6 +319,25 @@
     "punchline: the stand does the work."
    ],
    "note": "v1 morning slot 2026-11-21, posted ~08:45 JST (~1h45m late: two render-std dispatches — first build failed on s3 overrun (6.65 > 6.55), s3 shortened to 'Basket in hand. All stare.' and re-rendered; plus exec service restarts during posting). Topic switched from food pour_beer (media safety check blocked the beer-pouring frames; not retried) to the highest-priority unused non-food, non-transit topic; previous post ep18 was food so the no-same-category rule also pointed away from food. First post-feed attempt was interrupted by a service restart and did not publish; the retry published but with an empty caption because /tmp/ep19_caption.txt was lost in the restart — caption was then set via edit-post and verified live with full caption + hashtags. Motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS (0-0.5s soft ramp, strong motion 0.5-4.5s, background shopper walking through the freeze snap)."
+  },
+  {
+   "ep": "ep20_matsuri_garbage",
+   "topic": "matsuri_garbage",
+   "category": "events",
+   "url": "https://www.instagram.com/reel/Df_PzNfDo5h/",
+   "post_id": "18083583947371854",
+   "posted_at_jst": "2026-11-21T12:19:07+09:00",
+   "length_s": 38.0,
+   "hook": "Don't leave your trash here — take it home.",
+   "hook_source": "hook_library #26",
+   "gags": [
+    "freeze snap inside a moving clip (vendor + festival-goers freeze staring at the tray, lanterns and steam keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (vendor: ゴミは持ち帰り！)",
+    "the wait (vendor grilling takoyaki, steam rising, POV hands still on the bag)",
+    "punchline: no bins here."
+   ],
+   "note": "v1 noon slot 2026-11-21, PDCA-designated topic (near-copy of thejapanlogic park-bottle breakout, hook_library #26 adapted to festival stall). First post-feed attempt was killed by an exec service restart before publishing (verified not live, no pending approval); retry succeeded. Motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS, narration full episode mean -19.9dB."
   }
  ]
 }
