@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep20_matsuri_garbage_voice/s1.mp3",
+   "dur": 1.965,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't leave your trash here."
+    },
+    {
+     "t": 1.277,
+     "text": "Take it home."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep20_matsuri_garbage_voice/s2.mp3",
+   "dur": 1.455,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep20_matsuri_garbage_voice/s3.mp3",
+   "dur": 1.613,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tray in hand."
+    },
+    {
+     "t": 0.93,
+     "text": "All stare."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep20_matsuri_garbage_voice/s4.mp3",
+   "dur": 1.792,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same hands."
+    },
+    {
+     "t": 1.022,
+     "text": "Into the bag."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep20_matsuri_garbage_voice/s5.mp3",
+   "dur": 1.621,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bag closed."
+    },
+    {
+     "t": 0.86,
+     "text": "She smiles."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep20_matsuri_garbage_voice/s6.mp3",
+   "dur": 0.968,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She shouted—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep20_matsuri_garbage_voice/s7.mp3",
+   "dur": 1.797,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She grills on."
+    },
+    {
+     "t": 0.941,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep20_matsuri_garbage_voice/s8.mp3",
+   "dur": 1.698,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bag packed."
+    },
+    {
+     "t": 0.86,
+     "text": "Vendor beams."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep20_matsuri_garbage_voice/s9.mp3",
+   "dur": 1.845,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No bins here."
+    },
+    {
+     "t": 0.979,
+     "text": "That's the rule."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep20_matsuri_garbage_voice/n1.mp3",
+   "dur": 2.034,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No bins here."
+    },
+    {
+     "t": 0.873,
+     "text": "Ten thousand people."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep20_matsuri_garbage_voice/n2.mp3",
+   "dur": 1.745,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take it home."
+    },
+    {
+     "t": 0.918,
+     "text": "In your bag."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep20_matsuri_garbage_voice/n3.mp3",
+   "dur": 1.927,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bagged and done."
+    },
+    {
+     "t": 0.883,
+     "text": "Street stays clean."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep20_matsuri_garbage_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
