@@ -4,43 +4,43 @@
  "lines": {
   "s1": {
    "file": "ep24_hatsumode_coins_voice/s1.mp3",
-   "dur": 3.536,
+   "dur": 2.534,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Bow twice, clap twice, pray, bow once."
+     "text": "Two bows, two claps."
     },
     {
-     "t": 2.716,
-     "text": "That's the order."
+     "t": 1.404,
+     "text": "Pray, bow once."
     }
    ]
   },
   "s2": {
    "file": "ep24_hatsumode_coins_voice/s2.mp3",
-   "dur": 2.048,
+   "dur": 1.696,
    "chunks": [
     {
      "t": 0.0,
      "text": "All eyes on you."
     },
     {
-     "t": 0.93,
-     "text": "One bow too few."
+     "t": 0.999,
+     "text": "Wrong order."
     }
    ]
   },
   "s3": {
    "file": "ep24_hatsumode_coins_voice/s3.mp3",
-   "dur": 1.948,
+   "dur": 1.514,
    "chunks": [
     {
      "t": 0.0,
      "text": "Shrine rules."
     },
     {
-     "t": 0.941,
-     "text": "Not a suggestion."
+     "t": 0.906,
+     "text": "Follow them."
     }
    ]
   },
@@ -84,7 +84,7 @@
   },
   "s7": {
    "file": "ep24_hatsumode_coins_voice/s7.mp3",
-   "dur": 1.67,
+   "dur": 1.671,
    "chunks": [
     {
      "t": 0.0,
