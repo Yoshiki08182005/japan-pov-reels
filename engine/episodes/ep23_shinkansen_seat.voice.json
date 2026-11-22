@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep23_shinkansen_seat_voice/s1.mp3",
+   "dur": 2.223,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Check your seat number."
+    },
+    {
+     "t": 1.196,
+     "text": "It's someone else's."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep23_shinkansen_seat_voice/s2.mp3",
+   "dur": 1.662,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All eyes on you."
+    },
+    {
+     "t": 0.964,
+     "text": "Wrong seat."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep23_shinkansen_seat_voice/s3.mp3",
+   "dur": 1.625,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Reserved."
+    },
+    {
+     "t": 0.849,
+     "text": "Not yours."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep23_shinkansen_seat_voice/s4.mp3",
+   "dur": 1.665,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Ticket out."
+    },
+    {
+     "t": 0.814,
+     "text": "Find your seat."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep23_shinkansen_seat_voice/s5.mp3",
+   "dur": 2.022,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The owner arrives."
+    },
+    {
+     "t": 1.161,
+     "text": "Ticket in hand."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep23_shinkansen_seat_voice/s6.mp3",
+   "dur": 0.852,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She said—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep23_shinkansen_seat_voice/s7.mp3",
+   "dur": 1.761,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You stand."
+    },
+    {
+     "t": 0.721,
+     "text": "The train rolls on."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep23_shinkansen_seat_voice/s8.mp3",
+   "dur": 1.663,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Free seats."
+    },
+    {
+     "t": 0.86,
+     "text": "You sit down."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep23_shinkansen_seat_voice/s9.mp3",
+   "dur": 2.662,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Reserved means reserved."
+    },
+    {
+     "t": 1.543,
+     "text": "Even the empty ones."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep23_shinkansen_seat_voice/n1.mp3",
+   "dur": 1.824,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Check the number."
+    },
+    {
+     "t": 0.93,
+     "text": "Before you sit."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep23_shinkansen_seat_voice/n2.mp3",
+   "dur": 1.893,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Reserved seats"
+    },
+    {
+     "t": 0.875,
+     "text": "belong to someone."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep23_shinkansen_seat_voice/n3.mp3",
+   "dur": 1.856,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No number?"
+    },
+    {
+     "t": 0.883,
+     "text": "Ride the free car."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep23_shinkansen_seat_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
