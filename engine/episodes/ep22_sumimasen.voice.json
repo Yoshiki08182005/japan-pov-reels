@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep22_sumimasen_voice/s1.mp3",
+   "dur": 2.325,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't wait in silence."
+    },
+    {
+     "t": 1.312,
+     "text": "Shout sumimasen."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep22_sumimasen_voice/s2.mp3",
+   "dur": 1.454,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "All froze."
+    },
+    {
+     "t": 0.744,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep22_sumimasen_voice/s3.mp3",
+   "dur": 2.1,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One word fixes it."
+    },
+    {
+     "t": 1.265,
+     "text": "Sumimasen."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep22_sumimasen_voice/s4.mp3",
+   "dur": 1.433,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hand up."
+    },
+    {
+     "t": 0.663,
+     "text": "Say it loud."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep22_sumimasen_voice/s5.mp3",
+   "dur": 1.667,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Sumimasen!"
+    },
+    {
+     "t": 0.999,
+     "text": "He turns."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep22_sumimasen_voice/s6.mp3",
+   "dur": 0.88,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He shouted—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep22_sumimasen_voice/s7.mp3",
+   "dur": 1.769,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He rushes off."
+    },
+    {
+     "t": 0.918,
+     "text": "We just wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep22_sumimasen_voice/s8.mp3",
+   "dur": 1.857,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Beer arrives."
+    },
+    {
+     "t": 0.93,
+     "text": "Everyone beams."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep22_sumimasen_voice/s9.mp3",
+   "dur": 2.183,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Waiting is rude."
+    },
+    {
+     "t": 1.115,
+     "text": "Shouting is polite."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep22_sumimasen_voice/n1.mp3",
+   "dur": 1.977,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Say sumimasen."
+    },
+    {
+     "t": 1.15,
+     "text": "Nice and loud."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep22_sumimasen_voice/n2.mp3",
+   "dur": 1.881,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "It's not rude."
+    },
+    {
+     "t": 0.932,
+     "text": "It's the system."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep22_sumimasen_voice/n3.mp3",
+   "dur": 1.286,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hand up."
+    },
+    {
+     "t": 0.64,
+     "text": "Voice up."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep22_sumimasen_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
