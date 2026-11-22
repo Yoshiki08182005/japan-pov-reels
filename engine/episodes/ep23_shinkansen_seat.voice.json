@@ -74,17 +74,17 @@
   },
   "s6": {
    "file": "ep23_shinkansen_seat_voice/s6.mp3",
-   "dur": 0.852,
+   "dur": 0.645,
    "chunks": [
     {
      "t": 0.0,
-     "text": "She said—"
+     "text": "She—"
     }
    ]
   },
   "s7": {
    "file": "ep23_shinkansen_seat_voice/s7.mp3",
-   "dur": 1.761,
+   "dur": 1.766,
    "chunks": [
     {
      "t": 0.0,
@@ -154,7 +154,7 @@
   },
   "n3": {
    "file": "ep23_shinkansen_seat_voice/n3.mp3",
-   "dur": 1.856,
+   "dur": 1.857,
    "chunks": [
     {
      "t": 0.0,
