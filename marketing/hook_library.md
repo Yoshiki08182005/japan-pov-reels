@@ -45,15 +45,17 @@
 
 2026-11-21更新：8アカウントを再スキャン（@thejapanlogic 直近30本、@japan_rule 直近10本・最終投稿2026-10-27で新規なし、他6アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 48,412 にさらに増加。食券機は 407,627 いいね（8.4x）、eゲートは 80,737 いいね（1.67x）に成長。新規ブレイクアウトは Tier B に1本追加（#26）：公園の空きペットボトルPOV 4,446 → 16,034 いいね（0.33x、1日で3.6倍）— 遅れてくるブレイクの5例目。コピー優先ルールにより本日昼枠の次エピソードに指定（topics.json の matsuri_garbage にフックを適応）。箸立てPOVも 25,956 → 28,273 いいね（0.58x）に伸長中。新規POVは2本：新幹線・指定席POV 3,659 いいね（約22h、様子見）、居酒屋「すみません」POV 348 いいねで弱い出足（自アカの未使用 sumimasen と同ルールのため当面見送り）。女性専用車両POVは 245 → 2,148 いいねと1日で8.8倍に急伸中（0.04x、様子見）。旅館スリッパPOVは 4,618 → 5,071 いいねと緩やかに伸長中。他アカウントでは @japan.explores のカツ丼コメディが 4,288 いいね（0.45x）と同アカでは突出しているが、POVルール形式ではなく自アカ形式に適応できないためライブラリには追加せず様子見。
 
+2026-11-22更新：14アカウントを再スキャン（@thejapanlogic 直近30本、他13アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 51,670 にさらに増加。食券機は 411,860 いいね（8.0x）、eゲートは 82,208 いいね（1.59x）に成長。新規ブレイクアウトは Tier B に2本追加：#27 新幹線・指定席POV 3,659 → 11,853 いいね（0.23x、1日で3.2倍）— 遅れてくるブレイクの6例目、#28 居酒屋「すみません」POV 348 → 38,887 いいね（0.75x、1日で111倍）— 遅れてくるブレイクの7例目で、遅れてくるブレイクの中で最大の1日ジャンプ。昨日の「すみませんは当面見送り」判断は覆った（eゲート／箸立て／公園ゴミと同じ構図）。コピー優先ルールにより #28 を本日昼枠（sumimasen）、#27 を今夜枠（新規トピック shinkansen_seat）に指定。女性専用車両POVは 2,148 → 2,605 いいね（0.05x、Tier B 基準未満のため様子見継続）。新規POVは2本：ストリートゴーカート 388 いいね、奈良の鹿せんべい 2,806 いいね（0.05x、様子見）。旅館スリッパPOVは 5,071 → 5,477 いいねと緩やかに伸長中。@japan.etiquette の旅行リスト「定番5都市しか回らない旅程」が 122 いいね（0.19x）で #29 に追加（ナレーションリストのため自アカ形式には適応不可、記録のみ）。他アカウントに新規アウトライヤーなし。@japan.explores はユーザー名が解決せず対象外（前回と同じ）。
+
 ## アウトライヤー一覧（#1〜#20は倍率降順。#21以降は追加順とし、エピソードの hook_source 引用番号を安定させる）
 
 | # | Tier | アカウント | フォロワー | いいね | 倍率 | 日付 | 題材 | URL |
 |---|---|---|---|---|---|---|---|---|
-| 1 | A | @thejapanlogic | 48,412 | 407,627 | 8.4x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
+| 1 | A | @thejapanlogic | 51,670 | 411,860 | 8.0x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
 | 2 | A | @japan_rule | 28,594 | 321,963 | 11.3x | 2026-06-08 | マナー論争：公共の場での祈り（PSA） | https://www.instagram.com/reel/DZU0aHqTzaN/ |
 | 3 | A' | @thejapanlogic | 3,213（投稿時） | 53,282 | 16.6x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
 | 4 | A' | @thejapanlogic | 3,213（投稿時） | 29,836 | 9.3x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
-| 5 | B | @thejapanlogic | 48,412 | 80,737 | 1.67x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
+| 5 | B | @thejapanlogic | 51,670 | 82,208 | 1.59x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
 | 6 | B | @japan.travel.hacks | 5,144 | 7,181 | 1.40x | 2026-08-31 | 買い物：セブンのフリーズドライ味噌汁 | https://www.instagram.com/reel/Dcsm79ihieH/ |
 | 7 | B | @japan.etiquette | 566 | 345 | 0.61x | 2026-10-30 | 旅行リスト：江戸の街並み5選 | https://www.instagram.com/reel/DfJbD9iRy2A/ |
 | 8 | B | @japan.etiquette | 566 | 305 | 0.54x | 2026-11-03 | 旅行リスト：現存天守5城 | https://www.instagram.com/reel/DfTTC2thQt7/ |
@@ -69,12 +71,15 @@
 | 18 | B | @japan_rule | 28,594 | 4,490 | 0.16x | 2026-06-06 | 交通マナーPSA：ラッシュ時の巨大スーツケース | https://www.instagram.com/reel/DZRSMgYpA6b/ |
 | 19 | B | @japantraveltips__ | 9,930 | 1,545 | 0.16x | 2026-09-12 | 旅行リスト：東京の穴場20選 | https://www.instagram.com/reel/DdL7zKZJenS/ |
 | 20 | B | @japan.explores | 9,502 | 1,438 | 0.15x | 2026-11-14 | ホテル紹介：JWマリオット東京 | https://www.instagram.com/reel/DfuWuYdplZf/ |
-| 21 | B | @thejapanlogic | 48,412 | 80,838 | 1.67x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
-| 22 | B | @thejapanlogic | 48,412 | 46,339 | 0.96x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
-| 23 | B | @thejapanlogic | 48,412 | 80,469 | 1.66x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
-| 24 | B | @thejapanlogic | 48,412 | 39,146 | 0.81x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
-| 25 | B | @thejapanlogic | 48,412 | 28,273 | 0.58x | 2026-11-18 | 食のルール：箸立て・ご飯に箸を立てるな（POV） | https://www.instagram.com/reel/Df52mWtHGWW/ |
-| 26 | B | @thejapanlogic | 48,412 | 16,034 | 0.33x | 2026-11-19 | 公共マナー：公園・空きペットボトルを置き去りにするな（POV） | https://www.instagram.com/reel/Df75LLRkq1e/ |
+| 21 | B | @thejapanlogic | 51,670 | 84,827 | 1.64x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
+| 22 | B | @thejapanlogic | 51,670 | 48,842 | 0.95x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
+| 23 | B | @thejapanlogic | 51,670 | 84,755 | 1.64x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
+| 24 | B | @thejapanlogic | 51,670 | 40,747 | 0.79x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
+| 25 | B | @thejapanlogic | 51,670 | 30,621 | 0.59x | 2026-11-18 | 食のルール：箸立て・ご飯に箸を立てるな（POV） | https://www.instagram.com/reel/Df52mWtHGWW/ |
+| 26 | B | @thejapanlogic | 51,670 | 18,073 | 0.35x | 2026-11-19 | 公共マナー：公園・空きペットボトルを置き去りにするな（POV） | https://www.instagram.com/reel/Df75LLRkq1e/ |
+| 27 | B | @thejapanlogic | 51,670 | 11,853 | 0.23x | 2026-11-20 | 交通のルール：新幹線・指定席に座るな（POV） | https://www.instagram.com/reel/Df-d3t9E-af/ |
+| 28 | B | @thejapanlogic | 51,670 | 38,887 | 0.75x | 2026-11-20 | 会話のルール：居酒屋・店員を待たずに「すみません」と呼ぶ（POV） | https://www.instagram.com/reel/Df_AUr1kubj/ |
+| 29 | B | @japan.etiquette | 629 | 122 | 0.19x | 2026-11-18 | 旅行リスト：定番5都市しか回らない旅程（ナレーション） | https://www.instagram.com/reel/Df5xt4UxDjQ/ |
 ## フック詳細（冒頭3秒）
 
 ### #1 [Tier A] @thejapanlogic — ラーメン食券機（10.3x）
@@ -219,6 +224,27 @@
 - **構成**：間違い（ボトルを置き去り、凝視）→ WRONG WAY → THE RIGHT WAY（ゴミは持ち帰る。公共のゴミ箱はほとんど無い）→ 締め。#1/#3 と同じ Tier A テンプレート。
 - **備考**：遅れてくるブレイクの5例目。2026-11-20時点では4,446いいね（0.095x）で様子見だったが、翌日 16,034 いいね（0.33x）に1日で3.6倍に急伸。コピー優先ルールにより本日昼枠の次エピソードに指定（topics.json の matsuri_garbage にフックを適応）。
 - 根拠：キャプション1行目＋2026-11-21の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #27 [Tier B] @thejapanlogic — 新幹線・指定席に座るな（0.23x）
+- **冒頭3秒**：タイトルピル「POV: your first bullet train in Japan」の下で、POVが指定席に座る間違いが即座に始まり、正規の乗客がやって来て凝視。座席番号を確認しない間違いとその公開の帰結が冒頭数秒に両方ある。
+- **最初の発話**：「POV: your first bullet train in Japan, and you just sat in someone's reserved seat.」
+- **構成**：間違い（指定席に座る、正規の乗客が来る、凝視）→ WRONG WAY → THE RIGHT WAY（切符の座席番号を確認する。指定がなければ自由席車両へ）→ 締め。#1/#3 と同じ Tier A テンプレート。
+- **備考**：遅れてくるブレイクの6例目。2026-11-21時点では3,659いいね（0.08x）で様子見だったが、翌日 11,853 いいね（0.23x）に1日で3.2倍に急伸。コピー優先ルールにより今夜の夜枠の次エピソードに指定（新規トピック shinkansen_seat）— 実験枠として、自アカの交通48h中央値（318回、食の22%）をブレイクアウトのコピーで超えられるか試す。
+- 根拠：キャプション1行目＋2026-11-22の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #28 [Tier B] @thejapanlogic — 居酒屋・店員を待たずに「すみません」と呼ぶ（0.75x）
+- **冒頭3秒**：タイトルピル「POV: your first izakaya in Japan」の下で、POVがテーブルで黙って店員を待つ間違いが即座に始まり、周りの居酒屋は動き続けるのにテーブルだけが止まっている。黙って待つ（自国式）という間違いとその帰結（誰も来ない）が冒頭数秒にある。
+- **最初の発話**：「POV: your first izakaya in Japan, and you're still waiting for the server to come over.」
+- **構成**：間違い（黙って待つ、誰も来ない）→ WRONG WAY → THE RIGHT WAY（「すみません」と声に出して呼ぶ — 大きく、失礼ではなく仕組み）→ 締め。#1/#3 と同じ Tier A テンプレート。
+- **備考**：遅れてくるブレイクの7例目で、遅れてくるブレイクの中で最大の1日ジャンプ。2026-11-21時点では348いいねの弱い出足で「当面見送り」と判断していたが、翌日 38,887 いいね（0.75x）に1日で111倍に急伸。コピー優先ルールにより本日昼枠の次エピソードに指定（自アカの未使用 sumimasen と同じルール）。
+- 根拠：キャプション1行目＋2026-11-22の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #29 [Tier B] @japan.etiquette — 旅行リスト・定番5都市しか回らない旅程（0.19x）
+- **冒頭3秒**：都市モンタージュの上のナレーション — 「Most Japan itineraries hit the same five cities. You get great food and crowds.」リスト形式で、POVの間違い行動のオープニングはない。
+- **最初の発話**：「Most Japan itineraries hit the same five cities. You get great food and crowds.」
+- **構成**：リストのナレーション（WRONG WAY / RIGHT WAY の構造なし）。同アカのリストリール #7/#8/#13/#14/#17 と同じ型。
+- **備考**：@japan.etiquette の新規リストリール（フォロワー629）。倍率では Tier B（0.19x）だがナレーションリストで POV の間違い行動型ではなく、自アカ形式には適応できないため記録のみ、キューには入れない。
+- 根拠：キャプション1行目＋2026-11-22の posts スキャン。
 
 ## 使い方（制作への接続）
 - **各エピソードの冒頭3秒は、このライブラリのエントリ（原則 Tier A/A'）のフック構造を題材に合わせて適応する**。ゼロから発明しない。使ったエントリはエピソードのメタデータ（spec の pdca / next.json）に `hook_source` として記録する（FORMAT.md「Hook」ルール、daily.md 企画・台本セクション参照）。
