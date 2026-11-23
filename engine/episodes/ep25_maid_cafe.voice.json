@@ -18,7 +18,7 @@
   },
   "s2": {
    "file": "ep25_maid_cafe_voice/s2.mp3",
-   "dur": 1.789,
+   "dur": 1.788,
    "chunks": [
     {
      "t": 0.0,
@@ -32,21 +32,21 @@
   },
   "s3": {
    "file": "ep25_maid_cafe_voice/s3.mp3",
-   "dur": 1.857,
+   "dur": 1.582,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Maid cafe rules."
+     "text": "Cafe rules."
     },
     {
-     "t": 1.265,
+     "t": 0.964,
      "text": "Follow them."
     }
    ]
   },
   "s4": {
    "file": "ep25_maid_cafe_voice/s4.mp3",
-   "dur": 1.791,
+   "dur": 1.789,
    "chunks": [
     {
      "t": 0.0,
@@ -154,7 +154,7 @@
   },
   "n3": {
    "file": "ep25_maid_cafe_voice/n3.mp3",
-   "dur": 1.848,
+   "dur": 1.844,
    "chunks": [
     {
      "t": 0.0,
