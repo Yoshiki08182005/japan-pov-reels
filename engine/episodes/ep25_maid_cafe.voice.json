@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep25_maid_cafe_voice/s1.mp3",
+   "dur": 2.67,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't snap her photo."
+    },
+    {
+     "t": 1.358,
+     "text": "Her photo is on the menu."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep25_maid_cafe_voice/s2.mp3",
+   "dur": 1.789,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Every maid freezes."
+    },
+    {
+     "t": 1.115,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep25_maid_cafe_voice/s3.mp3",
+   "dur": 1.857,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Maid cafe rules."
+    },
+    {
+     "t": 1.265,
+     "text": "Follow them."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep25_maid_cafe_voice/s4.mp3",
+   "dur": 1.791,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Phone down."
+    },
+    {
+     "t": 0.837,
+     "text": "Point at the menu."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep25_maid_cafe_voice/s5.mp3",
+   "dur": 1.981,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The maid smiles."
+    },
+    {
+     "t": 1.022,
+     "text": "Menu, please."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep25_maid_cafe_voice/s6.mp3",
+   "dur": 0.645,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep25_maid_cafe_voice/s7.mp3",
+   "dur": 1.802,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wait."
+    },
+    {
+     "t": 0.617,
+     "text": "She draws on the photo."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep25_maid_cafe_voice/s8.mp3",
+   "dur": 2.081,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Cheki, decorated."
+    },
+    {
+     "t": 1.323,
+     "text": "Yours to keep."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep25_maid_cafe_voice/s9.mp3",
+   "dur": 2.45,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No photos of the maid."
+    },
+    {
+     "t": 1.265,
+     "text": "Buy the cheki instead."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep25_maid_cafe_voice/n1.mp3",
+   "dur": 2.508,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Photos off limits."
+    },
+    {
+     "t": 1.138,
+     "text": "The maids, not the food."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep25_maid_cafe_voice/n2.mp3",
+   "dur": 2.6,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Cheki on the menu."
+    },
+    {
+     "t": 1.115,
+     "text": "Pay, pose, keep it."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep25_maid_cafe_voice/n3.mp3",
+   "dur": 1.848,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Food photos?"
+    },
+    {
+     "t": 1.022,
+     "text": "Always OK."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep25_maid_cafe_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
