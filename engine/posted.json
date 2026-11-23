@@ -338,6 +338,25 @@
     "punchline: no bins here."
    ],
    "note": "v1 noon slot 2026-11-21, PDCA-designated topic (near-copy of thejapanlogic park-bottle breakout, hook_library #26 adapted to festival stall). First post-feed attempt was killed by an exec service restart before publishing (verified not live, no pending approval); retry succeeded. Motion audit PASS (0 static 1s windows), opening 0/2/4s frame-pair check PASS, narration full episode mean -19.9dB."
+  },
+  {
+   "ep": "ep24_hatsumode_coins",
+   "topic": "hatsumode_coins",
+   "category": "events",
+   "url": "https://www.instagram.com/reel/DgEC0loD50o/",
+   "post_id": "18127316818920374",
+   "posted_at_jst": "2026-11-23T09:03:32+09:00",
+   "length_s": 38.0,
+   "hook": "Two bows, two claps. Pray, bow once.",
+   "hook_source": "hook_library #1",
+   "gags": [
+    "freeze snap inside a moving clip (miko + visitors freeze staring at the tossed coin, incense smoke and lanterns keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (miko: 二礼二拍手一礼です！)",
+    "the wait (POV hands pressed in prayer, miko sweeps, visitors walk past, incense drifts)",
+    "punchline: two bows, two claps. one wish, one bow."
+   ],
+   "note": "v2 morning slot 2026-11-23 (07:00 target, posted late: first post-feed attempt died in a runtime restart and left a stale connector already-running lock for ~35 min; remuxed copy final_post.mp4 posted detached and succeeded, media_fbid 18127316818920374). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS (mean diffs 26.7/43.7/74.9). One rework: v1 endcard line2 overflowed the stamp frame -> shortened to 2 BOWS, 2 CLAPS (v2), matching ep23 standard. Known minor defects: payoff RIGHT WAY stamp covers miko face (ep16 same); shout frame miko smiles rather than shouts (bubble + JP voice carry it)."
   }
  ]
 }
