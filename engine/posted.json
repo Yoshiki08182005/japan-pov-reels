@@ -357,6 +357,25 @@
     "punchline: two bows, two claps. one wish, one bow."
    ],
    "note": "v2 morning slot 2026-11-23 (07:00 target, posted late: first post-feed attempt died in a runtime restart and left a stale connector already-running lock for ~35 min; remuxed copy final_post.mp4 posted detached and succeeded, media_fbid 18127316818920374). Every scene beat a real i2v clip under the all-animation rule; motion audit PASS (0 static 1s windows, Actions + local re-run), opening 0/2/4s frame-pair check PASS (mean diffs 26.7/43.7/74.9). One rework: v1 endcard line2 overflowed the stamp frame -> shortened to 2 BOWS, 2 CLAPS (v2), matching ep23 standard. Known minor defects: payoff RIGHT WAY stamp covers miko face (ep16 same); shout frame miko smiles rather than shouts (bubble + JP voice carry it)."
+  },
+  {
+   "ep": "ep22_sumimasen",
+   "topic": "sumimasen",
+   "category": "conversation",
+   "url": "https://www.instagram.com/reel/DgEUXdKDl0s/",
+   "post_id": "18100701359108380",
+   "posted_at_jst": "2026-11-23T11:35:44+09:00",
+   "length_s": 38.0,
+   "hook": "Don't wait in silence — shout sumimasen.",
+   "hook_source": "hook_library #28",
+   "gags": [
+    "freeze snap inside a moving clip (server + diners freeze staring at the folded waiting hands, steam and lanterns keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (server: はーい！すぐ行きます！)",
+    "the wait (server at the grill, steam billowing, POV hands still on the table)",
+    "punchline: waiting is rude, shouting is polite."
+   ],
+   "note": "noon slot 2026-11-23 (12:30 target, posted 11:35 — early). NOT a new production: queue-block rule (PDCA 2026-11-23) forbids new production while ep21/ep22 unposted, so this slot posted the pending verification-PASS ep22 (produced 2026-11-22 noon, hook_library #28 izakaya-sumimasen near-copy). Caption reconstructed from script/spec (next.json had been overwritten by ep24; out/ is gitignored). Verification re-checked at post time: motion audit PASS (0 static 1s windows, file 2026-11-22), opening 0/0.5s, 2/2.5s, 4/4.5s frame-pair mean diffs 23.9/32.2/61.0 — characters and background moving, WRONG WAY stamp slams in at ~4s. Viewer check of sheet.jpg: shout bubble in frame, LED cards + CASE No.21 end card OK. Known minor defect: WRONG WAY stamp crosses the server face (same class as ep16/ep24). ep21 oshibori still unposted — maid_cafe production stays blocked until it clears."
   }
  ]
 }
