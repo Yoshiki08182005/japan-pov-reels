@@ -394,6 +394,25 @@
     "the wait (owner grilling skewers, steam rising, POV hands still on the table)",
     "punchline: face? never. hands only."
    ]
+  },
+  {
+   "ep": "ep25_maid_cafe",
+   "topic": "maid_cafe",
+   "category": "events",
+   "url": "https://www.instagram.com/reel/DgGTO2qj9Tz/",
+   "post_id": "18100700138449384",
+   "posted_at_jst": "2026-11-24T06:03:00+09:00",
+   "length_s": 38.0,
+   "hook": "Don't snap her photo. Her photo is on the menu.",
+   "hook_source": "hook_library #30",
+   "gags": [
+    "freeze snap inside a moving clip (maid + customers freeze staring at the raised phone, string lights flicker and heart garlands sway)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (maid: 写真はダメです！)",
+    "the wait (maid decorates the cheki with a pen, customers eat parfaits, string lights twinkle, POV hands still)",
+    "punchline: no photos of the maid. buy the cheki instead."
+   ],
+   "note": "v2 morning slot 2026-11-24, posted 06:03 JST (~1h early vs 07:00 target). Near-copy of thejapanlogic maid-cafe breakout (12,515 likes in ~5h, hook_library #30). First render-std run failed build assert (s3 overran accept by 0.22s; shortened s3 to 'Cafe rules.'). Viewer-eye rework on v1: shout bubble clipped at right edge (single-line 625px at [660,360]) and endcard line2 'NO PHOTOS, BUY CHEKI' (1346px) overflowed the frame — fixed to 2-line bubble (370px) and line2 'BUY CHEKI'. Motion audit PASS (Actions + local re-run), opening 0/2/4s frame-pair check PASS (diffs 8.31/49.67/79.10). Every scene beat a real i2v clip. Workflow was disabled_manually: enabled only to dispatch render-std (x3) and disabled again immediately each time."
   }
  ]
 }
