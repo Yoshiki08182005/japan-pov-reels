@@ -376,6 +376,24 @@
     "punchline: waiting is rude, shouting is polite."
    ],
    "note": "noon slot 2026-11-23 (12:30 target, posted 11:35 — early). NOT a new production: queue-block rule (PDCA 2026-11-23) forbids new production while ep21/ep22 unposted, so this slot posted the pending verification-PASS ep22 (produced 2026-11-22 noon, hook_library #28 izakaya-sumimasen near-copy). Caption reconstructed from script/spec (next.json had been overwritten by ep24; out/ is gitignored). Verification re-checked at post time: motion audit PASS (0 static 1s windows, file 2026-11-22), opening 0/0.5s, 2/2.5s, 4/4.5s frame-pair mean diffs 23.9/32.2/61.0 — characters and background moving, WRONG WAY stamp slams in at ~4s. Viewer check of sheet.jpg: shout bubble in frame, LED cards + CASE No.21 end card OK. Known minor defect: WRONG WAY stamp crosses the server face (same class as ep16/ep24). ep21 oshibori still unposted — maid_cafe production stays blocked until it clears."
+  },
+  {
+   "ep": "ep21_oshibori",
+   "topic": "oshibori",
+   "category": "etiquette",
+   "url": "https://www.instagram.com/reel/DgFRLtgidqW/",
+   "post_id": "18198264070394845",
+   "posted_at_jst": "2026-11-23T20:26:37+09:00",
+   "length_s": 38.0,
+   "hook": "Don't wipe your face — that's for hands.",
+   "hook_source": "hook_library #25",
+   "gags": [
+    "freeze snap inside a moving clip (owner + diners freeze staring at the towel, steam and lanterns keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (owner: 顔じゃない！手だけ！)",
+    "the wait (owner grilling skewers, steam rising, POV hands still on the table)",
+    "punchline: face? never. hands only."
+   ]
   }
  ]
 }
