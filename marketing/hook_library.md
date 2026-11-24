@@ -49,15 +49,17 @@
 
 2026-11-23更新：14アカウントを再スキャン（@thejapanlogic は直近30本、他13アカウントは2026-11-17以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 53,866 にさらに増加。食券機は 416,877 いいね（7.7x）、eゲートは 84,108 いいね（1.56x）に成長。新規ブレイクアウトは Tier B に2本追加：#30 メイドカフェPOV 12,515 いいね（0.23x、投稿約5h）— 今サイクルで最も速い新規ブレイクアウト、#31 奈良の鹿せんべいPOV 2,806 → 9,484 いいね（0.18x）— 遅れてくるブレイクの8例目で Tier B 基準（0.15x）を1日遅れで突破。コピー優先ルールにより #30 を次の新規制作（topics.json の maid_cafe）に指定し、#31 をその次の候補とする。ストリートゴーカートPOVは 388 → 4,010 いいね（0.07x）と1日で10倍に急伸中だが Tier B 基準未満のため様子見。女性専用車両POVは 2,918 いいね（0.05x）、旅館スリッパPOVは 5,787 いいね（0.11x）と様子見継続。他アカウントに新規アウトライヤーなし。@japan.explores は今回ユーザー名が解決したがフォロワー440,006で新規投稿の倍率は最大0.023xと該当なし。
 
+2026-11-24更新：15アカウントを再スキャン（@thejapanlogic 直近30本、他14アカウントは2026-11-23以降の投稿）。新規の Tier A はなし。@thejapanlogic のフォロワーは 53,866 → 57,500 にさらに増加。新規ブレイクアウトは Tier B に1本追加（#32）：一人用ラーメンブースPOV 12,362 いいね（0.22x、投稿約22h）。メイドカフェPOVは 12,515 → 55,780 いいね（0.97x）と1日で4.5倍に急伸中。鹿せんべいPOVも 9,484 → 10,926 いいね（0.19x）。新規POVは寿司カウンターのワサビPOV 497 いいねで弱い出足（様子見）。ストリートゴーカートPOVは 4,010 → 4,872 いいね（0.08x）、女性専用車両POVは 2,918 → 3,344 いいね（0.06x）、旅館スリッパPOVは 5,787 → 6,240 いいね（0.11x）でいずれも Tier B 基準未満のため様子見継続。他アカウントに新規アウトライヤーなし。
+
 ## アウトライヤー一覧（#1〜#20は倍率降順。#21以降は追加順とし、エピソードの hook_source 引用番号を安定させる）
 
 | # | Tier | アカウント | フォロワー | いいね | 倍率 | 日付 | 題材 | URL |
 |---|---|---|---|---|---|---|---|---|
-| 1 | A | @thejapanlogic | 53,866 | 416,877 | 7.7x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
+| 1 | A | @thejapanlogic | 57,500 | 422,162 | 7.34x | 2026-11-14 | 食のルール：ラーメン食券機（POV） | https://www.instagram.com/reel/DfvjjmogNRP/ |
 | 2 | A | @japan_rule | 28,594 | 321,963 | 11.3x | 2026-06-08 | マナー論争：公共の場での祈り（PSA） | https://www.instagram.com/reel/DZU0aHqTzaN/ |
 | 3 | A' | @thejapanlogic | 3,213（投稿時） | 53,282 | 16.6x | 2026-11-13 | 小売・お金：コンビニのトレイ（POV） | https://www.instagram.com/reel/DfscVEHAQWs/ |
-| 4 | A' | @thejapanlogic | 3,213（投稿時） | 29,836 | 9.3x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
-| 5 | B | @thejapanlogic | 53,866 | 84,108 | 1.56x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
+| 4 | A' | @thejapanlogic | 3,213（投稿時） | 31,840 | 9.9x | 2026-11-14 | 安全・夜：新宿の客引き（POV） | https://www.instagram.com/reel/DfvBDPOjX0U/ |
+| 5 | B | @thejapanlogic | 57,500 | 86,859 | 1.51x | 2026-11-15 | 入国手続き：税関eゲート（POV） | https://www.instagram.com/reel/DfyIb0rGAYg/ |
 | 6 | B | @japan.travel.hacks | 5,144 | 7,181 | 1.40x | 2026-08-31 | 買い物：セブンのフリーズドライ味噌汁 | https://www.instagram.com/reel/Dcsm79ihieH/ |
 | 7 | B | @japan.etiquette | 566 | 345 | 0.61x | 2026-10-30 | 旅行リスト：江戸の街並み5選 | https://www.instagram.com/reel/DfJbD9iRy2A/ |
 | 8 | B | @japan.etiquette | 566 | 305 | 0.54x | 2026-11-03 | 旅行リスト：現存天守5城 | https://www.instagram.com/reel/DfTTC2thQt7/ |
@@ -73,17 +75,18 @@
 | 18 | B | @japan_rule | 28,594 | 4,490 | 0.16x | 2026-06-06 | 交通マナーPSA：ラッシュ時の巨大スーツケース | https://www.instagram.com/reel/DZRSMgYpA6b/ |
 | 19 | B | @japantraveltips__ | 9,930 | 1,545 | 0.16x | 2026-09-12 | 旅行リスト：東京の穴場20選 | https://www.instagram.com/reel/DdL7zKZJenS/ |
 | 20 | B | @japan.explores | 9,502 | 1,438 | 0.15x | 2026-11-14 | ホテル紹介：JWマリオット東京 | https://www.instagram.com/reel/DfuWuYdplZf/ |
-| 21 | B | @thejapanlogic | 53,866 | 88,550 | 1.64x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
-| 22 | B | @thejapanlogic | 53,866 | 50,938 | 0.95x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
-| 23 | B | @thejapanlogic | 53,866 | 88,194 | 1.64x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
-| 24 | B | @thejapanlogic | 53,866 | 42,289 | 0.79x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
-| 25 | B | @thejapanlogic | 53,866 | 32,599 | 0.61x | 2026-11-18 | 食のルール：箸立て・ご飯に箸を立てるな（POV） | https://www.instagram.com/reel/Df52mWtHGWW/ |
-| 26 | B | @thejapanlogic | 53,866 | 19,005 | 0.35x | 2026-11-19 | 公共マナー：公園・空きペットボトルを置き去りにするな（POV） | https://www.instagram.com/reel/Df75LLRkq1e/ |
-| 27 | B | @thejapanlogic | 53,866 | 13,683 | 0.25x | 2026-11-20 | 交通のルール：新幹線・指定席に座るな（POV） | https://www.instagram.com/reel/Df-d3t9E-af/ |
-| 28 | B | @thejapanlogic | 53,866 | 44,629 | 0.83x | 2026-11-20 | 会話のルール：居酒屋・店員を待たずに「すみません」と呼ぶ（POV） | https://www.instagram.com/reel/Df_AUr1kubj/ |
+| 21 | B | @thejapanlogic | 57,500 | 93,209 | 1.62x | 2026-11-16 | 入浴マナー：温泉・洗ってから入る（POV） | https://www.instagram.com/reel/Df0vwvcjZt5/ |
+| 22 | B | @thejapanlogic | 57,500 | 53,822 | 0.94x | 2026-11-16 | お金：チップ断り・店員が釣りを追いかける（POV） | https://www.instagram.com/reel/Df1BjSgJct-/ |
+| 23 | B | @thejapanlogic | 57,500 | 92,818 | 1.61x | 2026-11-17 | 食のルール：回転寿司・皿を戻すな（POV） | https://www.instagram.com/reel/Df2vY8-pdZi/ |
+| 24 | B | @thejapanlogic | 57,500 | 43,981 | 0.76x | 2026-11-18 | 交通のルール：改札・残高不足でゲートが閉まる（POV） | https://www.instagram.com/reel/Df5UMUSAcXj/ |
+| 25 | B | @thejapanlogic | 57,500 | 34,442 | 0.60x | 2026-11-18 | 食のルール：箸立て・ご飯に箸を立てるな（POV） | https://www.instagram.com/reel/Df52mWtHGWW/ |
+| 26 | B | @thejapanlogic | 57,500 | 20,007 | 0.35x | 2026-11-19 | 公共マナー：公園・空きペットボトルを置き去りにするな（POV） | https://www.instagram.com/reel/Df75LLRkq1e/ |
+| 27 | B | @thejapanlogic | 57,500 | 15,566 | 0.27x | 2026-11-20 | 交通のルール：新幹線・指定席に座るな（POV） | https://www.instagram.com/reel/Df-d3t9E-af/ |
+| 28 | B | @thejapanlogic | 57,500 | 47,291 | 0.82x | 2026-11-20 | 会話のルール：居酒屋・店員を待たずに「すみません」と呼ぶ（POV） | https://www.instagram.com/reel/Df_AUr1kubj/ |
 | 29 | B | @japan.etiquette | 629 | 122 | 0.19x | 2026-11-18 | 旅行リスト：定番5都市しか回らない旅程（ナレーション） | https://www.instagram.com/reel/Df5xt4UxDjQ/ |
-| 30 | B | @thejapanlogic | 53,866 | 12,515 | 0.23x | 2026-11-22 | エンタメのルール：メイドカフェ・メイドの写真撮影禁止（POV） | https://www.instagram.com/reel/DgDnhGUiM7D/ |
-| 31 | B | @thejapanlogic | 53,866 | 9,484 | 0.18x | 2026-11-21 | 動物のルール：奈良の鹿せんべい・お辞儀見たさに掲げるな（POV） | https://www.instagram.com/reel/DgBCrEJjdmn/ |
+| 30 | B | @thejapanlogic | 57,500 | 55,780 | 0.97x | 2026-11-22 | エンタメのルール：メイドカフェ・メイドの写真撮影禁止（POV） | https://www.instagram.com/reel/DgDnhGUiM7D/ |
+| 31 | B | @thejapanlogic | 57,500 | 10,926 | 0.19x | 2026-11-21 | 動物のルール：奈良の鹿せんべい・お辞儀見たさに掲げるな（POV） | https://www.instagram.com/reel/DgBCrEJjdmn/ |
+| 32 | B | @thejapanlogic | 57,500 | 12,362 | 0.22x | 2026-11-23 | 食のルール：一人用ラーメンブース・厨房の窓から頭を出して注文するな（POV） | https://www.instagram.com/reel/DgGMP20j2Ca/ |
 ## フック詳細（冒頭3秒）
 
 ### #1 [Tier A] @thejapanlogic — ラーメン食券機（10.3x）
@@ -263,6 +266,13 @@
 - **構成**：間違い（せんべいを掲げて鹿をからかう）→ WRONG WAY → THE RIGHT WAY（正しく餌をやる、せんべいは低く持つ、頭突きに注意）→ 締め。#1/#3 と同じ Tier A テンプレート。
 - **備考**：遅れてくるブレイクの8例目。2026-11-22時点では2,806いいね（0.05x）で様子見だったが、翌日 9,484 いいね（0.18x）に急伸し Tier B 基準を1日遅れで突破。maid_cafe の次の候補。
 - 根拠：キャプション1行目＋2026-11-23の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
+
+### #32 [Tier B] @thejapanlogic — 一人用ラーメンブース・厨房の窓から頭を出して注文するな（0.22x）
+- **冒頭3秒**：タイトルピル「POV: your first solo ramen booth in Japan」の下で、POVが厨房の窓から頭を出して注文する間違いが即座に始まる。一人用ブースでは誰にも話しかける必要がないのがルール。
+- **最初の発話**：「POV: your first solo ramen booth in Japan, and you stuck your head through the kitchen window to order.」
+- **構成**：間違い（窓から頭を出して注文）→ WRONG WAY → THE RIGHT WAY（注文用紙に丸をつける、呼び出しボタンを押す、竹のすだれからラーメンが届く、替え玉は小皿をセンサーに置く）→ 締め。#1/#3 と同じ Tier A テンプレート。
+- **備考**：2026-11-24スキャンの新規ブレイクアウト（投稿約22hで12,362いいね）。メイドカフェに次ぐ今サイクルの速い出足。ラーメン圏の当たり筋が食券機（#1）に続いて2本目。コピー優先ルールにより本日昼枠の次エピソードに指定（新規トピック solo_ramen_booth）。
+- 根拠：キャプション1行目＋2026-11-24の posts スキャン（冒頭の細部はキャプション構造からの推定。media-understanding 未実施）。
 
 ## 使い方（制作への接続）
 - **各エピソードの冒頭3秒は、このライブラリのエントリ（原則 Tier A/A'）のフック構造を題材に合わせて適応する**。ゼロから発明しない。使ったエントリはエピソードのメタデータ（spec の pdca / next.json）に `hook_source` として記録する（FORMAT.md「Hook」ルール、daily.md 企画・台本セクション参照）。
