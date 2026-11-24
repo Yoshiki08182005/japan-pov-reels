@@ -1,0 +1,180 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep28_sushi_wasabi_voice/s1.mp3",
+   "dur": 2.937,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You stir wasabi into the soy sauce."
+    },
+    {
+     "t": 2.029,
+     "text": "The chef freezes."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep28_sushi_wasabi_voice/s2.mp3",
+   "dur": 1.792,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    },
+    {
+     "t": 1.092,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep28_sushi_wasabi_voice/s3.mp3",
+   "dur": 1.639,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Sushi rules."
+    },
+    {
+     "t": 1.011,
+     "text": "Follow them."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep28_sushi_wasabi_voice/s4.mp3",
+   "dur": 1.963,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Wasabi's inside."
+    },
+    {
+     "t": 1.184,
+     "text": "Already there."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep28_sushi_wasabi_voice/s5.mp3",
+   "dur": 1.702,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He smiles."
+    },
+    {
+     "t": 0.883,
+     "text": "Dip the fish."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep28_sushi_wasabi_voice/s6.mp3",
+   "dur": 0.56,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep28_sushi_wasabi_voice/s7.mp3",
+   "dur": 1.961,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wait."
+    },
+    {
+     "t": 0.59,
+     "text": "He shapes the next piece."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep28_sushi_wasabi_voice/s8.mp3",
+   "dur": 1.898,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One clean bite."
+    },
+    {
+     "t": 1.111,
+     "text": "No tears."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep28_sushi_wasabi_voice/s9.mp3",
+   "dur": 2.888,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Wasabi inside. Chef happy."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep28_sushi_wasabi_voice/n1.mp3",
+   "dur": 2.103,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Wasabi inside."
+    },
+    {
+     "t": 1.099,
+     "text": "Don't stir it in."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep28_sushi_wasabi_voice/n2.mp3",
+   "dur": 1.805,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Fish side down."
+    },
+    {
+     "t": 1.034,
+     "text": "Never the rice."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep28_sushi_wasabi_voice/n3.mp3",
+   "dur": 1.998,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Chopsticks or fingers."
+    },
+    {
+     "t": 1.277,
+     "text": "Both fine."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep28_sushi_wasabi_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
