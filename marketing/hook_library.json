@@ -778,6 +778,33 @@
    "note": "New breakout 2026-11-24 scan: 12,362 likes (~22h after posting, 0.22x). Copy-first rule: designated as the next production (today's noon slot, new topic solo_ramen_booth).",
    "hook_basis": "Caption first line + 2026-11-24 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first solo ramen booth in Japan, and you stuck your head through the kitchen window to order. 🍜"
+  },
+  {
+   "account": "thejapanlogic",
+   "followers_at_scan": 63044,
+   "views": null,
+   "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
+   "likes": 67590,
+   "comments": 178,
+   "likes_ratio": 1.07,
+   "ratio_basis": "likes / followers at scan (2026-11-25)",
+   "tier": "B",
+   "url": "https://www.instagram.com/reel/DgGugIkAVHB/",
+   "date": "2026-11-23",
+   "duration_s": 49.4,
+   "topic": "Food rule — sushi counter, stirring wasabi into the soy sauce (POV animation)",
+   "hook": {
+    "description": "Frame 0: title pill 'POV: your first sushi counter in Japan' over the POV stirring a big glob of wasabi into the soy sauce dish (the WRONG action) — the chef has already put wasabi under the fish, and the whole counter freezes.",
+    "first_on_screen_text": "POV: your first sushi counter in Japan",
+    "first_spoken_line": "POV: your first sushi counter in Japan, and you just made the chef cry.",
+    "structure": "Wrong action (stirring wasabi into soy sauce) -> WRONG WAY -> THE RIGHT WAY (wasabi is already under the fish; turn the piece and dip just the fish, never the rice; chopsticks or fingers both fine) -> close. Same Tier A template as #1/#3.",
+    "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi).",
+    "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
+   },
+   "structure": "Wrong action (stirring wasabi into soy sauce) -> WRONG WAY -> THE RIGHT WAY (wasabi is already under the fish; turn the piece and dip just the fish, never the rice; chopsticks or fingers both fine) -> close. Same Tier A template as #1/#3.",
+   "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi).",
+   "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
+   "caption_first_line": "POV: your first sushi counter in Japan, and you just made the chef cry. 🍣"
   }
  ]
 }
