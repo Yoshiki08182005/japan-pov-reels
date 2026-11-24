@@ -1,0 +1,184 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep26_solo_ramen_booth_voice/s1.mp3",
+   "dur": 3.135,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You poke your head through the window to order."
+    },
+    {
+     "t": 2.087,
+     "text": "Nobody talks here."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep26_solo_ramen_booth_voice/s2.mp3",
+   "dur": 1.792,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    },
+    {
+     "t": 1.092,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep26_solo_ramen_booth_voice/s3.mp3",
+   "dur": 1.468,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Booth rules."
+    },
+    {
+     "t": 0.849,
+     "text": "Follow them."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep26_solo_ramen_booth_voice/s4.mp3",
+   "dur": 2.189,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Circle your order."
+    },
+    {
+     "t": 1.323,
+     "text": "Press the button."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep26_solo_ramen_booth_voice/s5.mp3",
+   "dur": 1.782,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She smiles."
+    },
+    {
+     "t": 0.814,
+     "text": "Paper, please."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep26_solo_ramen_booth_voice/s6.mp3",
+   "dur": 0.645,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep26_solo_ramen_booth_voice/s7.mp3",
+   "dur": 1.756,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wait."
+    },
+    {
+     "t": 0.606,
+     "text": "The bowl slides through."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep26_solo_ramen_booth_voice/s8.mp3",
+   "dur": 1.916,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot ramen."
+    },
+    {
+     "t": 0.963,
+     "text": "No words needed."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep26_solo_ramen_booth_voice/s9.mp3",
+   "dur": 3.207,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Don't talk. Circle it."
+    },
+    {
+     "t": 2.351,
+     "text": "That's the booth."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep26_solo_ramen_booth_voice/n1.mp3",
+   "dur": 1.747,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "No talking."
+    },
+    {
+     "t": 0.86,
+     "text": "Order on paper."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep26_solo_ramen_booth_voice/n2.mp3",
+   "dur": 1.577,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Press the button."
+    },
+    {
+     "t": 0.976,
+     "text": "They bring it."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep26_solo_ramen_booth_voice/n3.mp3",
+   "dur": 2.129,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Extra noodles?"
+    },
+    {
+     "t": 1.092,
+     "text": "Plate on the sensor."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep26_solo_ramen_booth_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
