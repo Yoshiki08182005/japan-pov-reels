@@ -4,21 +4,21 @@
  "lines": {
   "s1": {
    "file": "ep26_solo_ramen_booth_voice/s1.mp3",
-   "dur": 3.135,
+   "dur": 2.773,
    "chunks": [
     {
      "t": 0.0,
-     "text": "You poke your head through the window to order."
+     "text": "You poke your head through the window."
     },
     {
-     "t": 2.087,
+     "t": 1.74,
      "text": "Nobody talks here."
     }
    ]
   },
   "s2": {
    "file": "ep26_solo_ramen_booth_voice/s2.mp3",
-   "dur": 1.792,
+   "dur": 1.79,
    "chunks": [
     {
      "t": 0.0,
@@ -60,7 +60,7 @@
   },
   "s5": {
    "file": "ep26_solo_ramen_booth_voice/s5.mp3",
-   "dur": 1.782,
+   "dur": 1.78,
    "chunks": [
     {
      "t": 0.0,
@@ -112,15 +112,11 @@
   },
   "s9": {
    "file": "ep26_solo_ramen_booth_voice/s9.mp3",
-   "dur": 3.207,
+   "dur": 2.414,
    "chunks": [
     {
      "t": 0.0,
      "text": "Don't talk. Circle it."
-    },
-    {
-     "t": 2.351,
-     "text": "That's the booth."
     }
    ]
   },
