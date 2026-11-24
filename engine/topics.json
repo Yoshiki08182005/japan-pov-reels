@@ -263,6 +263,15 @@
    "used": "ep25_maid_cafe"
   },
   {
+   "slug": "deer_crackers",
+   "category": "events",
+   "scene": "Nara park with deer",
+   "rule": "Don't hold deer crackers up high to make the deer bow — hold them low, and watch out for headbutts.",
+   "narration": "You hold the crackers up high to make the deer bow. Then the whole herd crowds in — hold them low, and the deer bows for you.",
+   "title": "POV: your first deer crackers in Nara",
+   "used": null
+  },
+  {
    "slug": "solo_ramen_booth",
    "category": "food",
    "scene": "solo ramen booth (ichiran-style)",
