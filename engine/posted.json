@@ -413,6 +413,25 @@
     "punchline: no photos of the maid. buy the cheki instead."
    ],
    "note": "v2 morning slot 2026-11-24, posted 06:03 JST (~1h early vs 07:00 target). Near-copy of thejapanlogic maid-cafe breakout (12,515 likes in ~5h, hook_library #30). First render-std run failed build assert (s3 overran accept by 0.22s; shortened s3 to 'Cafe rules.'). Viewer-eye rework on v1: shout bubble clipped at right edge (single-line 625px at [660,360]) and endcard line2 'NO PHOTOS, BUY CHEKI' (1346px) overflowed the frame — fixed to 2-line bubble (370px) and line2 'BUY CHEKI'. Motion audit PASS (Actions + local re-run), opening 0/2/4s frame-pair check PASS (diffs 8.31/49.67/79.10). Every scene beat a real i2v clip. Workflow was disabled_manually: enabled only to dispatch render-std (x3) and disabled again immediately each time."
+  },
+  {
+   "ep": "ep26_solo_ramen_booth",
+   "topic": "solo_ramen_booth",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgG9pV1DL2d/",
+   "post_id": "18141551102494242",
+   "posted_at_jst": "2026-11-24T12:14:00+09:00",
+   "length_s": 38.0,
+   "hook": "You poke your head through the window. Nobody talks here.",
+   "hook_source": "hook_library #32",
+   "gags": [
+    "freeze snap inside a moving clip (staff + neighbors freeze staring at the head through the bamboo screen, steam drifts and lanterns flicker)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (staff, female voice: 頭を出さないでくださいね！ / Please don't stick your head out!)",
+    "the wait (ramen bowl slides through the bamboo screen, steam rises, neighbors slurp, POV hands still)",
+    "punchline: don't talk. circle it."
+   ],
+   "note": "noon slot 2026-11-24, posted 12:14 JST (target 12:30, ~16 min early). Near-copy of thejapanlogic solo ramen booth breakout (12,362 likes in ~22h, hook_library #32). First episode under the 2026-11-24 dialogue rule: JP shout carries its EN translation directly underneath in the bubble (assets_std.py _bubble bubble_en) and the female staff is voiced by ja-JP-NanamiNeural (feminine-polite line). Payoff clip generation failed upstream (503, not retried) — payoff reuses waiting.mp4 at in 5.0 (bowl arrived, steam rising, neighbors slurping). First render-std run failed the build assert (s3 overran by 0.29s; shortened s1 and s9). Motion audit PASS (Actions, 0 static 1s windows; opening 0/2/4s pair means 40.42/44.22/62.38). Opening 0/2/4s frame-pair check PASS (camera push + steam + hands moving). Every scene beat a real i2v clip. Workflow was disabled_manually: enabled only to dispatch render-std (x2) and disabled again immediately each time."
   }
  ]
 }
