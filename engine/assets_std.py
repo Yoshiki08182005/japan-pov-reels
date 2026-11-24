@@ -13,6 +13,7 @@ build_art(outdir, cfg) writes:
   bubble_shout.png                   JP speech bubble for the staff shout line
 
 cfg: {"title": "POV: your first ... in Japan", "bubble": "はい、…！",
+      "bubble_en": "Yes, ...! (EN translation shown under the JP line)",
       "stamp_wrong": "WRONG WAY", "stamp_right": "RIGHT WAY"}
 """
 import math, os, random
@@ -95,9 +96,13 @@ def _pill(text, fill_rgba, fnt, path, pad_x=72, height=108, radius=54):
     print("pill", path, img.size)
 
 
-def _bubble(text, path):
+def _bubble(text, path, en=None):
+    """JP speech bubble. 2026-11-24 dialogue rule: when a Japanese character
+    speaks, the bubble shows the JP line on top with its EN translation
+    directly underneath (smaller, muted). Pass the translation as `en`."""
     lines = text.split("\n")
-    if len(lines) == 1:
+    d0 = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
+    if len(lines) == 1 and not en:
         f = fit(text, 800, 68, jp=True)
         d0 = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
         tw = int(d0.textlength(text, font=f))
@@ -110,24 +115,40 @@ def _bubble(text, path):
         img.save(path)
         print("bubble", path, img.size)
         return
-    # multi-line: fit the widest line to 300px so the bubble fits the
+    # multi-line: fit the widest JP line to 300px so the bubble fits the
     # free space right of the speaker (frame is 1080 wide)
-    d0 = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
     size = 60
     while size > 18 and max(d0.textlength(s, font=font(size, jp=True)) for s in lines) > 300:
         size -= 3
     f = font(size, jp=True)
-    tw = max(int(d0.textlength(s, font=f)) for s in lines)
+    jp_w = max(int(d0.textlength(s, font=f)) for s in lines)
     lh = f.size + 12
-    w, h = tw + 72, lh * len(lines) + 44
+    # EN translation line(s): smaller latin font, fit to 420px, muted ink
+    en_lines = en.split("\n") if en else []
+    fe, en_w, en_lh = None, 0, 0
+    if en_lines:
+        esize = max(18, int(size * 0.62))
+        fe = font(esize)
+        while esize > 16 and max(d0.textlength(s, font=fe) for s in en_lines) > 420:
+            esize -= 2
+            fe = font(esize)
+        en_w = max(int(d0.textlength(s, font=fe)) for s in en_lines)
+        en_lh = fe.size + 10
+    w = max(jp_w, en_w) + 72
+    h = lh * len(lines) + (10 + en_lh * len(en_lines) if en_lines else 0) + 44
     img = Image.new("RGBA", (w, h + 46), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     rrect(d, (2, 2, w - 2, h - 2), 34, fill=(255, 255, 255, 255))
     d.polygon([(70, h - 8), (128, h - 8), (82, h + 42)], fill=(255, 255, 255, 255))
-    y = h / 2 - (len(lines) - 1) * lh / 2
+    y = h / 2 - (len(lines) - 1) * lh / 2 - (en_lh * len(en_lines) + 10) / 2 if en_lines else h / 2 - (len(lines) - 1) * lh / 2
     for s in lines:
         d.text((w / 2, y + 2), s, font=f, fill=INK + (255,), anchor="mm")
         y += lh
+    if en_lines:
+        y += 10
+        for s in en_lines:
+            d.text((w / 2, y + 2), s, font=fe, fill=(90, 90, 108, 255), anchor="mm")
+            y += en_lh
     img.save(path)
     print("bubble", path, img.size)
 
@@ -138,5 +159,5 @@ def build_art(outdir, cfg):
     _stamp(cfg.get("stamp_right", "RIGHT WAY"), GREEN, os.path.join(outdir, "stamp_right.png"))
     _pill(cfg["title"], (10, 10, 12, 242), fit(cfg["title"], 950, 58), os.path.join(outdir, "pill_title.png"))
     _pill("THE RIGHT WAY", GREEN + (255,), font(84), os.path.join(outdir, "pill_rightway.png"), pad_x=110, height=148, radius=74)
-    _bubble(cfg["bubble"], os.path.join(outdir, "bubble_shout.png"))
+    _bubble(cfg["bubble"], os.path.join(outdir, "bubble_shout.png"), cfg.get("bubble_en"))
     return outdir

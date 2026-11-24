@@ -23,6 +23,8 @@ Reference reels: konbini cash tray (DfscVEHAQWs, 3.4k likes), ramen ticket machi
 - Calm, clear English narration (TTS), flat delivery. No prominent BGM.
 - **Narration runs through the WHOLE episode (user, 2026-11-15: 「ナレーションしっかりあったほうがいい」).** Deadpan EN narration carries the story beats as they happen — every story beat gets its own short line, timed to the action, with karaoke word-highlight subtitles for ALL narration lines. The explainer cards are the **recap**, not the only narration: the story section must never be narration-free. Keep the JP staff shout clean (no EN line over it — the silence→shout contrast is the gag) and keep a short silence right at the freeze snap.
 - Japanese staff lines as speech bubbles + short JP voice clips.
+- **JP dialogue text rule (user, 2026-11-24): when a Japanese character speaks, the on-screen text shows the Japanese line with its English translation directly underneath** (JP line on top, EN translation below it). This applies to every Japanese character's dialogue (speech bubbles / dialogue telops). The EN narration karaoke subtitles are separate and stay as they are.
+- **Gendered dialogue & voices (user, 2026-11-24): male and female characters' lines are written distinctly** — masculine vs feminine Japanese speech style (endings, pronouns, tone) — **and voiced to match the character's gender: female characters get a female voice, male characters a male voice.** Never give a female character a male voice or the reverse.
 
 ## Caption template (from the account's posts)
 ```
@@ -74,6 +76,8 @@ Proven on the sister account @moshimo.simulation (28-day Instagram data, 2026-11
 
 ### Telops (burned into `build_2d_std.py` — do not improvise per episode)
 - [ ] One idea per telop, **max ~7 English words** on screen at once (plus the JP speech bubble).
+- [ ] **Japanese character dialogue shows the JP line with its EN translation directly underneath (user, 2026-11-24)** — every Japanese speaker's line, no exceptions.
+- [ ] **Dialogue wording and voice match the character's gender (user, 2026-11-24)**: JP lines use gender-appropriate speech style, and the JP voice clip for a female character is a female voice (male character = male voice).
 - [ ] Main telop (narration caption): **88px** at 1080 wide (rule: ≥64px), white bold + ink outline, baseline **y=1300** — lower-third, above the hands.
 - [ ] Title label: black rounded label, top of frame (y≈268), present from second 0 to the end.
 - [ ] Telops never cover the key prop (tray / ticket machine) or the staff member's face.
