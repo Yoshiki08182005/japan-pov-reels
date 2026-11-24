@@ -18,7 +18,7 @@
   },
   "s2": {
    "file": "ep28_sushi_wasabi_voice/s2.mp3",
-   "dur": 1.792,
+   "dur": 1.791,
    "chunks": [
     {
      "t": 0.0,
@@ -32,35 +32,27 @@
   },
   "s3": {
    "file": "ep28_sushi_wasabi_voice/s3.mp3",
-   "dur": 1.639,
+   "dur": 1.121,
    "chunks": [
     {
      "t": 0.0,
      "text": "Sushi rules."
-    },
-    {
-     "t": 1.011,
-     "text": "Follow them."
     }
    ]
   },
   "s4": {
    "file": "ep28_sushi_wasabi_voice/s4.mp3",
-   "dur": 1.963,
+   "dur": 1.28,
    "chunks": [
     {
      "t": 0.0,
      "text": "Wasabi's inside."
-    },
-    {
-     "t": 1.184,
-     "text": "Already there."
     }
    ]
   },
   "s5": {
    "file": "ep28_sushi_wasabi_voice/s5.mp3",
-   "dur": 1.702,
+   "dur": 1.703,
    "chunks": [
     {
      "t": 0.0,
