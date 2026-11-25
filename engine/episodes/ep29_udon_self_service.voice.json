@@ -1,0 +1,172 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep29_udon_self_service_voice/s1.mp3",
+   "dur": 3.05,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You serve yourself straight from the kitchen."
+    },
+    {
+     "t": 1.902,
+     "text": "The whole shop freezes."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep29_udon_self_service_voice/s2.mp3",
+   "dur": 1.79,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    },
+    {
+     "t": 1.092,
+     "text": "Wrong move."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep29_udon_self_service_voice/s3.mp3",
+   "dur": 0.958,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Udon rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep29_udon_self_service_voice/s4.mp3",
+   "dur": 0.991,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tray first."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep29_udon_self_service_voice/s5.mp3",
+   "dur": 1.614,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He points."
+    },
+    {
+     "t": 0.744,
+     "text": "Order over here."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep29_udon_self_service_voice/s6.mp3",
+   "dur": 0.56,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep29_udon_self_service_voice/s7.mp3",
+   "dur": 1.855,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wait."
+    },
+    {
+     "t": 0.618,
+     "text": "He cooks your udon."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep29_udon_self_service_voice/s8.mp3",
+   "dur": 1.799,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One hot slurp."
+    },
+    {
+     "t": 1.069,
+     "text": "Worth the wait."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep29_udon_self_service_voice/s9.mp3",
+   "dur": 3.419,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Self-service. Just not THAT self-service."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep29_udon_self_service_voice/n1.mp3",
+   "dur": 1.829,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take a tray."
+    },
+    {
+     "t": 0.837,
+     "text": "Order at the counter."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep29_udon_self_service_voice/n2.mp3",
+   "dur": 2.129,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tempura with tongs."
+    },
+    {
+     "t": 1.265,
+     "text": "Pay at the end."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep29_udon_self_service_voice/n3.mp3",
+   "dur": 2.276,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Green onions are free."
+    },
+    {
+     "t": 1.335,
+     "text": "Return the tray."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep29_udon_self_service_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
