@@ -470,6 +470,25 @@
     "punchline: self-service, just not THAT self-service."
    ],
    "note": "2026-11-25 noon slot: near-copy of thejapanlogic udon self-service breakout (506 -> 17,297 likes, hook_library #34). No unused retail/money/arrival topic remained, so noon took this food breakout copy (same category as morning ep28, documented exception)."
+  },
+  {
+   "ep": "ep30_train_silence",
+   "topic": "train_silence",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/DgKdApUPTK0/",
+   "post_id": "18068994698516084",
+   "posted_at_jst": "2026-11-25T20:45:35+09:00",
+   "length_s": 38.0,
+   "hook": "Your phone rings. The whole carriage turns.",
+   "hook_source": "hook_library #24",
+   "gags": [
+    "freeze snap inside a moving clip (passengers freeze staring at the ringing phone, train and scenery keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (woman passenger, female voice: マナーモードにしてちょうだい！ / Put it on manner mode, please!)",
+    "the wait (train rolls on, passengers read, POV sits still)",
+    "punchline: your ringtone just met fifty strangers."
+   ],
+   "note": "Night slot 2026-11-25, posted ~20:45 JST. Motion audit PASS (0 static 1s windows); opening 0/0.5s, 2/2.5s, 4/4.5s frame pairs confirm character + background motion (scenery + straps move while passengers freeze). Shout bubble shows JP line with EN translation underneath (11.7s frame verified); woman passenger voiced by ja-JP-NanamiNeural (female voice, first female-voiced shout). Render-std workflow was disabled at dispatch time (422) — enabled it, dispatched, disabled it again after success. Cold transit topic (no transit breakout copy available tonight); hook adapts hook_library #24 mechanics."
   }
  ]
 }
