@@ -432,6 +432,25 @@
     "punchline: don't talk. circle it."
    ],
    "note": "noon slot 2026-11-24, posted 12:14 JST (target 12:30, ~16 min early). Near-copy of thejapanlogic solo ramen booth breakout (12,362 likes in ~22h, hook_library #32). First episode under the 2026-11-24 dialogue rule: JP shout carries its EN translation directly underneath in the bubble (assets_std.py _bubble bubble_en) and the female staff is voiced by ja-JP-NanamiNeural (feminine-polite line). Payoff clip generation failed upstream (503, not retried) — payoff reuses waiting.mp4 at in 5.0 (bowl arrived, steam rising, neighbors slurping). First render-std run failed the build assert (s3 overran by 0.29s; shortened s1 and s9). Motion audit PASS (Actions, 0 static 1s windows; opening 0/2/4s pair means 40.42/44.22/62.38). Opening 0/2/4s frame-pair check PASS (camera push + steam + hands moving). Every scene beat a real i2v clip. Workflow was disabled_manually: enabled only to dispatch render-std (x2) and disabled again immediately each time."
+  },
+  {
+   "ep": "ep28_sushi_wasabi",
+   "topic": "sushi_wasabi",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgJWY7niQU_/",
+   "post_id": "18117291826842889",
+   "posted_at_jst": "2026-11-25T10:28:28+09:00",
+   "length_s": 38.0,
+   "hook": "You stir wasabi into the soy sauce. The chef freezes.",
+   "hook_source": "hook_library #33",
+   "gags": [
+    "freeze snap inside a moving clip (chef + customers freeze staring at the wasabi being stirred, steam and lantern keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef, male voice: わさびはもう入ってるんだ！ / The wasabi's already in there!)",
+    "the wait (chef shapes the next piece, customers eat, steam drifts)",
+    "punchline: wasabi inside. chef happy."
+   ],
+   "note": "morning slot, ~3.5h late vs 07:00 target (build assert retry + service restart during post)"
   }
  ]
 }
