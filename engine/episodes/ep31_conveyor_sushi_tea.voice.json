@@ -1,0 +1,176 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep31_conveyor_sushi_tea_voice/s1.mp3",
+   "dur": 1.741,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wash your hands "
+    },
+    {
+     "t": 1.057,
+     "text": " in the tea tap."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep31_conveyor_sushi_tea_voice/s2.mp3",
+   "dur": 2.767,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes. "
+    },
+    {
+     "t": 1.991,
+     "text": " Wrong tap."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep31_conveyor_sushi_tea_voice/s3.mp3",
+   "dur": 0.908,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tea rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep31_conveyor_sushi_tea_voice/s4.mp3",
+   "dur": 1.016,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Powder in the cup."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep31_conveyor_sushi_tea_voice/s5.mp3",
+   "dur": 2.94,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot water in. "
+    },
+    {
+     "t": 1.852,
+     "text": " Green tea out."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep31_conveyor_sushi_tea_voice/s6.mp3",
+   "dur": 0.56,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep31_conveyor_sushi_tea_voice/s7.mp3",
+   "dur": 2.563,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You wait. "
+    },
+    {
+     "t": 1.528,
+     "text": " The belt rolls on."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep31_conveyor_sushi_tea_voice/s8.mp3",
+   "dur": 2.936,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One sip. "
+    },
+    {
+     "t": 1.655,
+     "text": " Perfect green tea."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep31_conveyor_sushi_tea_voice/s9.mp3",
+   "dur": 2.981,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot water for tea. "
+    },
+    {
+     "t": 2.107,
+     "text": " Not a sink."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep31_conveyor_sushi_tea_voice/n1.mp3",
+   "dur": 3.482,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That tap is hot water. "
+    },
+    {
+     "t": 2.326,
+     "text": " For green tea."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep31_conveyor_sushi_tea_voice/n2.mp3",
+   "dur": 2.71,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Powder first. "
+    },
+    {
+     "t": 1.817,
+     "text": " Then the tap."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep31_conveyor_sushi_tea_voice/n3.mp3",
+   "dur": 2.332,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hands? "
+    },
+    {
+     "t": 1.505,
+     "text": " The restroom."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep31_conveyor_sushi_tea_voice/n4.mp3",
+   "dur": 3.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times. "
+    },
+    {
+     "t": 2.326,
+     "text": " Follow for more."
+    }
+   ]
+  }
+ }
+}
