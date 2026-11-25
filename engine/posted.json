@@ -451,6 +451,25 @@
     "punchline: wasabi inside. chef happy."
    ],
    "note": "morning slot, ~3.5h late vs 07:00 target (build assert retry + service restart during post)"
+  },
+  {
+   "ep": "ep29_udon_self_service",
+   "topic": "udon_self_service",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgJgC71p8TN/",
+   "post_id": "18155719261544110",
+   "posted_at_jst": "2026-11-25T11:53:24+09:00",
+   "length_s": 38.0,
+   "hook": "You serve yourself straight from the kitchen. The whole shop freezes.",
+   "hook_source": "hook_library #34",
+   "gags": [
+    "freeze snap inside a moving clip (chef + customers freeze staring at the ladle in the udon pot, steam and noren keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef, male voice: こっちで注文だよ！ / Order over here!)",
+    "the wait (chef cooks the udon, customers eat, steam drifts)",
+    "punchline: self-service, just not THAT self-service."
+   ],
+   "note": "2026-11-25 noon slot: near-copy of thejapanlogic udon self-service breakout (506 -> 17,297 likes, hook_library #34). No unused retail/money/arrival topic remained, so noon took this food breakout copy (same category as morning ep28, documented exception)."
   }
  ]
 }
