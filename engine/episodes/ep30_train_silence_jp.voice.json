@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-NanamiNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep30_train_silence_jp_voice/shout.mp3",
+   "dur": 1.859,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "マナーモードにしてちょうだい！"
+    }
+   ]
+  }
+ }
+}
