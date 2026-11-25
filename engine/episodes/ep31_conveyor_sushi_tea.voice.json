@@ -4,7 +4,7 @@
  "lines": {
   "s1": {
    "file": "ep31_conveyor_sushi_tea_voice/s1.mp3",
-   "dur": 1.741,
+   "dur": 1.745,
    "chunks": [
     {
      "t": 0.0,
@@ -52,15 +52,11 @@
   },
   "s5": {
    "file": "ep31_conveyor_sushi_tea_voice/s5.mp3",
-   "dur": 2.94,
+   "dur": 1.113,
    "chunks": [
     {
      "t": 0.0,
-     "text": "Hot water in. "
-    },
-    {
-     "t": 1.852,
-     "text": " Green tea out."
+     "text": "Hot water in."
     }
    ]
   },
