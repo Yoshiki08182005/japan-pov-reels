@@ -784,9 +784,9 @@
    "followers_at_scan": 64125,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 74375,
+   "likes": 82461,
    "comments": 192,
-   "likes_ratio": 1.16,
+   "likes_ratio": 1.29,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgGugIkAVHB/",
@@ -802,7 +802,7 @@
     "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (stirring wasabi into soy sauce) -> WRONG WAY -> THE RIGHT WAY (wasabi is already under the fish; turn the piece and dip just the fish, never the rice; chopsticks or fingers both fine) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi). 2026-11-25 scan: 74,375 likes (1.16x); our ep28 copy produced this morning, verification-PASS, awaiting posting.",
+   "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi). 2026-11-25 scan: 74,375 likes (1.16x); our ep28 copy produced this morning, verification-PASS, awaiting posting. 2026-11-25 20:24 JST scan: 82,461 likes (1.29x).",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first sushi counter in Japan, and you just made the chef cry. 🍣"
   },
@@ -811,9 +811,9 @@
    "followers_at_scan": 64155,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 17297,
+   "likes": 45269,
    "comments": 47,
-   "likes_ratio": 0.27,
+   "likes_ratio": 0.71,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgIxI05FZzk/",
@@ -829,9 +829,36 @@
     "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (serving yourself from the kitchen) -> WRONG WAY -> THE RIGHT WAY (take a tray, order noodles at the counter, add tempura with the tongs, pay at the end, green onion and tempura crumbs free, return the tray) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #10: 506 likes at 05:41 JST on 2026-11-25 -> 17,297 likes (0.27x) by ~10:30 JST, a 34x jump in about 5 hours. Copy-first rule: designated as the next production (today's noon slot, new topic udon_self_service).",
+   "note": "Late breakout #10: 506 likes at 05:41 JST on 2026-11-25 -> 17,297 likes (0.27x) by ~10:30 JST, a 34x jump in about 5 hours. Copy-first rule: designated as the next production (today's noon slot, new topic udon_self_service). 2026-11-25 20:24 JST scan: 45,269 likes (0.71x); our ep29 copy posted at noon.",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first udon shop in Japan, and you served yourself straight from the kitchen. 🍜"
+  },
+  {
+   "account": "thejapanlogic",
+   "followers_at_scan": 64155,
+   "views": null,
+   "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
+   "likes": 14490,
+   "comments": 22,
+   "likes_ratio": 0.23,
+   "ratio_basis": "likes / followers at scan (2026-11-25)",
+   "tier": "B",
+   "url": "https://www.instagram.com/reel/DgJTfrBzJGG/",
+   "date": "2026-11-24",
+   "duration_s": null,
+   "topic": "Food rule — conveyor sushi, washing hands in the green-tea tap (POV animation)",
+   "hook": {
+    "description": "Frame 0: title pill 'POV: your first conveyor sushi in Japan' over the POV washing hands under the little hot-water tap at the seat (the WRONG action) — that tap is very hot water for green tea, not a sink.",
+    "first_on_screen_text": "POV: your first conveyor sushi in Japan",
+    "first_spoken_line": "POV: your first conveyor sushi in Japan, and you washed your hands in the tea tap.",
+    "structure": "Wrong action (washing hands in the tea tap) -> WRONG WAY -> THE RIGHT WAY (the tap is hot water for green tea; make tea in the cup, wash hands in the restroom) -> close. Same Tier A template as #1/#3.",
+    "note": "Late breakout #11: 540 likes at ~10:30 JST on 2026-11-25 -> 14,490 likes (0.23x) by ~20:24 JST, a 27x jump in about 10 hours. Copy-first rule: next candidate for the next food slot (new topic conveyor_sushi_tea).",
+    "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
+   },
+   "structure": "Wrong action (washing hands in the tea tap) -> WRONG WAY -> THE RIGHT WAY (the tap is hot water for green tea; make tea in the cup, wash hands in the restroom) -> close. Same Tier A template as #1/#3.",
+   "note": "Late breakout #11: 540 likes at ~10:30 JST on 2026-11-25 -> 14,490 likes (0.23x) by ~20:24 JST, a 27x jump in about 10 hours. Copy-first rule: next candidate for the next food slot (new topic conveyor_sushi_tea).",
+   "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
+   "caption_first_line": "POV: your first conveyor sushi in Japan, and you washed your hands in the tea tap. 🍣"
   }
  ]
 }
