@@ -1,0 +1,172 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep34_konbini_chicken_voice/s1.mp3",
+   "dur": 2.6,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The chicken's right there."
+    },
+    {
+     "t": 1.32,
+     "text": "So you grab it yourself."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep34_konbini_chicken_voice/s2.mp3",
+   "dur": 1.218,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep34_konbini_chicken_voice/s3.mp3",
+   "dur": 1.184,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Konbini rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep34_konbini_chicken_voice/s4.mp3",
+   "dur": 1.85,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Point at it."
+    },
+    {
+     "t": 0.837,
+     "text": "She does the rest."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep34_konbini_chicken_voice/s5.mp3",
+   "dur": 1.122,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She reaches in."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep34_konbini_chicken_voice/s6.mp3",
+   "dur": 1.092,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She leans in—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep34_konbini_chicken_voice/s7.mp3",
+   "dur": 1.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She wraps it."
+    },
+    {
+     "t": 0.906,
+     "text": "You wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep34_konbini_chicken_voice/s8.mp3",
+   "dur": 2.705,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot. Crispy."
+    },
+    {
+     "t": 1.968,
+     "text": "Worth the wait."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep34_konbini_chicken_voice/s9.mp3",
+   "dur": 2.895,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Point. Don't grab."
+    },
+    {
+     "t": 2.047,
+     "text": "That's the rule."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep34_konbini_chicken_voice/n1.mp3",
+   "dur": 1.981,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Hot case snacks."
+    },
+    {
+     "t": 1.15,
+     "text": "Not self-serve."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep34_konbini_chicken_voice/n2.mp3",
+   "dur": 1.916,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Ask the clerk."
+    },
+    {
+     "t": 0.964,
+     "text": "Or just point."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep34_konbini_chicken_voice/n3.mp3",
+   "dur": 1.691,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Same price."
+    },
+    {
+     "t": 0.999,
+     "text": "She serves it."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep34_konbini_chicken_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}

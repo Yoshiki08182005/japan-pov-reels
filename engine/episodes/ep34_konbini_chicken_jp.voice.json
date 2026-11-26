@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-NanamiNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep34_konbini_chicken_jp_voice/shout.mp3",
+   "dur": 1.586,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "あっ、お取りしますね！"
+    }
+   ]
+  }
+ }
+}
