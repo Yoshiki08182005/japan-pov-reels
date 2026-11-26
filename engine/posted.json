@@ -489,6 +489,25 @@
     "punchline: your ringtone just met fifty strangers."
    ],
    "note": "Night slot 2026-11-25, posted ~20:45 JST. Motion audit PASS (0 static 1s windows); opening 0/0.5s, 2/2.5s, 4/4.5s frame pairs confirm character + background motion (scenery + straps move while passengers freeze). Shout bubble shows JP line with EN translation underneath (11.7s frame verified); woman passenger voiced by ja-JP-NanamiNeural (female voice, first female-voiced shout). Render-std workflow was disabled at dispatch time (422) — enabled it, dispatched, disabled it again after success. Cold transit topic (no transit breakout copy available tonight); hook adapts hook_library #24 mechanics."
+  },
+  {
+   "ep": "ep31_conveyor_sushi_tea",
+   "topic": "conveyor_sushi_tea",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgMDM1NuCSP/",
+   "post_id": "17956149837313908",
+   "posted_at_jst": "2026-11-26T11:40:10+09:00",
+   "length_s": 40.21,
+   "hook": "You wash your hands in the tea tap. The whole counter freezes.",
+   "hook_source": "hook_library #35",
+   "gags": [
+    "freeze snap inside a moving clip (chef + customers freeze staring at the hands under the tap, steam and belt keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (chef, male voice: それはお茶のお湯だよ！ / That's hot water for tea!)",
+    "the wait (chef shapes sushi, customers eat, belt rolls on, steam drifts)",
+    "punchline: hot water for tea, not a sink."
+   ],
+   "note": "noon slot 2026-11-26. Produced morning 2026-11-26 (verification PASS, motion audit 0 static 1s windows). Post approval requested 05:56 JST, user approved 09:05 JST ('Allowed once'); morning run's wait had expired so the post never executed. Noon run re-ran the identical approved post-feed command: first attempt interrupted by exec service restart (verified not live before retry), second attempt succeeded RC 0."
   }
  ]
 }
