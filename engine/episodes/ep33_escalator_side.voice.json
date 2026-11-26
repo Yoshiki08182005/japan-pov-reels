@@ -1,0 +1,176 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep33_escalator_side_voice/s1.mp3",
+   "dur": 2.296,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You stand on the right."
+    },
+    {
+     "t": 1.196,
+     "text": "The whole line stops."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep33_escalator_side_voice/s2.mp3",
+   "dur": 1.652,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone waits."
+    },
+    {
+     "t": 0.93,
+     "text": "Wrong side."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep33_escalator_side_voice/s3.mp3",
+   "dur": 1.252,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Escalator rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep33_escalator_side_voice/s4.mp3",
+   "dur": 1.773,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Step left."
+    },
+    {
+     "t": 0.941,
+     "text": "Let them pass."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep33_escalator_side_voice/s5.mp3",
+   "dur": 1.342,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She taps your shoulder."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep33_escalator_side_voice/s6.mp3",
+   "dur": 0.671,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Left—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep33_escalator_side_voice/s7.mp3",
+   "dur": 1.762,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You ride up."
+    },
+    {
+     "t": 0.791,
+     "text": "They stream past."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep33_escalator_side_voice/s8.mp3",
+   "dur": 1.978,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Top of the stairs."
+    },
+    {
+     "t": 1.15,
+     "text": "Smooth exit."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep33_escalator_side_voice/s9.mp3",
+   "dur": 2.228,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One side walks."
+    },
+    {
+     "t": 1.15,
+     "text": "The other side waits."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep33_escalator_side_voice/n1.mp3",
+   "dur": 2.265,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Stand on the left."
+    },
+    {
+     "t": 1.354,
+     "text": "In Tokyo."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep33_escalator_side_voice/n2.mp3",
+   "dur": 2.06,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Right side stays open."
+    },
+    {
+     "t": 1.265,
+     "text": "For walkers."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep33_escalator_side_voice/n3.mp3",
+   "dur": 2.148,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Osaka flips it."
+    },
+    {
+     "t": 1.161,
+     "text": "Stand on the right."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep33_escalator_side_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
