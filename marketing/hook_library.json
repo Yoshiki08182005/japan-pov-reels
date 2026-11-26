@@ -859,6 +859,30 @@
    "note": "Late breakout #11: 540 likes at ~10:30 JST on 2026-11-25 -> 14,490 likes (0.23x) by ~20:24 JST, a 27x jump in about 10 hours. Copy-first rule: next candidate for the next food slot (new topic conveyor_sushi_tea).",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first conveyor sushi in Japan, and you washed your hands in the tea tap. 🍣"
+  },
+  {
+   "id": 36,
+   "account": "thejapanlogic",
+   "followers_at_scan": 69571,
+   "views": null,
+   "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention.",
+   "likes": 11067,
+   "comments": 113,
+   "likes_ratio": 0.16,
+   "ratio_basis": "likes / followers at scan (2026-11-26 20:24 JST)",
+   "tier": "B",
+   "url": "https://www.instagram.com/reel/DgL4HbuCfid/",
+   "date": "2026-11-25",
+   "duration_s": 48.0,
+   "topic": "Transit rule — escalator: stand on the left in Tokyo, right in Osaka (POV animation)",
+   "hook": {
+    "description": "Frame 0: title pill 'POV: your first escalator in Tokyo' over POV stepping onto the escalator and standing on the right side; the whole line stops behind. First spoken line is the rule itself.",
+    "first_on_screen_text": "POV: your first escalator in Tokyo",
+    "first_spoken_line": "POV: your first escalator in Tokyo, and you stood on the right.",
+    "structure": "wrong action (stand on the right) -> whole line stops behind you -> THE RIGHT WAY (stand left in Tokyo, right in Osaka; keep one side open for walkers)",
+    "mechanics": "wrong action already moving at t=0; public failure (the queue behind you) in the opening seconds; Tier A template"
+   },
+   "note": "Late breakout #12: 494 likes at the 2026-11-26 PDCA scan -> 11,067 likes by 20:24 JST the same day (22x in under a day, 113 comments). Crosses the Tier B threshold (0.15x) at 0.16x. Copy-priority rule: designated for tonight's night slot (escalator_side, the queued topic with the same rule)."
   }
  ]
 }
