@@ -508,6 +508,25 @@
     "punchline: hot water for tea, not a sink."
    ],
    "note": "noon slot 2026-11-26. Produced morning 2026-11-26 (verification PASS, motion audit 0 static 1s windows). Post approval requested 05:56 JST, user approved 09:05 JST ('Allowed once'); morning run's wait had expired so the post never executed. Noon run re-ran the identical approved post-feed command: first attempt interrupted by exec service restart (verified not live before retry), second attempt succeeded RC 0."
+  },
+  {
+   "ep": "ep33_escalator_side",
+   "topic": "escalator_side",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/DgNBFv0TiCf/",
+   "post_id": "18131753842890774",
+   "posted_at_jst": "2026-11-26T20:39:18+09:00",
+   "length_s": 38.0,
+   "hook": "You stand on the right. The whole line stops.",
+   "hook_source": "hook_library #36",
+   "gags": [
+    "freeze snap inside a moving clip (commuters freeze staring at the hands on the right side, escalator and station keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (woman office worker, female voice: すみません、左ですよ！ / Excuse me — the left side, please!)",
+    "the wait (commuters stream past on the right while the POV rides up on the left)",
+    "punchline: one side walks, the other side waits."
+   ],
+   "note": "night slot 2026-11-26. Near-copy of the thejapanlogic escalator breakout (494 -> 11,067 likes, hook_library #36, late breakout #12). Verification PASS (motion audit 0 static 1s windows; opening 0s/2s/4s frame pairs confirm character + background motion; sheet check: stamps/bubble/cards/endcard present, JP shout bubble carries EN translation underneath, female voice NanamiNeural for the woman office worker). render-std run 45811097521 success; workflow was manually disabled, so it was enabled only for the dispatch and re-disabled immediately after. Posted via instagram-cli post-feed, verified live."
   }
  ]
 }
