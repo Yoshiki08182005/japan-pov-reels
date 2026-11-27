@@ -886,30 +886,30 @@
   },
   {
    "id": 37,
-   "tier": "watch",
+   "tier": "B",
    "account": "thejapanlogic",
    "topic": "konbini fried chicken — don't help yourself from the hot case",
    "followers_at_scan": 70583,
-   "likes": 4005,
-   "ratio": 0.057,
+   "likes": 10787,
+   "ratio": 0.1528,
    "hook_first3s": "Title pill 'POV: your first konbini fried chicken in Japan' — POV opens the hot case and helps themselves to fried chicken; the clerk reacts. Hot snacks by the register aren't self-serve: tell the clerk or just point.",
    "first_line": "POV: your first konbini fried chicken in Japan, and you just helped yourself from the hot case.",
    "structure": "wrong action starts immediately (open the case, grab the chicken) -> WRONG WAY -> THE RIGHT WAY (ask the clerk or point) -> close. Same Tier A template as #1/#3.",
-   "note": "2026-11-27 morning scan: posted 2026-11-26 12:02 JST, 423 likes at ~17h — watch status, below Tier B threshold (0.15x). Designated as the morning slot's new food topic anyway: no producible food topic was left in the queue and the late-breakout pattern (10+ cases) says first-day weakness carries no information. Re-check tomorrow; promote to Tier B if it breaks out. Our near-copy is ep34 konbini_chicken. 2026-11-27 10:30 JST scan: 4005 likes (0.057x).",
+   "note": "2026-11-28 05:26 JST scan: 4,005 -> 10,787 likes (0.15x, comments 75) in ~19h — late breakout #13, Tier B threshold reached. Already copied as self ep34 konbini_chicken (posted 2026-11-27).",
    "source": "2026-11-27 morning posts scan (caption first line)"
   },
   {
    "id": 38,
-   "tier": "watch",
+   "tier": "B",
    "account": "thejapanlogic",
    "topic": "yakiniku — tip the whole plate onto the grill",
    "followers_at_scan": 70583,
-   "likes": 677,
-   "ratio": 0.0096,
+   "likes": 29953,
+   "ratio": 0.4244,
    "hook_first3s": "Title pill 'POV: your first yakiniku in Japan' — POV tips the whole plate of meat onto the grill; the fire flares. At yakiniku you grill it yourself, a few pieces at a time.",
    "first_line": "POV: your first yakiniku in Japan, and you tipped the whole plate on the grill.",
    "structure": "wrong action starts immediately (tip the plate, fire flares) -> WRONG WAY -> THE RIGHT WAY (cook a few pieces at a time, use the tongs for raw meat, never your own chopsticks; a piece of ice calms a flare-up) -> close. Same Tier A template as #1/#3.",
-   "note": "2026-11-27 10:30 JST scan: newest POV, 677 likes (0.0096x) — watch status, below Tier B threshold (0.15x). Food (grill-yourself rule), same template as the other food breakouts; designated as the next new food topic (topics.json yakiniku) for the noon slot, since no producible food topic was left in the queue. Late-breakout pattern says first-day weakness carries no information — re-check tomorrow; promote to Tier B if it breaks out.",
+   "note": "2026-11-28 05:26 JST scan: 677 -> 29,953 likes (0.42x, comments 98) in ~36h — late breakout #14, Tier B. Already copied as self ep35 yakiniku (posted 2026-11-27).",
    "source": "2026-11-27 PDCA posts scan (caption first line)"
   }
  ]
