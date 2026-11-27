@@ -546,6 +546,25 @@
     "punchline: point, don't grab."
    ],
    "note": "Morning slot 2026-11-27, posted 09:23 JST (~2h23m late: local build asserts needed 2 script shortenings, render-std run 9m39s, post-feed upload ~100min). NEW food topic as the near-copy of the thejapanlogic konbini fried chicken POV (posted 2026-11-26 12:02 JST, 423 likes at ~17h, watch status, hook_library #37; late-breakout pattern). Previous post ep33 is transit, so the category changes. No producible food topic was left in the queue (pour_beer / onsen retired as unproducible). All 6 clips real i2v; motion audit PASS (0 static 1s windows, Actions build), opening 0/2/4s frame-pair check PASS (hands + steam moving). One rework: shout bubble first placed at [560,150] was half-hidden behind the title pill (EN line cut off) — moved to [600,750], verified fully visible (JP + EN). Female clerk voiced by ja-JP-NanamiNeural. No real store names/trademarks. First post-feed attempt interrupted by an exec service restart (verified not live before retrying); /tmp was wiped by the restart so the artifact was re-downloaded before the successful retry."
+  },
+  {
+   "ep": "ep35_yakiniku",
+   "topic": "yakiniku",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgOvXAEuPmI/",
+   "post_id": "18131105683656405",
+   "posted_at_jst": "2026-11-27T12:43:54+09:00",
+   "length_s": 38.0,
+   "hook": "The meat's right there. So you tip the whole plate.",
+   "hook_source": "hook_library #38",
+   "gags": [
+    "freeze snap inside a moving clip (server and diners freeze staring at the hands tipping the plate, flames and smoke keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (male server, male voice: おいおい、少しずつだよ！ / Hey hey — a few pieces at a time!)",
+    "the wait (meat sizzles on the grill while the POV fist waits, background diners keep eating)",
+    "punchline: a few pieces at a time — and ice calms the fire."
+   ],
+   "note": "Noon slot 2026-11-27, posted ~12:30 JST (on time: render-std run 45929257836 success; post-feed upload ~55min). NEW food topic as the near-copy of the thejapanlogic yakiniku POV (posted 2026-11-27, 677 likes at scan, hook_library #38 watch; grill-it-yourself rule, same Tier A template). Previous post ep34 is food, so the category repeats this once — copy-first rule takes priority over the no-repeat rule (PDCA 2026-11-27). All 6 clips real i2v (freeze/chapter/accept/shout/waiting/payoff; verdict reuses freeze.mp4); motion audit PASS (0 static 1s windows, Actions build), opening 0/2/4s frame-pair check PASS (hands tipping plate + flames/smoke/lanterns moving). Shout bubble at [600,750] verified fully visible (JP + EN underneath). Male server voiced by ja-JP-KeitaNeural. No real store names/trademarks. One exec service restart during the render-std watch — run itself was unaffected; workflow re-disabled immediately after dispatch (established pattern)."
   }
  ]
 }
