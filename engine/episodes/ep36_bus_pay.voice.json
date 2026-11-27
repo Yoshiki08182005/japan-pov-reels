@@ -1,0 +1,172 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep36_bus_pay_voice/s1.mp3",
+   "dur": 2.426,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You board the bus and pay."
+    },
+    {
+     "t": 1.439,
+     "text": "Everyone stares."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep36_bus_pay_voice/s2.mp3",
+   "dur": 1.22,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep36_bus_pay_voice/s3.mp3",
+   "dur": 0.947,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Bus rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep36_bus_pay_voice/s4.mp3",
+   "dur": 1.643,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take a ticket."
+    },
+    {
+     "t": 0.768,
+     "text": "Then sit down."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep36_bus_pay_voice/s5.mp3",
+   "dur": 1.017,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He leans in."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep36_bus_pay_voice/s6.mp3",
+   "dur": 0.852,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He shouts—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep36_bus_pay_voice/s7.mp3",
+   "dur": 1.407,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The bus rolls."
+    },
+    {
+     "t": 0.906,
+     "text": "You wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep36_bus_pay_voice/s8.mp3",
+   "dur": 1.906,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tap to get off."
+    },
+    {
+     "t": 0.982,
+     "text": "That's the fare."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep36_bus_pay_voice/s9.mp3",
+   "dur": 2.051,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pay when you leave."
+    },
+    {
+     "t": 1.057,
+     "text": "Not when you arrive."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep36_bus_pay_voice/n1.mp3",
+   "dur": 1.583,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Take a ticket."
+    },
+    {
+     "t": 0.837,
+     "text": "When you board."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep36_bus_pay_voice/n2.mp3",
+   "dur": 1.81,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Pay at the front."
+    },
+    {
+     "t": 0.999,
+     "text": "When you get off."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep36_bus_pay_voice/n3.mp3",
+   "dur": 2.186,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "One flat fare."
+    },
+    {
+     "t": 1.111,
+     "text": "No counting coins."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep36_bus_pay_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep36_bus_pay_jp_voice/shout.mp3",
+   "dur": 1.525,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "払うのは降りるときだよ！"
+    }
+   ]
+  }
+ }
+}
