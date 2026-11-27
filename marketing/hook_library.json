@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16 (refreshed 2026-11-26)",
+ "generated": "2026-11-16 (refreshed 2026-11-27)",
  "method": "Outlier = a reel whose Views are >= 5x the account's follower count (per the viral-marketing tutorial practice adopted 2026-11-16). Extract each outlier's first 3 seconds (opening frame/action, first on-screen text, first spoken line) as the hook reference for future scripts.",
  "views_data_note": "Instagram does not expose competitor reel Views through instagram-cli (posts returns likes/comments; individual-post-insights works only for the account owner's own posts — verified 2026-11-16, competitor post returned media_not_found). Following strategy.md's standing convention (use likes when Views cannot be obtained), ratios here are likes-based. Because Views >= Likes on every reel, Tier A (likes >= 5x followers) satisfies the Views criterion with certainty; Tier A' uses the account's documented follower count at posting time; Tier B (likes 0.15x-2.1x followers) are probable view-outliers given typical reel like-rates of ~2-5% of views, but their Views are UNCONFIRMED — treat Tier B hooks as candidates, not proven outliers.",
  "accounts_scanned": [
@@ -22,7 +22,7 @@
   "japan.manners",
   "tokyo_tipsin60"
  ],
- "scan_note": "18 accounts scanned 2026-11-16; last 30 posts each; 339 video posts analyzed. japan.tips (15 followers, 0 posts), japan.manners (4 followers) and tokyo_tipsin60 (0 followers) have no meaningful follower base and are excluded from ranking. Follower counts are at scan time except Tier A' (at posting, from strategy.md 2026-11-15 survey). 2026-11-17 refresh: 14 accounts re-scanned (thejapanlogic last 30 posts; 13 others, last 10-12 posts). No new Tier A outlier. The customs e-gate POV (thejapanlogic) broke out a day late: 5,258 -> 60,665 likes (2.10x current followers), promoted to #5 (top of Tier B). Top entries' counts updated to 2026-11-17. 2026-11-18 refresh: 13 accounts re-scanned (thejapanlogic last 30 posts; 12 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakouts from thejapanlogic: onsen POV 59,024 likes (1.58x), restaurant-tip POV 31,566 (0.84x), conveyor-sushi POV 18,079 (0.48x, ~22h old, fastest riser). Ryokan-tatami POV weak (300 likes). @japan.explores username did not resolve to the library account (posts call returned a tokyo.explores feed instead); @flipjapanguide / @japantravelbasics not re-checked (5x threshold ~0.9M/1.8M likes, unreachable overnight). Top entries' counts updated to 2026-11-18; thejapanlogic followers now 37,462. 2026-11-19 refresh: 11 accounts re-scanned (thejapanlogic last 30 posts; 10 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakout from thejapanlogic: ticket-gate / empty-IC POV 7,693 likes (0.18x, ~22h old) — added as #24 and designated as our next night-slot episode (ic_empty). Ryokan-tatami POV is a late riser: 300 -> 3,561 likes in ~24h (0.08x, below Tier B threshold — noted in strategy.md, not added). Chopsticks-in-rice POV (2026-11-18) weak start at 383 likes — watch. Conveyor-sushi POV keeps climbing: 18,079 -> 69,656 (1.64x). Top entries' counts updated to 2026-11-19; thejapanlogic followers now 42,517. 2026-11-20 refresh: 11 accounts re-scanned (thejapanlogic last 30 posts; 10 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakout from thejapanlogic: chopsticks-in-rice POV 383 -> 25,956 likes in ~24h (0.55x) — added as #25; our ep16 is already the near-copy of it. Ticket-gate / empty-IC POV keeps climbing: 7,693 -> 35,780 (0.76x). New thejapanlogic POVs: park trash-bottle 4,446 likes (0.095x, below Tier B — watch), women-only car 245 (weak). Top entries' counts updated to 2026-11-20; thejapanlogic followers now 46,868. 2026-11-22 refresh: 14 accounts re-scanned (thejapanlogic last 30 posts; 13 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakouts from thejapanlogic — both late breakouts: izakaya 'sumimasen' POV 348 -> 38,887 likes in ~24h (0.75x, 111x in a day) and bullet-train reserved-seat POV 3,659 -> 11,853 likes (0.23x, 3.2x in a day) — added as #27/#28. Women-only-car POV 2,148 -> 2,605 likes (0.05x, still below Tier B — watch). New thejapanlogic POVs: street go-kart 388 likes, Nara deer crackers 2,806 likes (0.05x — watch). Top entries' counts updated to 2026-11-22; thejapanlogic followers now 51,670. @japan.explores username did not resolve to the library account again (returned the 2.5M-follower account's feed); @japan_rule / @japan.travel.hacks / @japan.tips_official / @japanhacksforyou / @secrets.of.japan / @japan_life_samurai returned no posts since 2026-11-17. 2026-11-24 refresh: 15 accounts re-scanned (thejapanlogic last 30 posts; 14 others, posts since 2026-11-23). No new Tier A outlier. New Tier B breakout from thejapanlogic: solo ramen booth POV 12,362 likes (0.22x, ~22h). Maid cafe POV grew 12,515 -> 55,780 likes (0.97x); deer crackers POV 9,484 -> 10,926 (0.19x). New sushi-counter (wasabi) POV weak at 497 likes (watch). Street go-kart 4,872 (0.08x), women-only car 3,344 (0.06x), ryokan slippers 6,240 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 57,500.\n2026-11-25 refresh: 13 accounts re-scanned (thejapanlogic last 30 posts; 12 others, posts since 2026-11-23). No new Tier A outlier. New Tier B breakout from thejapanlogic: udon self-service POV 506 -> 17,297 likes in ~5h (0.27x) — added as #34; our next production (noon slot, new topic udon_self_service). Wasabi POV grew 67,590 -> 74,375 likes (1.16x); solo ramen booth POV 44,361 -> 46,400 (0.72x); maid cafe POV 61,021 -> 61,698 (0.96x); deer crackers POV 12,009 -> 12,255 (0.19x). New thejapanlogic POV: conveyor-sushi tea-tap 540 likes (~30 min old, watch). Street go-kart 5,726 (0.09x), women-only car 3,786 (0.06x), ryokan slippers 6,860 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 64,125.\n2026-11-26 refresh: 15 accounts re-scanned (thejapanlogic last 30 posts; 14 others, posts since 2026-11-25). No new Tier A/B outlier. Existing breakouts all still growing: wasabi POV 82,461 -> 86,739 likes (1.27x), udon POV 45,269 -> 64,944 (0.95x), tea-tap POV 14,490 -> 23,507 (0.34x), maid cafe POV 55,780 -> 65,251 (0.95x), solo ramen booth POV 46,400 -> 50,296 (0.73x), sumimasen POV 38,887 -> 51,490 (0.75x), onsen POV 59,024 -> 99,802 (1.46x). New thejapanlogic POV: escalator 494 likes (0.007x, watch); a behind-the-scenes 'Comment HOW' post (1,572 likes, 188 comments) is not a POV rule post. Street go-kart 6,459 (0.09x), women-only car 4,183 (0.06x), ryokan slippers 7,431 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 68,509. 2026-11-27 refresh: thejapanlogic last 15 posts re-scanned; no new Tier A/B outlier. Newest POV is konbini fried chicken (423 likes, ~17h, watch) — added as #37 and designated as our next food production (ep34) since the queue has no producible food left. Escalator POV grew 11,067 -> 15,565 likes (0.22x); tea-tap POV 23,507 -> 26,178 (0.37x); udon POV 64,944 -> 70,588 (1.00x); wasabi POV 86,739 -> 90,266 (1.29x). Other accounts: no new outliers (japan_rule / japan.travel.hacks / japantraveltips__ / japantravelbasics re-scanned, latest posts are lists or old). thejapanlogic followers now 70,230.",
+ "scan_note": "18 accounts scanned 2026-11-16; last 30 posts each; 339 video posts analyzed. japan.tips (15 followers, 0 posts), japan.manners (4 followers) and tokyo_tipsin60 (0 followers) have no meaningful follower base and are excluded from ranking. Follower counts are at scan time except Tier A' (at posting, from strategy.md 2026-11-15 survey). 2026-11-17 refresh: 14 accounts re-scanned (thejapanlogic last 30 posts; 13 others, last 10-12 posts). No new Tier A outlier. The customs e-gate POV (thejapanlogic) broke out a day late: 5,258 -> 60,665 likes (2.10x current followers), promoted to #5 (top of Tier B). Top entries' counts updated to 2026-11-17. 2026-11-18 refresh: 13 accounts re-scanned (thejapanlogic last 30 posts; 12 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakouts from thejapanlogic: onsen POV 59,024 likes (1.58x), restaurant-tip POV 31,566 (0.84x), conveyor-sushi POV 18,079 (0.48x, ~22h old, fastest riser). Ryokan-tatami POV weak (300 likes). @japan.explores username did not resolve to the library account (posts call returned a tokyo.explores feed instead); @flipjapanguide / @japantravelbasics not re-checked (5x threshold ~0.9M/1.8M likes, unreachable overnight). Top entries' counts updated to 2026-11-18; thejapanlogic followers now 37,462. 2026-11-19 refresh: 11 accounts re-scanned (thejapanlogic last 30 posts; 10 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakout from thejapanlogic: ticket-gate / empty-IC POV 7,693 likes (0.18x, ~22h old) — added as #24 and designated as our next night-slot episode (ic_empty). Ryokan-tatami POV is a late riser: 300 -> 3,561 likes in ~24h (0.08x, below Tier B threshold — noted in strategy.md, not added). Chopsticks-in-rice POV (2026-11-18) weak start at 383 likes — watch. Conveyor-sushi POV keeps climbing: 18,079 -> 69,656 (1.64x). Top entries' counts updated to 2026-11-19; thejapanlogic followers now 42,517. 2026-11-20 refresh: 11 accounts re-scanned (thejapanlogic last 30 posts; 10 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakout from thejapanlogic: chopsticks-in-rice POV 383 -> 25,956 likes in ~24h (0.55x) — added as #25; our ep16 is already the near-copy of it. Ticket-gate / empty-IC POV keeps climbing: 7,693 -> 35,780 (0.76x). New thejapanlogic POVs: park trash-bottle 4,446 likes (0.095x, below Tier B — watch), women-only car 245 (weak). Top entries' counts updated to 2026-11-20; thejapanlogic followers now 46,868. 2026-11-22 refresh: 14 accounts re-scanned (thejapanlogic last 30 posts; 13 others, posts since 2026-11-17). No new Tier A outlier. New Tier B breakouts from thejapanlogic — both late breakouts: izakaya 'sumimasen' POV 348 -> 38,887 likes in ~24h (0.75x, 111x in a day) and bullet-train reserved-seat POV 3,659 -> 11,853 likes (0.23x, 3.2x in a day) — added as #27/#28. Women-only-car POV 2,148 -> 2,605 likes (0.05x, still below Tier B — watch). New thejapanlogic POVs: street go-kart 388 likes, Nara deer crackers 2,806 likes (0.05x — watch). Top entries' counts updated to 2026-11-22; thejapanlogic followers now 51,670. @japan.explores username did not resolve to the library account again (returned the 2.5M-follower account's feed); @japan_rule / @japan.travel.hacks / @japan.tips_official / @japanhacksforyou / @secrets.of.japan / @japan_life_samurai returned no posts since 2026-11-17. 2026-11-24 refresh: 15 accounts re-scanned (thejapanlogic last 30 posts; 14 others, posts since 2026-11-23). No new Tier A outlier. New Tier B breakout from thejapanlogic: solo ramen booth POV 12,362 likes (0.22x, ~22h). Maid cafe POV grew 12,515 -> 55,780 likes (0.97x); deer crackers POV 9,484 -> 10,926 (0.19x). New sushi-counter (wasabi) POV weak at 497 likes (watch). Street go-kart 4,872 (0.08x), women-only car 3,344 (0.06x), ryokan slippers 6,240 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 57,500.\n2026-11-25 refresh: 13 accounts re-scanned (thejapanlogic last 30 posts; 12 others, posts since 2026-11-23). No new Tier A outlier. New Tier B breakout from thejapanlogic: udon self-service POV 506 -> 17,297 likes in ~5h (0.27x) — added as #34; our next production (noon slot, new topic udon_self_service). Wasabi POV grew 67,590 -> 74,375 likes (1.16x); solo ramen booth POV 44,361 -> 46,400 (0.72x); maid cafe POV 61,021 -> 61,698 (0.96x); deer crackers POV 12,009 -> 12,255 (0.19x). New thejapanlogic POV: conveyor-sushi tea-tap 540 likes (~30 min old, watch). Street go-kart 5,726 (0.09x), women-only car 3,786 (0.06x), ryokan slippers 6,860 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 64,125.\n2026-11-26 refresh: 15 accounts re-scanned (thejapanlogic last 30 posts; 14 others, posts since 2026-11-25). No new Tier A/B outlier. Existing breakouts all still growing: wasabi POV 82,461 -> 86,739 likes (1.27x), udon POV 45,269 -> 64,944 (0.95x), tea-tap POV 14,490 -> 23,507 (0.34x), maid cafe POV 55,780 -> 65,251 (0.95x), solo ramen booth POV 46,400 -> 50,296 (0.73x), sumimasen POV 38,887 -> 51,490 (0.75x), onsen POV 59,024 -> 99,802 (1.46x). New thejapanlogic POV: escalator 494 likes (0.007x, watch); a behind-the-scenes 'Comment HOW' post (1,572 likes, 188 comments) is not a POV rule post. Street go-kart 6,459 (0.09x), women-only car 4,183 (0.06x), ryokan slippers 7,431 (0.11x) still below the Tier B threshold. No new outliers from other accounts. thejapanlogic followers now 68,509. 2026-11-27 refresh: thejapanlogic last 15 posts re-scanned; no new Tier A/B outlier. Newest POV is konbini fried chicken (423 likes, ~17h, watch) — added as #37 and designated as our next food production (ep34) since the queue has no producible food left. Escalator POV grew 11,067 -> 15,565 likes (0.22x); tea-tap POV 23,507 -> 26,178 (0.37x); udon POV 64,944 -> 70,588 (1.00x); wasabi POV 86,739 -> 90,266 (1.29x). Other accounts: no new outliers (japan_rule / japan.travel.hacks / japantraveltips__ / japantravelbasics re-scanned, latest posts are lists or old). thejapanlogic followers now 70,230. 2026-11-27 PDCA refresh: 18 accounts re-scanned (thejapanlogic last 30 posts; 17 others, last 10 posts). No new Tier A/B outlier. Newest thejapanlogic POV is yakiniku (677 likes, 0.0096x) — added as #38 watch and designated as our next food production (noon slot, new topic yakiniku). Fried-chicken POV grew 423 -> 4,005 likes (0.057x, ~9.5x in a day, late-breakout pattern in progress). Existing breakouts all still growing: wasabi 86,739 -> 90,858 (1.29x), udon 64,944 -> 71,168 (1.01x), tea-tap 23,507 -> 26,279 (0.37x), maid cafe 65,251 -> 67,265 (0.95x), escalator 11,067 -> 16,737 (0.24x), onsen 99,802 -> 101,459 (1.44x). Street go-kart 6,782 (0.10x), women-only car 4,419 (0.06x), ryokan slippers 7,734 (0.11x) still below the Tier B threshold. No new outliers from other accounts (japanhacksforyou 18,224 likes / 5.25x is an April-2024 shopping haul, not a POV rule post and not new). thejapanlogic followers now 70,583.",
  "entries": [
   {
    "account": "thejapanlogic",
@@ -490,12 +490,12 @@
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 93209,
+   "likes": 101459,
    "comments": 124,
-   "likes_ratio": 1.62,
+   "likes_ratio": 1.44,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df0vwvcjZt5/",
@@ -559,12 +559,12 @@
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 43981,
+   "likes": 47678,
    "comments": 78,
-   "likes_ratio": 0.76,
+   "likes_ratio": 0.68,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df5UMUSAcXj/",
@@ -582,12 +582,12 @@
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 34442,
+   "likes": 38741,
    "comments": 67,
-   "likes_ratio": 0.6,
+   "likes_ratio": 0.55,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df52mWtHGWW/",
@@ -600,16 +600,16 @@
     "first_spoken_line": "POV: your first set meal in Japan, and you just stood your chopsticks up in the rice."
    },
    "structure": "Wrong way (upright chopsticks, freeze/stare, staff shout) -> THE RIGHT WAY (lay them flat on the rest, bowl in hand) -> explainer cards -> end card. Same Tier A template as #1/#3.",
-   "note": "Late breakout #4: 383 likes on 2026-11-19 -> 25,956 on 2026-11-20 (0.55x). Our ep16 chopsticks_rice is the near-copy (produced 2026-11-20 morning, verified PASS in PDCA)."
+   "note": "Late breakout #4: 383 likes on 2026-11-19 -> 25,956 on 2026-11-20 (0.55x). Our ep16 chopsticks_rice is the near-copy (produced 2026-11-20 morning, verified PASS in PDCA). 2026-11-27 10:30 JST scan: 38741 likes (0.55x)."
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 20007,
+   "likes": 22507,
    "comments": 53,
-   "likes_ratio": 0.35,
+   "likes_ratio": 0.32,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df75LLRkq1e/",
@@ -622,18 +622,18 @@
     "first_spoken_line": "POV: your first park in Japan, and you just left your empty bottle on the bench."
    },
    "structure": "Wrong way (bottle left on the bench, stares) -> WRONG WAY -> THE RIGHT WAY (take your trash home — there are almost no public bins) -> payoff. Same Tier A template as #1/#3.",
-   "note": "Late breakout #5: 4,446 likes on 2026-11-20 -> 16,034 on 2026-11-21 (0.33x, 3.6x in a day). Designated as our next episode (noon slot 2026-11-21) per the copy-first rule: adapt the hook to our unused matsuri_garbage topic (carry your garbage home).",
+   "note": "Late breakout #5: 4,446 likes on 2026-11-20 -> 16,034 on 2026-11-21 (0.33x, 3.6x in a day). Designated as our next episode (noon slot 2026-11-21) per the copy-first rule: adapt the hook to our unused matsuri_garbage topic (carry your garbage home). 2026-11-27 10:30 JST scan: 22507 likes (0.32x).",
    "hook_basis": "Observed: caption line 1 + posts scan 2026-11-21 (opening beats inferred from caption structure; media-understanding not run on this reel).",
    "caption_first_line": "POV: your first park in Japan, and you just left your empty bottle on the bench. 😱"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 15566,
+   "likes": 19578,
    "comments": 13,
-   "likes_ratio": 0.27,
+   "likes_ratio": 0.28,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df-d3t9E-af/",
@@ -646,18 +646,18 @@
     "first_spoken_line": "POV: your first bullet train in Japan, and you just sat in someone's reserved seat."
    },
    "structure": "Wrong way (sit in a reserved seat, rightful passenger arrives, stares) -> WRONG WAY -> THE RIGHT WAY (check the seat number on your ticket; sit in a non-reserved car if you have no reservation) -> payoff. Same Tier A template as #1/#3.",
-   "note": "Late breakout #6: 3,659 likes on 2026-11-21 -> 11,853 on 2026-11-22 (0.23x, 3.2x in a day). Designated as our night-slot episode for 2026-11-22 (new topic shinkansen_seat) per the copy-first rule — an experiment-slot test of whether a proven transit breakout copy can beat our transit 48h median (318 Views, 22% of food).",
+   "note": "Late breakout #6: 3,659 likes on 2026-11-21 -> 11,853 on 2026-11-22 (0.23x, 3.2x in a day). Designated as our night-slot episode for 2026-11-22 (new topic shinkansen_seat) per the copy-first rule — an experiment-slot test of whether a proven transit breakout copy can beat our transit 48h median (318 Views, 22% of food). 2026-11-27 10:30 JST scan: 19578 likes (0.28x).",
    "hook_basis": "Observed: caption line 1 + posts scan 2026-11-22 (opening beats inferred from caption structure; media-understanding not run on this reel).",
    "caption_first_line": "POV: your first bullet train in Japan, and you just sat in someone's reserved seat. 😱"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 47291,
+   "likes": 52610,
    "comments": 32,
-   "likes_ratio": 0.82,
+   "likes_ratio": 0.75,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/Df_AUr1kubj/",
@@ -670,7 +670,7 @@
     "first_spoken_line": "POV: your first izakaya in Japan, and you're still waiting for the server to come over."
    },
    "structure": "Wrong way (waiting silently, nobody comes) -> WRONG WAY -> THE RIGHT WAY (call out 'sumimasen' — loud, it's the system, not rude) -> payoff. Same Tier A template as #1/#3.",
-   "note": "Late breakout #7: 348 likes on 2026-11-21 -> 38,887 on 2026-11-22 (0.75x, 111x in a day) — the biggest one-day jump of any thejapanlogic late breakout. Yesterday's 'hold off' judgement (weak 348-like start) is overturned, exactly as with the e-gate / chopsticks / park-bottle breakouts before it. Designated as our next episode (noon slot 2026-11-22) per the copy-first rule: our unused sumimasen topic is the same rule.",
+   "note": "Late breakout #7: 348 likes on 2026-11-21 -> 38,887 on 2026-11-22 (0.75x, 111x in a day) — the biggest one-day jump of any thejapanlogic late breakout. Yesterday's 'hold off' judgement (weak 348-like start) is overturned, exactly as with the e-gate / chopsticks / park-bottle breakouts before it. Designated as our next episode (noon slot 2026-11-22) per the copy-first rule: our unused sumimasen topic is the same rule. 2026-11-27 10:30 JST scan: 52610 likes (0.75x).",
    "hook_basis": "Observed: caption line 1 + posts scan 2026-11-22 (opening beats inferred from caption structure; media-understanding not run on this reel).",
    "caption_first_line": "POV: your first izakaya in Japan, and you're still waiting for the server to come over. 🙋"
   },
@@ -700,12 +700,12 @@
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 55780,
+   "likes": 67265,
    "comments": 182,
-   "likes_ratio": 0.97,
+   "likes_ratio": 0.95,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgDnhGUiM7D/",
@@ -721,18 +721,18 @@
     "source": "Caption first line + 2026-11-23 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (photographing the maid) -> WRONG WAY -> THE RIGHT WAY (buy the cheki on the menu, food photos are fine, table fee by the hour) -> close. Same Tier A template as #1/#3.",
-   "note": "New breakout 2026-11-23 scan: 12,515 likes (~5h after posting, 0.23x) — the fastest fresh breakout of that cycle. 2026-11-24: 55,780 likes (0.97x), still climbing fast. Copy-first rule: designated as the next new production (topics.json maid_cafe) — posted as ep25 on 2026-11-24.",
+   "note": "New breakout 2026-11-23 scan: 12,515 likes (~5h after posting, 0.23x) — the fastest fresh breakout of that cycle. 2026-11-24: 55,780 likes (0.97x), still climbing fast. Copy-first rule: designated as the next new production (topics.json maid_cafe) — posted as ep25 on 2026-11-24. 2026-11-27 10:30 JST scan: 67265 likes (0.95x).",
    "hook_basis": "Caption first line + 2026-11-23 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first maid cafe in Akihabara, and you just took a photo of your maid. 📸"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 57500,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 10926,
+   "likes": 14384,
    "comments": 22,
-   "likes_ratio": 0.19,
+   "likes_ratio": 0.2,
    "ratio_basis": "likes / followers at scan (2026-11-24)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgBCrEJjdmn/",
@@ -748,18 +748,18 @@
     "source": "Caption first line + 2026-11-23 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (holding crackers up to tease the bow) -> WRONG WAY -> THE RIGHT WAY (hand the crackers over fast, keep your map and bags out of reach) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #8: 2,806 likes on 2026-11-22 -> 9,484 likes (0.18x) on 2026-11-23. Crossed the Tier B 0.15x threshold a day late. 2026-11-24: 10,926 likes (0.19x). Following candidate after maid_cafe; now queued behind solo_ramen_booth (#32).",
+   "note": "Late breakout #8: 2,806 likes on 2026-11-22 -> 9,484 likes (0.18x) on 2026-11-23. Crossed the Tier B 0.15x threshold a day late. 2026-11-24: 10,926 likes (0.19x). Following candidate after maid_cafe; now queued behind solo_ramen_booth (#32). 2026-11-27 10:30 JST scan: 14384 likes (0.2x).",
    "hook_basis": "Caption first line + 2026-11-23 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first deer crackers in Nara, and you held them up just to see the bow again. 🦌"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 64125,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 46400,
+   "likes": 52396,
    "comments": 41,
-   "likes_ratio": 0.72,
+   "likes_ratio": 0.74,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgGMP20j2Ca/",
@@ -775,16 +775,16 @@
     "source": "Caption first line + 2026-11-24 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (head through the kitchen window) -> WRONG WAY -> THE RIGHT WAY (circle order on the sheet, press the call button, bowl comes through the bamboo blind; kaedama via the sensor plate) -> close. Same Tier A template as #1/#3.",
-   "note": "New breakout 2026-11-24 scan: 12,362 likes (~22h after posting, 0.22x). Copy-first rule: designated as the next production (today's noon slot, new topic solo_ramen_booth). 2026-11-25 scan: 46,400 likes (0.72x) and still climbing; our ep26 copy posted 2026-11-24 noon, 1,585 Views at 22.2h.",
+   "note": "New breakout 2026-11-24 scan: 12,362 likes (~22h after posting, 0.22x). Copy-first rule: designated as the next production (today's noon slot, new topic solo_ramen_booth). 2026-11-25 scan: 46,400 likes (0.72x) and still climbing; our ep26 copy posted 2026-11-24 noon, 1,585 Views at 22.2h. 2026-11-27 10:30 JST scan: 52396 likes (0.74x).",
    "hook_basis": "Caption first line + 2026-11-24 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first solo ramen booth in Japan, and you stuck your head through the kitchen window to order. 🍜"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 64125,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 82461,
+   "likes": 90858,
    "comments": 192,
    "likes_ratio": 1.29,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
@@ -802,18 +802,18 @@
     "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (stirring wasabi into soy sauce) -> WRONG WAY -> THE RIGHT WAY (wasabi is already under the fish; turn the piece and dip just the fish, never the rice; chopsticks or fingers both fine) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi). 2026-11-25 scan: 74,375 likes (1.16x); our ep28 copy produced this morning, verification-PASS, awaiting posting. 2026-11-25 20:24 JST scan: 82,461 likes (1.29x).",
+   "note": "Late breakout #9 and the biggest ratio yet: 497 likes on 2026-11-24 -> 67,590 likes (1.07x) on 2026-11-25, a 136x jump in a day. Copy-first rule: designated as the next production (today's morning slot, new topic sushi_wasabi). 2026-11-25 scan: 74,375 likes (1.16x); our ep28 copy produced this morning, verification-PASS, awaiting posting. 2026-11-25 20:24 JST scan: 82,461 likes (1.29x). 2026-11-27 10:30 JST scan: 90858 likes (1.29x).",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first sushi counter in Japan, and you just made the chef cry. 🍣"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 64155,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 45269,
+   "likes": 71168,
    "comments": 47,
-   "likes_ratio": 0.71,
+   "likes_ratio": 1.01,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgIxI05FZzk/",
@@ -829,18 +829,18 @@
     "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (serving yourself from the kitchen) -> WRONG WAY -> THE RIGHT WAY (take a tray, order noodles at the counter, add tempura with the tongs, pay at the end, green onion and tempura crumbs free, return the tray) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #10: 506 likes at 05:41 JST on 2026-11-25 -> 17,297 likes (0.27x) by ~10:30 JST, a 34x jump in about 5 hours. Copy-first rule: designated as the next production (today's noon slot, new topic udon_self_service). 2026-11-25 20:24 JST scan: 45,269 likes (0.71x); our ep29 copy posted at noon.",
+   "note": "Late breakout #10: 506 likes at 05:41 JST on 2026-11-25 -> 17,297 likes (0.27x) by ~10:30 JST, a 34x jump in about 5 hours. Copy-first rule: designated as the next production (today's noon slot, new topic udon_self_service). 2026-11-25 20:24 JST scan: 45,269 likes (0.71x); our ep29 copy posted at noon. 2026-11-27 10:30 JST scan: 71168 likes (1.01x).",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first udon shop in Japan, and you served yourself straight from the kitchen. 🍜"
   },
   {
    "account": "thejapanlogic",
-   "followers_at_scan": 64155,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention: Views >= Likes always, so likes>=5x followers guarantees the Views criterion.",
-   "likes": 14490,
+   "likes": 26279,
    "comments": 22,
-   "likes_ratio": 0.23,
+   "likes_ratio": 0.37,
    "ratio_basis": "likes / followers at scan (2026-11-25)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgJTfrBzJGG/",
@@ -856,19 +856,19 @@
     "source": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run)."
    },
    "structure": "Wrong action (washing hands in the tea tap) -> WRONG WAY -> THE RIGHT WAY (the tap is hot water for green tea; make tea in the cup, wash hands in the restroom) -> close. Same Tier A template as #1/#3.",
-   "note": "Late breakout #11: 540 likes at ~10:30 JST on 2026-11-25 -> 14,490 likes (0.23x) by ~20:24 JST, a 27x jump in about 10 hours. Copy-first rule: next candidate for the next food slot (new topic conveyor_sushi_tea).",
+   "note": "Late breakout #11: 540 likes at ~10:30 JST on 2026-11-25 -> 14,490 likes (0.23x) by ~20:24 JST, a 27x jump in about 10 hours. Copy-first rule: next candidate for the next food slot (new topic conveyor_sushi_tea). 2026-11-27 10:30 JST scan: 26279 likes (0.37x).",
    "hook_basis": "Caption first line + 2026-11-25 posts scan (fine detail inferred from caption structure; media-understanding not run).",
    "caption_first_line": "POV: your first conveyor sushi in Japan, and you washed your hands in the tea tap. 🍣"
   },
   {
    "id": 36,
    "account": "thejapanlogic",
-   "followers_at_scan": 69571,
+   "followers_at_scan": 70583,
    "views": null,
    "views_note": "Not exposed for other accounts via instagram-cli (posts returns likes/comments only; individual-post-insights is own-account only). Likes used as conservative proxy per strategy.md convention.",
-   "likes": 11067,
+   "likes": 16737,
    "comments": 113,
-   "likes_ratio": 0.16,
+   "likes_ratio": 0.24,
    "ratio_basis": "likes / followers at scan (2026-11-26 20:24 JST)",
    "tier": "B",
    "url": "https://www.instagram.com/reel/DgL4HbuCfid/",
@@ -882,21 +882,35 @@
     "structure": "wrong action (stand on the right) -> whole line stops behind you -> THE RIGHT WAY (stand left in Tokyo, right in Osaka; keep one side open for walkers)",
     "mechanics": "wrong action already moving at t=0; public failure (the queue behind you) in the opening seconds; Tier A template"
    },
-   "note": "Late breakout #12: 494 likes at the 2026-11-26 PDCA scan -> 11,067 likes by 20:24 JST the same day (22x in under a day, 113 comments). Crosses the Tier B threshold (0.15x) at 0.16x. Copy-priority rule: designated for tonight's night slot (escalator_side, the queued topic with the same rule)."
+   "note": "Late breakout #12: 494 likes at the 2026-11-26 PDCA scan -> 11,067 likes by 20:24 JST the same day (22x in under a day, 113 comments). Crosses the Tier B threshold (0.15x) at 0.16x. Copy-priority rule: designated for tonight's night slot (escalator_side, the queued topic with the same rule). 2026-11-27 10:30 JST scan: 16737 likes (0.24x)."
   },
   {
    "id": 37,
    "tier": "watch",
    "account": "thejapanlogic",
    "topic": "konbini fried chicken — don't help yourself from the hot case",
-   "followers_at_scan": 70230,
-   "likes": 423,
-   "ratio": 0.006,
+   "followers_at_scan": 70583,
+   "likes": 4005,
+   "ratio": 0.057,
    "hook_first3s": "Title pill 'POV: your first konbini fried chicken in Japan' — POV opens the hot case and helps themselves to fried chicken; the clerk reacts. Hot snacks by the register aren't self-serve: tell the clerk or just point.",
    "first_line": "POV: your first konbini fried chicken in Japan, and you just helped yourself from the hot case.",
    "structure": "wrong action starts immediately (open the case, grab the chicken) -> WRONG WAY -> THE RIGHT WAY (ask the clerk or point) -> close. Same Tier A template as #1/#3.",
-   "note": "2026-11-27 morning scan: posted 2026-11-26 12:02 JST, 423 likes at ~17h — watch status, below Tier B threshold (0.15x). Designated as the morning slot's new food topic anyway: no producible food topic was left in the queue and the late-breakout pattern (10+ cases) says first-day weakness carries no information. Re-check tomorrow; promote to Tier B if it breaks out. Our near-copy is ep34 konbini_chicken.",
+   "note": "2026-11-27 morning scan: posted 2026-11-26 12:02 JST, 423 likes at ~17h — watch status, below Tier B threshold (0.15x). Designated as the morning slot's new food topic anyway: no producible food topic was left in the queue and the late-breakout pattern (10+ cases) says first-day weakness carries no information. Re-check tomorrow; promote to Tier B if it breaks out. Our near-copy is ep34 konbini_chicken. 2026-11-27 10:30 JST scan: 4005 likes (0.057x).",
    "source": "2026-11-27 morning posts scan (caption first line)"
+  },
+  {
+   "id": 38,
+   "tier": "watch",
+   "account": "thejapanlogic",
+   "topic": "yakiniku — tip the whole plate onto the grill",
+   "followers_at_scan": 70583,
+   "likes": 677,
+   "ratio": 0.0096,
+   "hook_first3s": "Title pill 'POV: your first yakiniku in Japan' — POV tips the whole plate of meat onto the grill; the fire flares. At yakiniku you grill it yourself, a few pieces at a time.",
+   "first_line": "POV: your first yakiniku in Japan, and you tipped the whole plate on the grill.",
+   "structure": "wrong action starts immediately (tip the plate, fire flares) -> WRONG WAY -> THE RIGHT WAY (cook a few pieces at a time, use the tongs for raw meat, never your own chopsticks; a piece of ice calms a flare-up) -> close. Same Tier A template as #1/#3.",
+   "note": "2026-11-27 10:30 JST scan: newest POV, 677 likes (0.0096x) — watch status, below Tier B threshold (0.15x). Food (grill-yourself rule), same template as the other food breakouts; designated as the next new food topic (topics.json yakiniku) for the noon slot, since no producible food topic was left in the queue. Late-breakout pattern says first-day weakness carries no information — re-check tomorrow; promote to Tier B if it breaks out.",
+   "source": "2026-11-27 PDCA posts scan (caption first line)"
   }
  ]
 }
