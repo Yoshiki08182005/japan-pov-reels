@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep37_sushi_ginger_jp_voice/shout.mp3",
+   "dur": 1.412,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "それは口直しだよ！"
+    }
+   ]
+  }
+ }
+}
