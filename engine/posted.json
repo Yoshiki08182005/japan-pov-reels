@@ -565,6 +565,24 @@
     "punchline: a few pieces at a time — and ice calms the fire."
    ],
    "note": "Noon slot 2026-11-27, posted ~12:30 JST (on time: render-std run 45929257836 success; post-feed upload ~55min). NEW food topic as the near-copy of the thejapanlogic yakiniku POV (posted 2026-11-27, 677 likes at scan, hook_library #38 watch; grill-it-yourself rule, same Tier A template). Previous post ep34 is food, so the category repeats this once — copy-first rule takes priority over the no-repeat rule (PDCA 2026-11-27). All 6 clips real i2v (freeze/chapter/accept/shout/waiting/payoff; verdict reuses freeze.mp4); motion audit PASS (0 static 1s windows, Actions build), opening 0/2/4s frame-pair check PASS (hands tipping plate + flames/smoke/lanterns moving). Shout bubble at [600,750] verified fully visible (JP + EN underneath). Male server voiced by ja-JP-KeitaNeural. No real store names/trademarks. One exec service restart during the render-std watch — run itself was unaffected; workflow re-disabled immediately after dispatch (established pattern)."
+  },
+  {
+   "ep": "ep36_bus_pay",
+   "topic": "bus_pay",
+   "category": "transit",
+   "url": "https://www.instagram.com/reel/DgPmEd5uADa/",
+   "post_id": "18163970272507168",
+   "posted_at_jst": "2026-11-27T20:41:13+09:00",
+   "length_s": 38.0,
+   "hook": "You board the bus and pay. Everyone stares.",
+   "hook_source": "hook_library #24 (mechanics adapted)",
+   "gags": [
+    "freeze snap inside a moving clip (driver and passengers freeze staring at the hand paying at boarding, bus swaying and city passing outside)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (male driver, male voice: 払うのは降りるときだよ！ / You pay when you get off!)",
+    "the wait (bus rolls and passengers sway while the POV fist waits with its ticket)",
+    "punchline: pay when you leave, not when you arrive."
+   ]
   }
  ]
 }
