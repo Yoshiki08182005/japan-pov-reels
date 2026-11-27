@@ -1,0 +1,172 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep35_yakiniku_voice/s1.mp3",
+   "dur": 2.375,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The meat's right there."
+    },
+    {
+     "t": 1.13,
+     "text": "So you tip the whole plate."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep35_yakiniku_voice/s2.mp3",
+   "dur": 1.22,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep35_yakiniku_voice/s3.mp3",
+   "dur": 1.27,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Yakiniku rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep35_yakiniku_voice/s4.mp3",
+   "dur": 3.35,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tongs. A few pieces."
+    },
+    {
+     "t": 2.35,
+     "text": "Not the whole plate."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep35_yakiniku_voice/s5.mp3",
+   "dur": 1.017,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He leans in."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep35_yakiniku_voice/s6.mp3",
+   "dur": 0.852,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "He shouts—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep35_yakiniku_voice/s7.mp3",
+   "dur": 1.414,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "It sizzles."
+    },
+    {
+     "t": 0.906,
+     "text": "You wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep35_yakiniku_voice/s8.mp3",
+   "dur": 1.89,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Perfectly grilled."
+    },
+    {
+     "t": 1.15,
+     "text": "Worth the wait."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep35_yakiniku_voice/s9.mp3",
+   "dur": 2.247,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "A few pieces at a time."
+    },
+    {
+     "t": 1.441,
+     "text": "That's the rule."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep35_yakiniku_voice/n1.mp3",
+   "dur": 2.136,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Grill it yourself."
+    },
+    {
+     "t": 1.068,
+     "text": "A few at a time."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep35_yakiniku_voice/n2.mp3",
+   "dur": 2.155,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Raw meat?"
+    },
+    {
+     "t": 0.791,
+     "text": "Tongs, not chopsticks."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep35_yakiniku_voice/n3.mp3",
+   "dur": 2.102,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Fire too big?"
+    },
+    {
+     "t": 1.126,
+     "text": "Drop in some ice."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep35_yakiniku_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "ja-JP-KeitaNeural",
+ "rate": "+0%",
+ "lines": {
+  "shout": {
+   "file": "ep35_yakiniku_jp_voice/shout.mp3",
+   "dur": 1.946,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "おいおい、少しずつだよ！"
+    }
+   ]
+  }
+ }
+}
