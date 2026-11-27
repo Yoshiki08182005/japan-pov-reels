@@ -527,6 +527,25 @@
     "punchline: one side walks, the other side waits."
    ],
    "note": "night slot 2026-11-26. Near-copy of the thejapanlogic escalator breakout (494 -> 11,067 likes, hook_library #36, late breakout #12). Verification PASS (motion audit 0 static 1s windows; opening 0s/2s/4s frame pairs confirm character + background motion; sheet check: stamps/bubble/cards/endcard present, JP shout bubble carries EN translation underneath, female voice NanamiNeural for the woman office worker). render-std run 45811097521 success; workflow was manually disabled, so it was enabled only for the dispatch and re-disabled immediately after. Posted via instagram-cli post-feed, verified live."
+  },
+  {
+   "ep": "ep34_konbini_chicken",
+   "topic": "konbini_chicken",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgOYkDYucVR/",
+   "post_id": "18123574094321098",
+   "posted_at_jst": "2026-11-27T09:23:48+09:00",
+   "length_s": 38.0,
+   "hook": "The chicken's right there. So you grab it yourself.",
+   "hook_source": "hook_library #37",
+   "gags": [
+    "freeze snap inside a moving clip (clerk and customers freeze staring at the hands in the hot case, steam keeps drifting)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (woman clerk, female voice: あっ、お取りしますね！ / Ah — let me get that for you!)",
+    "the wait (clerk wraps the chicken while the POV fist waits, background customer pays at the next register)",
+    "punchline: point, don't grab."
+   ],
+   "note": "Morning slot 2026-11-27, posted 09:23 JST (~2h23m late: local build asserts needed 2 script shortenings, render-std run 9m39s, post-feed upload ~100min). NEW food topic as the near-copy of the thejapanlogic konbini fried chicken POV (posted 2026-11-26 12:02 JST, 423 likes at ~17h, watch status, hook_library #37; late-breakout pattern). Previous post ep33 is transit, so the category changes. No producible food topic was left in the queue (pour_beer / onsen retired as unproducible). All 6 clips real i2v; motion audit PASS (0 static 1s windows, Actions build), opening 0/2/4s frame-pair check PASS (hands + steam moving). One rework: shout bubble first placed at [560,150] was half-hidden behind the title pill (EN line cut off) — moved to [600,750], verified fully visible (JP + EN). Female clerk voiced by ja-JP-NanamiNeural. No real store names/trademarks. First post-feed attempt interrupted by an exec service restart (verified not live before retrying); /tmp was wiped by the restart so the artifact was re-downloaded before the successful retry."
   }
  ]
 }
