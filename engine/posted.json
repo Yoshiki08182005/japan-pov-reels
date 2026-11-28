@@ -583,6 +583,24 @@
     "the wait (bus rolls and passengers sway while the POV fist waits with its ticket)",
     "punchline: pay when you leave, not when you arrive."
    ]
+  },
+  {
+   "ep": "ep37_sushi_ginger",
+   "topic": "sushi_ginger",
+   "category": "food",
+   "url": "https://www.instagram.com/reel/DgRL2b7OCBd/",
+   "post_id": "18122308589097696",
+   "posted_at_jst": "2026-11-28T11:30:22+09:00",
+   "length_s": 38.0,
+   "hook": "You pile pink ginger on your sushi. The chef freezes.",
+   "hook_source": "hook_library #33 (mechanics adapted)",
+   "gags": [
+    "freeze snap inside a moving clip (chef and customers freeze staring at the hands piling ginger on the nigiri, steam and lanterns keep moving)",
+    "WRONG WAY / RIGHT WAY verdict stamps (overlays on moving footage)",
+    "silence-to-shout (male chef, male voice: それは口直しだよ！ / That's a palate cleanser!)",
+    "the wait (chef slices fish and customers eat while the POV fist waits)",
+    "punchline: the ginger resets your mouth, not your sushi."
+   ]
   }
  ]
 }
