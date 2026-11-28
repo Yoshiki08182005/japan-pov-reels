@@ -1,12 +1,12 @@
 {
     "account": "japan.first.times",
     "account_last_7d": {
-        "Aggregated_account_level_views_from_IG_and_FB_cumulative": 15518,
-        "Content_interactions_cumulative": 188,
-        "Followers": 11,
+        "Aggregated_account_level_views_from_IG_and_FB_cumulative": 15873,
+        "Content_interactions_cumulative": 215,
+        "Followers": 12,
         "Profile_visits_cumulative": 8,
-        "Views_organic_cumulative": 20411,
-        "Views_from_non_followers_cumulative": 20409,
+        "Views_organic_cumulative": 20285,
+        "Views_from_non_followers_cumulative": 20283,
         "Views_from_followers_cumulative": 2
     },
     "posts": [
@@ -26,7 +26,7 @@
             "Shares_per_post": 2,
             "Saves_per_post": 0,
             "Follows_per_post": 2,
-            "hours_since_posting_approx": 291.4
+            "hours_since_posting_approx": 315.4
         },
         {
             "ep": "ep02_ramen_ticket",
@@ -34,17 +34,17 @@
             "posted_at_jst": "2026-11-15T10:52:00+09:00",
             "length_s": 40.73,
             "url": "https://www.instagram.com/reel/DfwgELODzYe/",
-            "Views_per_post": 1613,
-            "Initial_plays_per_post": 1424,
+            "Views_per_post": 1615,
+            "Initial_plays_per_post": 1426,
             "Replays_per_post": 197,
-            "Average_watch_time_ms": 13130,
-            "Reels_skip_rate": 0.3357,
+            "Average_watch_time_ms": 13112,
+            "Reels_skip_rate": 0.3359,
             "Likes_per_post": 26,
             "Comments_per_post": 0,
             "Shares_per_post": 2,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 287.6,
+            "hours_since_posting_approx": 311.6,
             "Reposts_per_post": 1
         },
         {
@@ -56,13 +56,13 @@
             "Views_per_post": 176,
             "Initial_plays_per_post": 155,
             "Replays_per_post": 22,
-            "Average_watch_time_ms": 11769,
+            "Average_watch_time_ms": 11698,
             "Reels_skip_rate": 0.4452,
             "Likes_per_post": 1,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 277.6
+            "hours_since_posting_approx": 301.6
         },
         {
             "ep": "ep03_izakaya_otoshi_v2",
@@ -80,7 +80,7 @@
             "Shares_per_post": 1,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 265.6
+            "hours_since_posting_approx": 289.6
         },
         {
             "ep": "ep05_konbini_bag",
@@ -88,17 +88,17 @@
             "posted_at_jst": "2026-11-16T12:32:00+09:00",
             "length_s": 39.43,
             "url": "https://www.instagram.com/reel/DfyZXOsDvTv/",
-            "Views_per_post": 1459,
-            "Initial_plays_per_post": 1362,
+            "Views_per_post": 1460,
+            "Initial_plays_per_post": 1363,
             "Replays_per_post": 99,
-            "Average_watch_time_ms": 13600,
-            "Reels_skip_rate": 0.2137,
+            "Average_watch_time_ms": 13590,
+            "Reels_skip_rate": 0.2142,
             "Likes_per_post": 18,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 261.9
+            "hours_since_posting_approx": 285.9
         },
         {
             "ep": "ep06_night_tout",
@@ -115,7 +115,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 253.6
+            "hours_since_posting_approx": 277.6
         },
         {
             "ep": "ep07_sushi_soy",
@@ -132,7 +132,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 241.5
+            "hours_since_posting_approx": 265.5
         },
         {
             "ep": "ep08_customs_qr",
@@ -150,7 +150,7 @@
             "Shares_per_post": 2,
             "Saves_per_post": 0,
             "Follows_per_post": 2,
-            "hours_since_posting_approx": 236.2
+            "hours_since_posting_approx": 260.2
         },
         {
             "ep": "ep09_suica_gate",
@@ -167,7 +167,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 229.6
+            "hours_since_posting_approx": 253.6
         },
         {
             "ep": "ep11_conveyor_sushi_duplicate",
@@ -184,7 +184,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 214.6
+            "hours_since_posting_approx": 238.6
         },
         {
             "ep": "ep11_conveyor_sushi",
@@ -201,7 +201,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 214.6
+            "hours_since_posting_approx": 238.6
         },
         {
             "ep": "ep10_water_free",
@@ -219,7 +219,7 @@
             "Shares_per_post": 0,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 206.6,
+            "hours_since_posting_approx": 230.7,
             "Reposts_per_post": 1
         },
         {
@@ -237,7 +237,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 205.8
+            "hours_since_posting_approx": 229.8
         },
         {
             "ep": "ep13_buffet_tray",
@@ -245,16 +245,16 @@
             "posted_at_jst": "2026-11-19T16:22:48+09:00",
             "length_s": 38.0,
             "url": "https://www.instagram.com/reel/Df6iKkLjLjS/",
-            "Views_per_post": 1627,
-            "Initial_plays_per_post": 1456,
-            "Replays_per_post": 182,
-            "Average_watch_time_ms": 15181,
-            "Reels_skip_rate": 0.2047,
+            "Views_per_post": 1629,
+            "Initial_plays_per_post": 1457,
+            "Replays_per_post": 183,
+            "Average_watch_time_ms": 15197,
+            "Reels_skip_rate": 0.2045,
             "Likes_per_post": 9,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 186.1
+            "hours_since_posting_approx": 210.1
         },
         {
             "ep": "ep14_no_tipping",
@@ -271,7 +271,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 3,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 182.0
+            "hours_since_posting_approx": 206.0
         },
         {
             "ep": "ep15_ic_empty",
@@ -288,7 +288,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 1,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 181.7
+            "hours_since_posting_approx": 205.7
         },
         {
             "ep": "ep16_chopsticks_rice",
@@ -305,7 +305,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 1,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 164.3
+            "hours_since_posting_approx": 188.3
         },
         {
             "ep": "ep17_konbini_points",
@@ -322,7 +322,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 164.3
+            "hours_since_posting_approx": 188.3
         },
         {
             "ep": "ep18_slurp_noodles",
@@ -340,7 +340,7 @@
             "Shares_per_post": 0,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 156.8
+            "hours_since_posting_approx": 180.8
         },
         {
             "ep": "ep19_supermarket_basket",
@@ -357,7 +357,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 145.7
+            "hours_since_posting_approx": 169.7
         },
         {
             "ep": "ep20_matsuri_garbage",
@@ -374,7 +374,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 142.1
+            "hours_since_posting_approx": 166.1
         },
         {
             "ep": "ep23_shinkansen_seat",
@@ -392,7 +392,7 @@
             "Shares_per_post": 0,
             "Saves_per_post": 0,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 109.7
+            "hours_since_posting_approx": 133.7
         },
         {
             "ep": "ep24_hatsumode_coins",
@@ -409,7 +409,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 97.4
+            "hours_since_posting_approx": 121.4
         },
         {
             "ep": "ep22_sumimasen",
@@ -426,7 +426,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 94.9
+            "hours_since_posting_approx": 118.9
         },
         {
             "ep": "ep21_oshibori",
@@ -443,7 +443,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 86.0
+            "hours_since_posting_approx": 110.0
         },
         {
             "ep": "ep25_maid_cafe",
@@ -460,7 +460,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 76.4,
+            "hours_since_posting_approx": 100.4,
             "Follows_per_post": 1
         },
         {
@@ -478,7 +478,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 1,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 70.2
+            "hours_since_posting_approx": 94.2
         },
         {
             "ep": "ep27_deer_crackers",
@@ -495,24 +495,24 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 61.8
+            "hours_since_posting_approx": 85.8
         },
         {
             "ep": "ep28_sushi_wasabi",
             "post_id": "18117291826842889",
             "posted_at_jst": "2026-11-25T10:28:28+09:00",
             "length_s": 38.0,
-            "Views_per_post": 1743,
-            "Initial_plays_per_post": 1623,
+            "Views_per_post": 1744,
+            "Initial_plays_per_post": 1624,
             "Replays_per_post": 124,
-            "Average_watch_time_ms": 14018,
-            "Reels_skip_rate": 0.2298,
+            "Average_watch_time_ms": 14002,
+            "Reels_skip_rate": 0.2303,
             "Likes_per_post": 17,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
             "Reposts_per_post": 1,
-            "hours_since_posting_approx": 48.0
+            "hours_since_posting_approx": 72.0
         },
         {
             "ep": "ep29_udon_self_service",
@@ -528,7 +528,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 46.6
+            "hours_since_posting_approx": 70.6
         },
         {
             "ep": "ep30_train_silence",
@@ -544,7 +544,7 @@
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 37.7
+            "hours_since_posting_approx": 61.7
         },
         {
             "ep": "ep31_conveyor_sushi_tea",
@@ -552,16 +552,16 @@
             "posted_at_jst": "2026-11-26T11:40:10+09:00",
             "length_s": 40.21,
             "url": "https://www.instagram.com/reel/DgMDM1NuCSP/",
-            "Views_per_post": 1215,
-            "Initial_plays_per_post": 1139,
-            "Replays_per_post": 78,
-            "Average_watch_time_ms": 11905,
-            "Reels_skip_rate": 0.2011,
+            "Views_per_post": 1219,
+            "Initial_plays_per_post": 1142,
+            "Replays_per_post": 79,
+            "Average_watch_time_ms": 11940,
+            "Reels_skip_rate": 0.2014,
             "Likes_per_post": 7,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 22.8
+            "hours_since_posting_approx": 46.8
         },
         {
             "ep": "ep33_escalator_side",
@@ -569,16 +569,16 @@
             "posted_at_jst": "2026-11-26T20:39:18+09:00",
             "length_s": 38.0,
             "url": "https://www.instagram.com/reel/DgNBFv0TiCf/",
-            "Views_per_post": 389,
-            "Initial_plays_per_post": 359,
-            "Replays_per_post": 31,
-            "Average_watch_time_ms": 13126,
-            "Reels_skip_rate": 0.2117,
-            "Likes_per_post": 0,
+            "Views_per_post": 658,
+            "Initial_plays_per_post": 614,
+            "Replays_per_post": 46,
+            "Average_watch_time_ms": 13570,
+            "Reels_skip_rate": 0.2134,
+            "Likes_per_post": 7,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
-            "hours_since_posting_approx": 13.8
+            "hours_since_posting_approx": 37.8
         },
         {
             "ep": "ep34_konbini_chicken",
@@ -586,17 +586,53 @@
             "posted_at_jst": "2026-11-27T09:23:48+09:00",
             "length_s": 38.0,
             "url": "https://www.instagram.com/reel/DgOYkDYucVR/",
-            "Views_per_post": 198,
-            "Initial_plays_per_post": 177,
-            "Replays_per_post": 24,
-            "Average_watch_time_ms": 12901,
-            "Reels_skip_rate": 0.2542,
-            "Likes_per_post": 0,
+            "Views_per_post": 1612,
+            "Initial_plays_per_post": 1454,
+            "Replays_per_post": 172,
+            "Average_watch_time_ms": 12904,
+            "Reels_skip_rate": 0.26,
+            "Likes_per_post": 13,
             "Comments_per_post": 0,
             "Shares_per_post": 0,
             "Saves_per_post": 0,
+            "Follows_per_post": 3,
+            "hours_since_posting_approx": 25.1
+        },
+        {
+            "ep": "ep35_yakiniku",
+            "post_id": "18131105683656405",
+            "posted_at_jst": "2026-11-27T12:43:54+09:00",
+            "length_s": 38.0,
+            "url": "https://www.instagram.com/reel/DgOvXAEuPmI/",
+            "Views_per_post": 1422,
+            "Initial_plays_per_post": 1317,
+            "Replays_per_post": 109,
+            "Average_watch_time_ms": 10789,
+            "Reels_skip_rate": 0.2658,
+            "Likes_per_post": 15,
+            "Comments_per_post": 0,
+            "Shares_per_post": 0,
+            "Saves_per_post": 0,
+            "hours_since_posting_approx": 21.7,
             "Follows_per_post": 1,
-            "hours_since_posting_approx": 1.1
+            "Reposts_per_post": 1
+        },
+        {
+            "ep": "ep36_bus_pay",
+            "post_id": "18163970272507168",
+            "posted_at_jst": "2026-11-27T20:41:13+09:00",
+            "length_s": 38.0,
+            "url": "https://www.instagram.com/reel/DgPmEd5uADa/",
+            "Views_per_post": 1618,
+            "Initial_plays_per_post": 1487,
+            "Replays_per_post": 137,
+            "Average_watch_time_ms": 14792,
+            "Reels_skip_rate": 0.2589,
+            "Likes_per_post": 17,
+            "Comments_per_post": 0,
+            "Shares_per_post": 1,
+            "Saves_per_post": 0,
+            "hours_since_posting_approx": 13.8
         }
     ]
 }
