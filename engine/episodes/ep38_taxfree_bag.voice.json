@@ -1,0 +1,172 @@
+{
+ "voice": "en-US-GuyNeural",
+ "rate": "+8%",
+ "lines": {
+  "s1": {
+   "file": "ep38_taxfree_bag_voice/s1.mp3",
+   "dur": 2.989,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "You rip open the sealed tax-free bag."
+    },
+    {
+     "t": 2.041,
+     "text": "The clerk freezes."
+    }
+   ]
+  },
+  "s2": {
+   "file": "ep38_taxfree_bag_voice/s2.mp3",
+   "dur": 1.218,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Everyone freezes."
+    }
+   ]
+  },
+  "s3": {
+   "file": "ep38_taxfree_bag_voice/s3.mp3",
+   "dur": 1.139,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tax-free rules."
+    }
+   ]
+  },
+  "s4": {
+   "file": "ep38_taxfree_bag_voice/s4.mp3",
+   "dur": 2.013,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Keep it sealed."
+    },
+    {
+     "t": 0.931,
+     "text": "Don't tear it open."
+    }
+   ]
+  },
+  "s5": {
+   "file": "ep38_taxfree_bag_voice/s5.mp3",
+   "dur": 1.092,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She leans in."
+    }
+   ]
+  },
+  "s6": {
+   "file": "ep38_taxfree_bag_voice/s6.mp3",
+   "dur": 0.94,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "She shouts—"
+    }
+   ]
+  },
+  "s7": {
+   "file": "ep38_taxfree_bag_voice/s7.mp3",
+   "dur": 1.415,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "A fresh bag."
+    },
+    {
+     "t": 0.93,
+     "text": "You wait."
+    }
+   ]
+  },
+  "s8": {
+   "file": "ep38_taxfree_bag_voice/s8.mp3",
+   "dur": 1.78,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Sealed tight."
+    },
+    {
+     "t": 0.873,
+     "text": "That's the deal."
+    }
+   ]
+  },
+  "s9": {
+   "file": "ep38_taxfree_bag_voice/s9.mp3",
+   "dur": 2.108,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Open it after Japan."
+    },
+    {
+     "t": 1.393,
+     "text": "Not before."
+    }
+   ]
+  },
+  "n1": {
+   "file": "ep38_taxfree_bag_voice/n1.mp3",
+   "dur": 2.838,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Tax-free means sealed."
+    },
+    {
+     "t": 1.474,
+     "text": "No opening, no using."
+    }
+   ]
+  },
+  "n2": {
+   "file": "ep38_taxfree_bag_voice/n2.mp3",
+   "dur": 2.337,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "The bag stays shut."
+    },
+    {
+     "t": 1.126,
+     "text": "Until you leave Japan."
+    }
+   ]
+  },
+  "n3": {
+   "file": "ep38_taxfree_bag_voice/n3.mp3",
+   "dur": 2.296,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "Sealed at the shop."
+    },
+    {
+     "t": 1.161,
+     "text": "Opened after Japan."
+    }
+   ]
+  },
+  "n4": {
+   "file": "ep38_taxfree_bag_voice/n4.mp3",
+   "dur": 2.417,
+   "chunks": [
+    {
+     "t": 0.0,
+     "text": "That's Japan first times."
+    },
+    {
+     "t": 1.555,
+     "text": "Follow for more."
+    }
+   ]
+  }
+ }
+}
